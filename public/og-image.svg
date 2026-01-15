@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="100%" style="stop-color:#171717"/>
+    </linearGradient>
+    <linearGradient id="crimsonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef4444"/>
+      <stop offset="100%" style="stop-color:#dc2626"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444"/>
+      <stop offset="100%" style="stop-color:#f87171"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="20" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Subtle grid pattern -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.03"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- Accent glow in corner -->
+  <ellipse cx="1100" cy="100" rx="300" ry="200" fill="#dc2626" opacity="0.08"/>
+  <ellipse cx="100" cy="530" rx="250" ry="180" fill="#dc2626" opacity="0.05"/>
+
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="1200" height="4" fill="url(#crimsonGrad)"/>
+
+  <!-- Document icon with exclamation -->
+  <g transform="translate(100, 180)" filter="url(#shadow)">
+    <path d="M0 0 L180 0 L220 40 L220 260 L0 260 Z" fill="url(#crimsonGrad)"/>
+    <path d="M180 0 L180 40 L220 40 Z" fill="#991b1b"/>
+    <text x="110" y="170" font-family="Monaco, Consolas, monospace" font-size="120" font-weight="bold" fill="white" text-anchor="middle">!</text>
+    <rect x="40" y="210" width="100" height="8" rx="2" fill="rgba(255,255,255,0.3)"/>
+    <rect x="40" y="230" width="70" height="6" rx="2" fill="rgba(255,255,255,0.2)"/>
+  </g>
+
+  <!-- Main title -->
+  <text x="380" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="800" fill="#fafafa">
+    Mentiras de
+  </text>
+  <text x="380" y="330" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="800" fill="url(#textGrad)">
+    Rodrigo Chaves
+  </text>
+
+  <!-- Subtitle -->
+  <text x="380" y="390" font-family="Monaco, Consolas, monospace" font-size="22" font-weight="500" fill="#737373" letter-spacing="4">
+    EXPEDIENTE DOCUMENTADO
+  </text>
+
+  <!-- Stats box -->
+  <g transform="translate(380, 430)">
+    <rect x="0" y="0" width="340" height="70" rx="4" fill="#1a1a1a" stroke="#dc2626" stroke-width="2" opacity="0.8"/>
+    <circle cx="25" cy="35" r="6" fill="#dc2626">
+      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="50" y="28" font-family="Monaco, Consolas, monospace" font-size="14" fill="#a3a3a3" letter-spacing="2">FALSEDADES</text>
+    <text x="50" y="55" font-family="Monaco, Consolas, monospace" font-size="28" font-weight="bold" fill="#f87171">115 DOCUMENTADAS</text>
+  </g>
+
+  <!-- Costa Rica flag colors accent (subtle) -->
+  <g transform="translate(1050, 550)">
+    <rect x="0" y="0" width="100" height="8" rx="2" fill="#002b7f"/>
+    <rect x="0" y="12" width="100" height="8" rx="2" fill="#ffffff"/>
+    <rect x="0" y="24" width="100" height="16" rx="2" fill="#ce1126"/>
+    <rect x="0" y="44" width="100" height="8" rx="2" fill="#ffffff"/>
+    <rect x="0" y="56" width="100" height="8" rx="2" fill="#002b7f"/>
+  </g>
+
+  <!-- URL -->
+  <text x="380" y="560" font-family="Monaco, Consolas, monospace" font-size="20" fill="#525252">
+    mentirasdechaves.com
+  </text>
+
+  <!-- Bottom border -->
+  <rect x="0" y="626" width="1200" height="4" fill="url(#crimsonGrad)"/>
+</svg>
