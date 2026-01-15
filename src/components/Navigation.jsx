@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { FilterPanel } from './FilterPanel'
 import { ShareButton } from './ShareButton'
+import { ExportButton } from './ExportButton'
 
 export function Navigation({
   onPrevious,
@@ -76,6 +77,9 @@ export function Navigation({
             {/* Share button */}
             <ShareButton lie={currentLie} />
 
+            {/* Export as PNG button */}
+            <ExportButton lie={currentLie} />
+
             {/* Filter panel */}
             <FilterPanel
               categoryFilter={categoryFilter}
@@ -125,6 +129,10 @@ export function Navigation({
           <span className="flex items-center gap-2">
             <kbd className="px-2 py-0.5 bg-ink-800/50 border border-ink-700/50 rounded text-ink-400">Espacio</kbd>
             <span>Aleatorio</span>
+          </span>
+          <span className="flex items-center gap-2">
+            <kbd className="px-2 py-0.5 bg-ink-800/50 border border-ink-700/50 rounded text-ink-400">E</kbd>
+            <span>Exportar PNG</span>
           </span>
         </motion.div>
       </div>
