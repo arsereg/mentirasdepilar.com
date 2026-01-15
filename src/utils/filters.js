@@ -4,6 +4,7 @@ export const categoryLabels = {
   corruption: 'Corrupción',
   promises: 'Promesas',
   statistics: 'Estadísticas',
+  drugs: 'Drogas',
   other: 'Otros',
 }
 
@@ -13,6 +14,7 @@ export const categoryColors = {
   corruption: 'bg-red-500/20 text-red-300 border-red-500/30',
   promises: 'bg-purple-500/20 text-purple-300 border-purple-500/30',
   statistics: 'bg-amber-500/20 text-amber-300 border-amber-500/30',
+  drugs: 'bg-pink-500/20 text-pink-300 border-pink-500/30',
   other: 'bg-slate-500/20 text-slate-300 border-slate-500/30',
 }
 

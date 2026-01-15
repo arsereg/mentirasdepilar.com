@@ -1929,12 +1929,357 @@
       ],
       "severity": "critical",
       "relatedParty": "government"
+    },
+    {
+      "id": 101,
+      "statement": "Las 47 toneladas de cocaína decomisadas demuestran que no somos un narco-gobierno",
+      "statementEN": "The 47 tons of seized cocaine prove we are not a narco-government",
+      "context": "Declaración pública defendiendo a su gobierno de acusaciones de vínculos con el narcotráfico",
+      "date": "2024-10-15",
+      "category": "drugs",
+      "truth": "El volumen de decomisos no demuestra ausencia de corrupción institucional. Según el OIJ, hasta 500 toneladas de droga pueden entrar anualmente por zonas costeras como Sierpe. Los 81 toneladas decomisadas entre 2022-2024 representan menos del 6% del tráfico estimado. Simultáneamente, el exministro de Seguridad Celso Gamboa fue acusado en EEUU de narcotráfico.",
+      "sources": [
+        {
+          "name": "El País",
+          "url": "https://english.elpais.com/international/2024-10-23/death-threats-and-drug-trafficking-suspicions-political-tension-rises-in-costa-rica.html",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/07/12/former-costa-rican-minister-indicted-in-us-on-drug-trafficking-charges",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "government"
+    },
+    {
+      "id": 102,
+      "statement": "Con estos escáneres, Costa Rica ahora tiene escáneres en todos sus puertos",
+      "statementEN": "With these scanners, Costa Rica now has scanners in all its ports",
+      "context": "Inauguración de escáneres de IA en Puerto Caldera y terminal de Moín",
+      "date": "2025-09-25",
+      "category": "drugs",
+      "truth": "La afirmación del Ministro de Seguridad Mario Zamora es falsa. Costa Rica opera numerosos puertos más allá de Caldera y Moín. Además, el país ha luchado durante 15 años para implementar escáneres funcionales - los escáneres chinos donados en 2008 nunca funcionaron y costaron $423,000 en mantenimiento de equipo nunca utilizado.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/09/25/costa-rica-deploys-ai-port-scanners-to-fight-drug-trafficking",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Inspenet",
+          "url": "https://inspenet.com/en/noticias/costa-rica-inaugurated-scanners-in-seaports/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "cabinet"
+    },
+    {
+      "id": 103,
+      "statement": "La estación del Guardacostas en Sixaola servía de poco y se usaba como puesto de castigo",
+      "statementEN": "The Coast Guard station in Sixaola served little purpose and was used as a punishment post",
+      "context": "Justificación del cierre de estaciones del Guardacostas",
+      "date": "2024-08-01",
+      "category": "drugs",
+      "truth": "El cierre de la estación de Sixaola (Caribe) y Bahía Drake (Pacífico sur) ordenado por el Ministro Zamora y Viceministro Jiménez Steller redujo significativamente la capacidad de vigilancia marítima en áreas identificadas como puntos principales de entrada de narcotráfico. Según la candidata Claudia Dobles, estas decisiones 'ralentizaron los tiempos de respuesta a actividades criminales, permitiendo que los narcóticos fluyan más fácilmente'.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/12/25/claudia-dobles-pushes-to-reopen-closed-coast-guard-stations-in-costa-rica",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "cabinet"
+    },
+    {
+      "id": 104,
+      "statement": "La mayoría de víctimas de homicidios están conectadas con actividades ilegales, el público enfrenta bajo riesgo",
+      "statementEN": "Most homicide victims are connected to illegal activities, the public faces low risk",
+      "context": "Declaraciones minimizando la crisis de seguridad",
+      "date": "2024-08-21",
+      "category": "drugs",
+      "truth": "Datos del OIJ contradicen esta afirmación. Las muertes de transeúntes inocentes aumentaron de 7 en 2021 a 45 en 2023. En 2025, hubo al menos 28 muertes de transeúntes, incluyendo 8 niños menores de 12 años. Los niños no pueden caracterizarse como participantes en narcotráfico.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/12/23/costa-rica-surpasses-3000-homicides-under-president-chaves",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/05/04/costa-ricas-rising-violence-challenges-chaves-security-claims",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 105,
+      "statement": "La Operación Soberanía escaneará todos los contenedores en la Terminal de Contenedores de Moín",
+      "statementEN": "Operation Sovereignty will scan all containers at the Moín Container Terminal",
+      "context": "Anuncio de nueva iniciativa de seguridad portuaria",
+      "date": "2023-07-01",
+      "category": "drugs",
+      "truth": "La Operación Soberanía fue anunciada en julio 2023, pero la inauguración real de los escáneres no ocurrió hasta septiembre 2025 - un retraso de más de dos años. Este largo período indica obstáculos técnicos, logísticos o financieros que pueden continuar afectando el rendimiento.",
+      "sources": [
+        {
+          "name": "Inspenet",
+          "url": "https://inspenet.com/en/noticias/costa-rica-inaugurated-scanners-in-seaports/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Fresh Plaza",
+          "url": "https://www.freshplaza.com/north-america/article/9484577/costa-rican-government-to-install-scanners-at-ports-and-airports-in-2023/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "government"
+    },
+    {
+      "id": 106,
+      "statement": "La crisis del crimen es culpa del Poder Judicial y la Asamblea Legislativa por no reformar las leyes",
+      "statementEN": "The crime crisis is the fault of the Judiciary and Legislature for failing to reform laws",
+      "context": "Declaraciones públicas sobre la crisis de seguridad",
+      "date": "2024-10-01",
+      "category": "drugs",
+      "truth": "Esta narrativa omite decisiones ejecutivas que empeoraron las condiciones: cierre de estaciones del Guardacostas, reubicación de la Policía de Control de Drogas fuera de puertos y fronteras. La crisis no puede atribuirse a inacción judicial cuando la acción ejecutiva simultáneamente redujo los recursos de vigilancia marítima e interdicción fronteriza.",
+      "sources": [
+        {
+          "name": "El País",
+          "url": "https://english.elpais.com/international/2024-10-23/death-threats-and-drug-trafficking-suspicions-political-tension-rises-in-costa-rica.html",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/12/25/claudia-dobles-pushes-to-reopen-closed-coast-guard-stations-in-costa-rica",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 107,
+      "statement": "La Policía de Control de Drogas está desplegada estratégicamente para máxima efectividad",
+      "statementEN": "The Drug Control Police are strategically deployed for maximum effectiveness",
+      "context": "Defensa de políticas de seguridad",
+      "date": "2024-06-01",
+      "category": "drugs",
+      "truth": "Según la candidata Claudia Dobles, la Policía de Control de Drogas fue removida de puertos, fronteras y aeropuertos - exactamente las ubicaciones donde ocurre la mayoría del tráfico. Cuando unidades especializadas diseñadas para interceptar drogas son reubicadas lejos de esas ubicaciones, representa una degradación fundamental de la capacidad de aplicación de la ley.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/12/25/claudia-dobles-pushes-to-reopen-closed-coast-guard-stations-in-costa-rica",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "government"
+    },
+    {
+      "id": 108,
+      "statement": "Nunca supe que el exministro Celso Gamboa tenía vínculos con el narcotráfico",
+      "statementEN": "I never knew that former minister Celso Gamboa had links to drug trafficking",
+      "context": "Respuesta a acusaciones sobre Celso Gamboa",
+      "date": "2025-07-15",
+      "category": "drugs",
+      "truth": "Según autoridades estadounidenses, Gamboa presuntamente informó a la administración Chaves en 2023 'que tenía los medios para garantizar la entrada de cocaína al país'. El hecho de que un exministro de seguridad pudiera ofrecer 'garantizar' la entrada de cocaína contradice cualquier afirmación de desconocimiento.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/07/12/former-costa-rican-minister-indicted-in-us-on-drug-trafficking-charges",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Latin News",
+          "url": "https://www.latinnews.com/component/k2/item/106732-costa-rica-former-security-minister-charged-with-drug-offences-in-us.html",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 109,
+      "statement": "Los escáneres instalados son un punto de inflexión en la seguridad portuaria del país",
+      "statementEN": "The installed scanners are a turning point in the country's port security",
+      "context": "Inauguración de escáneres en puertos",
+      "date": "2025-09-25",
+      "category": "drugs",
+      "truth": "Costa Rica ha luchado durante 15 años para implementar escáneres funcionales. Los escáneres chinos de 2008 nunca funcionaron; en 2019 se reveló que eran 'inútiles'. Los escáneres de $8 millones fueron rechazados en 2019. Dado este historial de fracasos, la confianza pública debería basarse en rendimiento demostrado, no en afirmaciones presidenciales.",
+      "sources": [
+        {
+          "name": "Inspenet",
+          "url": "https://inspenet.com/en/noticias/costa-rica-inaugurated-scanners-in-seaports/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 110,
+      "statement": "Nuestra coordinación con la DEA y el FBI demuestra nuestro compromiso contra el narcotráfico",
+      "statementEN": "Our coordination with the DEA and FBI demonstrates our commitment against drug trafficking",
+      "context": "Visita del Secretario de Estado Marco Rubio",
+      "date": "2025-02-01",
+      "category": "drugs",
+      "truth": "A pesar de la cooperación anunciada, la presencia de carteles y el volumen de tráfico han continuado expandiéndose. El caso Gamboa demuestra que incluso funcionarios de alto nivel operaban como facilitadores para traficantes. Un gobierno puede simultáneamente realizar operaciones conjuntas mientras contiene elementos que facilitan el tráfico.",
+      "sources": [
+        {
+          "name": "Embajada EEUU Nicaragua",
+          "url": "https://ni.usembassy.gov/secretary-of-state-marco-rubio-and-costa-rican-president-rodrigo-chaves-robles-at-a-joint-press-availability/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "government"
+    },
+    {
+      "id": 111,
+      "statement": "Los récords de decomisos prueban la efectividad de nuestra política antidrogas",
+      "statementEN": "Record seizures prove the effectiveness of our anti-drug policy",
+      "context": "Declaraciones sobre logros en seguridad",
+      "date": "2024-12-01",
+      "category": "drugs",
+      "truth": "El director del OIJ, Randall Zúñiga, ha declarado que 'en un estado turbulento, el narcotráfico se beneficia'. Los decomisos ocurren después de que las drogas ya entraron al territorio. La medida real de efectividad sería prevenir la entrada inicial. Los homicidios récord durante su mandato sugieren que los carteles no han sido desarticulados.",
+      "sources": [
+        {
+          "name": "El País",
+          "url": "https://english.elpais.com/international/2024-10-23/death-threats-and-drug-trafficking-suspicions-political-tension-rises-in-costa-rica.html",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 112,
+      "statement": "El aumento de homicidios es principalmente relacionado con drogas entre criminales",
+      "statementEN": "The increase in homicides is mainly drug-related among criminals",
+      "context": "Minimizando la crisis de violencia",
+      "date": "2025-08-21",
+      "category": "drugs",
+      "truth": "Costa Rica superó los 3,000 homicidios bajo el gobierno de Chaves. En 2025 hubo al menos 28 muertes de transeúntes inocentes, incluyendo 8 niños menores de 12 años. La violencia ha penetrado poblaciones civiles, haciendo la caracterización de Chaves factualmente falsa y peligrosamente engañosa sobre las condiciones reales de seguridad pública.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/12/23/costa-rica-surpasses-3000-homicides-under-president-chaves",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/08/21/president-chaves-downplays-costa-ricas-security-crisis-amid-record-homicides",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 113,
+      "statement": "El gobierno anterior es responsable de la situación actual del narcotráfico",
+      "statementEN": "The previous government is responsible for the current drug trafficking situation",
+      "context": "Declaraciones culpando a administraciones anteriores",
+      "date": "2024-05-01",
+      "category": "drugs",
+      "truth": "Aunque administraciones anteriores tuvieron fallas, las decisiones del gobierno Chaves empeoraron activamente la situación: cierre de estaciones del Guardacostas, reubicación de policía antidrogas de puertos/fronteras, y dos años de retraso en implementar escáneres prometidos. Estas son decisiones ejecutivas propias, no heredadas.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/12/25/claudia-dobles-pushes-to-reopen-closed-coast-guard-stations-in-costa-rica",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Control Risks",
+          "url": "https://www.controlrisks.com/our-thinking/insights/costa-ricas-rising-violence-effects-on-business-and-governance",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 114,
+      "statement": "La situación de seguridad está bajo control y mejorando",
+      "statementEN": "The security situation is under control and improving",
+      "context": "Declaraciones sobre estado de seguridad nacional",
+      "date": "2025-05-04",
+      "category": "drugs",
+      "truth": "Los homicidios alcanzaron niveles históricos récord durante el mandato de Chaves. Costa Rica superó 3,000 homicidios acumulados bajo su gobierno. La tasa de homicidios es la más alta en la historia costarricense. La consolidación territorial de pandillas criminales demuestra que la violencia no ha sido contenida.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/05/04/costa-ricas-rising-violence-challenges-chaves-security-claims",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Global Post",
+          "url": "https://globalpost.com/2025/07/16/climate-of-insecurity-a-rise-in-crime-threatens-costa-rican-stability/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 115,
+      "statement": "No tenemos información de que carteles mexicanos operen en Costa Rica",
+      "statementEN": "We have no information that Mexican cartels operate in Costa Rica",
+      "context": "Respuesta a preguntas sobre presencia de carteles",
+      "date": "2024-03-01",
+      "category": "drugs",
+      "truth": "Múltiples informes de inteligencia y medios documentan la presencia y operaciones de carteles mexicanos en Costa Rica. El caso del exministro Gamboa demostró conexiones directas entre funcionarios del gobierno y organizaciones de tráfico. Los conflictos territoriales violentos entre grupos criminales evidencian la presencia activa de carteles.",
+      "sources": [
+        {
+          "name": "El País",
+          "url": "https://english.elpais.com/international/2024-10-23/death-threats-and-drug-trafficking-suspicions-political-tension-rises-in-costa-rica.html",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Global Post",
+          "url": "https://globalpost.com/2025/07/16/climate-of-insecurity-a-rise-in-crime-threatens-costa-rican-stability/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
     }
   ],
   "metadata": {
     "lastUpdated": "2025-01-15",
-    "totalCount": 100,
-    "categories": ["economy", "health", "corruption", "promises", "statistics", "other"],
+    "totalCount": 115,
+    "categories": ["economy", "health", "corruption", "promises", "statistics", "drugs", "other"],
     "severityLevels": ["minor", "moderate", "major", "critical"],
     "description": "Base de datos de declaraciones falsas verificadas del presidente Rodrigo Chaves Robles, documentadas por organizaciones de verificación de hechos y medios de comunicación costarricenses.",
     "sources": [
@@ -1946,7 +2291,9 @@
       "La República",
       "Divergentes",
       "Cultura CR",
-      "La Teja"
+      "La Teja",
+      "Tico Times",
+      "El País"
     ]
   }
 }
