@@ -1,0 +1,3896 @@
+{
+  "lies": [
+    {
+      "id": 1,
+      "statement": "Los presupuestos del Poder Judicial crecieron más de 12 veces entre 2000 y 2018",
+      "statementEN": "The Judicial Power budgets grew more than 12 times between 2000 and 2018",
+      "context": "Declaración ante la Corte Plena del Poder Judicial",
+      "date": "2022-06-20",
+      "category": "statistics",
+      "truth": "El crecimiento real fue de 2.65 veces (265%), no 12 veces. El Estado de la Justicia del Programa Estado de la Nación verificó esta cifra ajustando por inflación.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2022/06/doblecheck/rodrigo-chaves-datos-incorrectos-poder-judicial/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Estado de la Justicia",
+          "url": "https://estadonacion.or.cr/estado-de-la-justicia/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 2,
+      "statement": "Educación recibe solo 6.8% del presupuesto nacional",
+      "statementEN": "Education receives only 6.8% of the national budget",
+      "context": "Sesión ante la Corte Plena respondiendo a magistrada Sandra Zúñiga",
+      "date": "2022-06-20",
+      "category": "statistics",
+      "truth": "Según la Contraloría General de la República, el MEP recibe 23% del presupuesto nacional, no 6.8%. Chaves confundió porcentaje del PIB con porcentaje del presupuesto.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2022/06/doblecheck/rodrigo-chaves-datos-incorrectos-poder-judicial/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Contraloría General de la República",
+          "url": "https://www.cgr.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 3,
+      "statement": "Las pensiones de lujo cuestan $2 mil millones al estado",
+      "statementEN": "Luxury pensions cost the state $2 billion",
+      "context": "Discurso sobre reforma de pensiones ante la Corte Plena",
+      "date": "2022-06-20",
+      "category": "statistics",
+      "truth": "El gobierno atribuyó erróneamente todo el gasto en pensiones a un pequeño grupo. Solo 3,724 personas tienen pensiones mayores a 2.5 millones de colones. El total incluye contribuciones normales al IVM de la CCSS.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2022/07/doblecheck/pensiones-de-lujo-enganoso-discurso-gobierno-chaves/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Contraloría General de la República",
+          "url": "https://www.cgr.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 4,
+      "statement": "Heredé una inflación del 12%",
+      "statementEN": "I inherited an inflation rate of 12%",
+      "context": "Declaraciones públicas sobre logros económicos",
+      "date": "2023-03-15",
+      "category": "economy",
+      "truth": "La inflación cuando asumió en mayo 2022 era 8.7%, no 12%. El 12.13% se alcanzó en agosto 2022, tres meses después de que asumió.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2023/04/doblecheck/inflacion-2023-rodrigo-chaves/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Banco Central de Costa Rica",
+          "url": "https://www.bccr.fi.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 5,
+      "statement": "La inflación actual es la más baja en muchos años",
+      "statementEN": "Current inflation is the lowest in many years",
+      "context": "Declaraciones públicas sobre logros económicos en marzo 2023",
+      "date": "2023-03-15",
+      "category": "economy",
+      "truth": "Falso. Todos los registros mensuales de inflación entre enero 2015 y enero 2022 fueron más bajos que las cifras de febrero-marzo 2023 (5.58% y 4.42%).",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2023/04/doblecheck/inflacion-2023-rodrigo-chaves/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Banco Central de Costa Rica - IPC",
+          "url": "https://www.bccr.fi.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 6,
+      "statement": "El Banco Central anunció crecimiento de 4.2%, duplicando la proyección inicial de 2%",
+      "statementEN": "The Central Bank announced 4.2% growth, doubling the initial 2% projection",
+      "context": "Declaraciones sobre crecimiento económico",
+      "date": "2023-03-15",
+      "category": "economy",
+      "truth": "Comparación engañosa. El 4.2% era un indicador mensual (IMAE enero 2023), no una proyección anual. La proyección anual original era 3.2%, luego revisada a 2.7%.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2023/04/doblecheck/inflacion-2023-rodrigo-chaves/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Banco Central de Costa Rica",
+          "url": "https://www.bccr.fi.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 7,
+      "statement": "Es el desempleo más bajo en toda la historia de Costa Rica",
+      "statementEN": "It's the lowest unemployment in all of Costa Rica's history",
+      "context": "Presentación en Casa Presidencial sobre estadísticas laborales",
+      "date": "2024-11-20",
+      "category": "statistics",
+      "truth": "Solo es el más bajo desde 2010 cuando comenzó la ECE. Antes existía la EHPM con datos desde 1987. En 1989 el desempleo fue 3.7%, más bajo que el 6.6% actual.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2024/12/doblecheck/desempleo-historia-costa-rica-rodrigo-chaves/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "INEC Costa Rica",
+          "url": "https://www.inec.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 8,
+      "statement": "Tenemos las cifras de pobreza más bajas desde que hay datos",
+      "statementEN": "We have the lowest poverty figures since data exists",
+      "context": "Declaraciones sobre logros sociales",
+      "date": "2024-11-15",
+      "category": "statistics",
+      "truth": "Falso. Con la metodología EHPM, en 2007 la pobreza fue 16.7% y en 2008 fue 17.7%, ambas más bajas que el 18% de 2024.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2024/11/doblecheck/pobreza-no-es-la-mas-baja-desde-que-hay-datos/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "INEC - ENAHO",
+          "url": "https://www.inec.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 9,
+      "statement": "Tres instancias del Banco Mundial me declararon inocente de acoso sexual",
+      "statementEN": "Three World Bank instances declared me innocent of sexual harassment",
+      "context": "Múltiples entrevistas y debates durante campaña presidencial",
+      "date": "2022-02-04",
+      "category": "corruption",
+      "truth": "Falso. El tribunal del Banco Mundial encontró que Chaves 'se involucró en un patrón de comportamiento no deseado e inapropiado de naturaleza sexual' hacia múltiples colegas mujeres.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2022/03/doblecheck/enganos-rodrigo-chaves-acoso-sexual/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "World Bank Administrative Tribunal",
+          "url": "https://www.dallaswhistleblowerlawyer.com/blog/world-bank-failed-to-act-in-response-to-sexual-harassment-claims/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 10,
+      "statement": "No pudo determinarse que las acusaciones efectivamente ocurrieron",
+      "statementEN": "It could not be determined that the accusations actually occurred",
+      "context": "Debate en Telenoticias sobre caso del Banco Mundial",
+      "date": "2022-02-04",
+      "category": "corruption",
+      "truth": "La investigación del Banco Mundial documentó intentos de beso no consentidos, invitaciones inapropiadas a hoteles, y comentarios sobre apariencia física de al menos tres mujeres entre 2009-2013.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2022/03/doblecheck/enganos-rodrigo-chaves-acoso-sexual/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "World Bank Ethics Investigation",
+          "url": "https://www.dallaswhistleblowerlawyer.com/blog/world-bank-failed-to-act-in-response-to-sexual-harassment-claims/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 11,
+      "statement": "Vamos a eliminar 114 impuestos",
+      "statementEN": "We are going to eliminate 114 taxes",
+      "context": "Promesa central de campaña electoral 2022",
+      "date": "2022-03-15",
+      "category": "promises",
+      "truth": "Más de dos años después, no se ha presentado ningún proyecto integral para eliminar los 114 impuestos prometidos. El PLN de Eli Feinzaig sí logró aprobar eliminación de 20 impuestos.",
+      "sources": [
+        {
+          "name": "Radio Zurquí",
+          "url": "https://radiozurqui.org/politica/las-promesas-incumplidas-de-rodrigo-chaves/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Teletica",
+          "url": "https://www.teletica.com/politica/cuales-promesas-de-campana-ha-cumplido-rodrigo-chaves-tras-mil-dias-en-zapote_377740",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 12,
+      "statement": "Vamos a hacer la vida más barata - el arroz bajará de precio",
+      "statementEN": "We are going to make life cheaper - rice prices will drop",
+      "context": "Promesa de campaña con mensajes 'Faltan X días para que baje el arroz'",
+      "date": "2022-03-20",
+      "category": "promises",
+      "truth": "El arroz no bajó de precio. La política arrocera causó: reducción del 60% en área cultivada, 47% menos productores, 57% menos producción nacional, y 94% más importaciones.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/esto-prometio-chaves-para-bajar-el-costo-de-vida-y-esta-es-l/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "CRHoy - Tercer año",
+          "url": "https://crhoy.com/nacionales/chaves-cierra-tercer-ano-con-deficit-arroz-mas-caro-y-sin-tocar-pensiones-de-lujo/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 13,
+      "statement": "Construiremos Ciudad Gobierno",
+      "statementEN": "We will build Government City",
+      "context": "Anuncio en programa televisivo del gobierno, noviembre 2022",
+      "date": "2022-11-15",
+      "category": "promises",
+      "truth": "El proyecto no avanzó. La modalidad de contratación propuesta violaba la Ley de Contratación Pública. La Ley Jaguar que habría permitido el proyecto fue declarada inconstitucional.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/promesas-incumplidas-de-chaves-ni-ciudad-gobierno-ni-la-marina-de-limon-ni-los-aeropuertos-vieron-la-luz/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Sala Constitucional",
+          "url": "https://revistasalacons.poder-judicial.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 14,
+      "statement": "Construiremos la Marina de Limón",
+      "statementEN": "We will build the Limón Marina",
+      "context": "Promesa de infraestructura para el Caribe",
+      "date": "2022-11-15",
+      "category": "promises",
+      "truth": "En mayo 2024, Japdeva informó que no se había realizado ningún proceso licitatorio ni presentación a la Contraloría. El proyecto permanece completamente inactivo.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/promesas-incumplidas-de-chaves-ni-ciudad-gobierno-ni-la-marina-de-limon-ni-los-aeropuertos-vieron-la-luz/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Japdeva",
+          "url": "https://www.japdeva.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 15,
+      "statement": "Construiremos un aeropuerto internacional en Limón",
+      "statementEN": "We will build an international airport in Limón",
+      "context": "Promesa de infraestructura aeroportuaria",
+      "date": "2023-09-15",
+      "category": "promises",
+      "truth": "Para 2025, no se ha iniciado ningún proceso licitatorio. Mideplán registra cero avance en las tres promesas aeroportuarias (Limón, Zona Sur, terminal de carga en Liberia).",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/promesas-incumplidas-de-chaves-ni-ciudad-gobierno-ni-la-marina-de-limon-ni-los-aeropuertos-vieron-la-luz/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Mideplán - PND",
+          "url": "https://www.mideplan.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 16,
+      "statement": "En un año comenzamos a construir Paacume - por fin habrá agua para los guanacastecos",
+      "statementEN": "In one year we will start building Paacume - finally there will be water for Guanacastecans",
+      "context": "Gira por Guanacaste, noviembre 2022",
+      "date": "2022-11-15",
+      "category": "promises",
+      "truth": "El proyecto prácticamente se paralizó. Para 2025, solo tiene entre 10-12% de avance, a pesar de tener $425 millones de financiamiento del BCIE ya asegurados.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/promesas-incumplidas-de-chaves-ni-ciudad-gobierno-ni-la-marina-de-limon-ni-los-aeropuertos-vieron-la-luz/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2022/12/doblecheck/gobierno-si-hizo-cambios-a-paacume-para-incluir-sistema-de-agua-potable/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 17,
+      "statement": "Construiremos 18 delegaciones policiales en 18 meses",
+      "statementEN": "We will build 18 police stations in 18 months",
+      "context": "Visita a delegación de Sagrada Familia, Hatillo",
+      "date": "2023-04-21",
+      "category": "promises",
+      "truth": "Para octubre 2024 (el plazo), solo 2 de 18 delegaciones estaban completas (11%). El préstamo del BID de $100 millones tenía solo 18% de avance financiero.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/promesa-incumplida-chaves-ofrecio-a-policias-18-delegaciones-para-octubre-y-solo-tendra-2/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Observador CR",
+          "url": "https://observador.cr/chaves-prometio-en-2023-la-construccion-de-18-delegaciones-policiales-en-18-meses-pero-solo-hay-7-concluidas/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 18,
+      "statement": "Transmitiré las sesiones del Consejo de Gobierno por televisión",
+      "statementEN": "I will broadcast Government Council sessions on television",
+      "context": "Promesa de transparencia en campaña electoral",
+      "date": "2022-02-15",
+      "category": "promises",
+      "truth": "Nunca se implementó. Chaves posteriormente admitió en video que 'me equivoqué' al hacer esta promesa y la abandonó.",
+      "sources": [
+        {
+          "name": "Delfino.cr",
+          "url": "https://delfino.cr/2022/11/chaves-justifica-incumplimiento-de-promesa-campana-de-transmitir-el-consejo-de-gobierno",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/el-pais/politica/rodrigo-chaves-me-equivoque-al-prometer/Y2DEHC2SABDKDAFPDWYSTCHXT4/story/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 19,
+      "statement": "El mandato constitucional del 8% del PIB para educación es una medida populista",
+      "statementEN": "The constitutional mandate of 8% of GDP for education is a populist measure",
+      "context": "Declaraciones sobre presupuesto educativo",
+      "date": "2023-06-15",
+      "category": "other",
+      "truth": "El mandato fue establecido mediante reforma constitucional en 2011 como compromiso vinculante del pueblo costarricense, no como medida populista temporal.",
+      "sources": [
+        {
+          "name": "El País",
+          "url": "https://english.elpais.com/international/2023-07-06/rodrigo-chaves-eagerness-to-transform-costa-rica-impacts-public-health-care-and-education.html",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Constitución Política de Costa Rica",
+          "url": "https://www.pgrweb.go.cr/scij/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 20,
+      "statement": "La CCSS está en quiebra",
+      "statementEN": "The CCSS is bankrupt",
+      "context": "Declaraciones sobre seguridad social",
+      "date": "2023-05-15",
+      "category": "health",
+      "truth": "La CCSS enfrenta desafíos de financiamiento, pero estos provienen de disputas con Hacienda sobre obligaciones, no de quiebra. El propio gobierno se niega a pagar deudas acumuladas con la CCSS.",
+      "sources": [
+        {
+          "name": "El País",
+          "url": "https://english.elpais.com/international/2023-07-06/rodrigo-chaves-eagerness-to-transform-costa-rica-impacts-public-health-care-and-education.html",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "FMI - Informe Costa Rica",
+          "url": "https://www.imf.org/-/media/files/publications/cr/2025/english/1criea2025001-print-pdf.pdf",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 21,
+      "statement": "La libertad de prensa en Costa Rica goza de buena salud",
+      "statementEN": "Press freedom in Costa Rica is in good health",
+      "context": "Declaración tras suspensión del permiso de Parque Viva",
+      "date": "2022-07-15",
+      "category": "other",
+      "truth": "La Sala Constitucional anuló la orden del Ministerio de Salud de cerrar Parque Viva, determinando que constituía violación indirecta de libertad de prensa. La IAPA condenó las acciones como intimidación.",
+      "sources": [
+        {
+          "name": "LatAm Journalism Review",
+          "url": "https://latamjournalismreview.org/articles/costa-rican-president-rodrigo-chaves-plays-central-american-hardball-with-the-press/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2023/07/26/ex-leaders-condemn-costa-rica-presidents-attacks-on-press",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 22,
+      "statement": "La gran mayoría de asesinatos provienen de guerras entre pandillas - la gente común enfrenta poco riesgo",
+      "statementEN": "The vast majority of murders come from gang wars - everyday people face little risk",
+      "context": "Declaraciones sobre crisis de homicidios",
+      "date": "2025-10-15",
+      "category": "statistics",
+      "truth": "En 2025, 28 personas murieron como víctimas colaterales, incluyendo 8 niños menores de 12 años. Un tercio de homicidios involucra violencia doméstica y robos, no solo pandillas.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/10/16/president-chaves-brushes-off-costa-rica-homicide-surge",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Tico Times - 3000 homicidios",
+          "url": "https://ticotimes.net/2025/12/23/costa-rica-surpasses-3000-homicides-under-president-chaves",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 23,
+      "statement": "El problema de seguridad no viene de nosotros, viene de leyes que protegen a criminales",
+      "statementEN": "The security problem doesn't come from us, it comes from laws that protect criminals",
+      "context": "Declaraciones sobre crisis de seguridad",
+      "date": "2025-10-15",
+      "category": "other",
+      "truth": "Durante su gobierno, el gasto social como porcentaje del PIB bajó de 24.2% en 2020 a 20.7% en 2024 (el más bajo en una década), recortando programas de prevención.",
+      "sources": [
+        {
+          "name": "Americas Quarterly",
+          "url": "https://americasquarterly.org/article/costa-ricas-safe-haven-reckoning/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/12/23/costa-rica-surpasses-3000-homicides-under-president-chaves",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 24,
+      "statement": "Mi conciencia está limpia respecto al financiamiento de campaña",
+      "statementEN": "My conscience is clear regarding campaign financing",
+      "context": "Declaraciones sobre investigación de financiamiento ilícito",
+      "date": "2025-06-15",
+      "category": "corruption",
+      "truth": "En junio 2025, fiscales acusaron formalmente a Chaves y 6 funcionarios de financiamiento ilícito de campaña usando 'dos estructuras paralelas' fuera del TSE. Existen grabaciones de audio.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/06/23/costa-ricas-president-chaves-accused-of-illicit-campaign-financing",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Halifax City News",
+          "url": "https://halifax.citynews.ca/2025/06/23/costa-rican-prosecutors-accuse-president-other-high-ranking-officials-of-illegal-campaign-finance/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 25,
+      "statement": "La Contraloría está haciendo cogobierno con el Ejecutivo",
+      "statementEN": "The Comptroller is co-governing with the Executive",
+      "context": "Declaraciones de la Ministra Laura Fernández ante comisión legislativa",
+      "date": "2024-11-19",
+      "category": "other",
+      "truth": "Bajo juramento en amparo, la ministra admitió que su declaración fue 'en sentido figurado' y que el 'registro diario' de cogobierno que mencionó 'no existe como tal'.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2025/01/doblecheck/desinformaciones-del-gobierno-2024/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Contraloría General",
+          "url": "https://www.cgr.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "cabinet"
+    },
+    {
+      "id": 26,
+      "statement": "La Contraloría dijo que no debemos aprovechar recursos del sector privado mediante Alianzas Estratégicas",
+      "statementEN": "The Comptroller said we should not take advantage of private sector resources through Strategic Alliances",
+      "context": "Discurso ante Asamblea Legislativa, mayo 2024",
+      "date": "2024-05-01",
+      "category": "other",
+      "truth": "Casa Presidencial admitió en amparo que esta cita textual fue fabricada y que no existe tal declaración en documentos de la Contraloría.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2025/01/doblecheck/desinformaciones-del-gobierno-2024/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Asamblea Legislativa",
+          "url": "https://www.asamblea.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 27,
+      "statement": "La impunidad en Costa Rica es del 95.7%",
+      "statementEN": "Impunity in Costa Rica is 95.7%",
+      "context": "Declaraciones sobre sistema judicial usando el 'impunómetro' de Juan Diego Castro",
+      "date": "2024-06-15",
+      "category": "statistics",
+      "truth": "Metodología fundamentalmente defectuosa. Asume que toda denuncia sin condena es impunidad, ignorando falta de pruebas, acuerdos alternativos y decisiones judiciales legítimas.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2025/01/doblecheck/desinformaciones-del-gobierno-2024/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Estado de la Nación",
+          "url": "https://estadonacion.or.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 28,
+      "statement": "Todos los estudiantes que completen secundaria podrán comunicarse en inglés sin dificultad",
+      "statementEN": "All students completing secondary education will be able to communicate in English without difficulty",
+      "context": "Plan de gobierno - estrategia de bilingüismo",
+      "date": "2022-02-15",
+      "category": "promises",
+      "truth": "Para octubre 2024, el ministro de Trabajo admitió que no existe ninguna estrategia de bilingüismo en la administración actual. La meta de 5% de préstamos CONAPE para inglés solo alcanzó 4%.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/las-promesas-incumplidas-de-chaves-educacion-sin-ruta-con-becas-congeladas-y-centros-con-ordenes-sanitarias/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Ministerio de Trabajo",
+          "url": "https://www.mtss.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 29,
+      "statement": "Implementamos la Ruta de la Educación para mejorar el sistema educativo",
+      "statementEN": "We implemented the Education Route to improve the educational system",
+      "context": "Anuncio en Escuela María Vargas Rodríguez, febrero 2023",
+      "date": "2023-02-15",
+      "category": "promises",
+      "truth": "La Contraloría pidió documentación de esta política en diciembre 2023. La ministra Müller renunció en enero 2025 sin nunca haber documentado por escrito en qué consistía la 'Ruta'.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/las-promesas-incumplidas-de-chaves-educacion-sin-ruta-con-becas-congeladas-y-centros-con-ordenes-sanitarias/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Contraloría General",
+          "url": "https://www.cgr.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "cabinet"
+    },
+    {
+      "id": 30,
+      "statement": "El programa 'Adopte un Centro Educativo' ayudará a 215 escuelas con órdenes sanitarias",
+      "statementEN": "The 'Adopt an Educational Center' program will help 215 schools with sanitary orders",
+      "context": "Anuncio de programa educativo, febrero 2023",
+      "date": "2023-02-15",
+      "category": "promises",
+      "truth": "En 2025 hay 849 centros educativos con órdenes sanitarias (aumento de 127). En un año completo no se resolvió ni una sola orden sanitaria.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/las-promesas-incumplidas-de-chaves-educacion-sin-ruta-con-becas-congeladas-y-centros-con-ordenes-sanitarias/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "MEP - Infraestructura",
+          "url": "https://www.mep.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "cabinet"
+    },
+    {
+      "id": 31,
+      "statement": "Vamos a eliminar CONAVI, COSEVI, CTP y CNP",
+      "statementEN": "We are going to eliminate CONAVI, COSEVI, CTP and CNP",
+      "context": "Plan de gobierno - reducción del estado",
+      "date": "2022-02-15",
+      "category": "promises",
+      "truth": "Ninguno de estos órganos desconcentrados del MOPT ha sido eliminado al tercer año del mandato.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/promesas-incumplidas-chaves-no-redujo-aparato-estatal-ni-logro-venta-de-instituciones/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "MOPT",
+          "url": "https://www.mopt.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 32,
+      "statement": "Venderemos BICSA y BCR",
+      "statementEN": "We will sell BICSA and BCR",
+      "context": "Promesa de privatización de bancos estatales",
+      "date": "2022-05-15",
+      "category": "promises",
+      "truth": "La venta de BICSA sigue en revisión técnica con dudas sobre viabilidad. Tres propuestas para vender BCR fueron rechazadas por falta de claridad técnica y legal.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/promesas-incumplidas-chaves-no-redujo-aparato-estatal-ni-logro-venta-de-instituciones/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Observador CR",
+          "url": "https://observador.cr/solo-3-candidatos-activarian-plan-para-vender-bcr-si-llegan-a-la-presidencia/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 33,
+      "statement": "Abriremos el 49% del capital del INS a fondos de pensiones nacionales",
+      "statementEN": "We will open 49% of INS capital to national pension funds",
+      "context": "Promesa de apertura del mercado de seguros",
+      "date": "2022-05-15",
+      "category": "promises",
+      "truth": "Anunciado en 2022, reiterado en 2023 y 2024, pero la iniciativa formal nunca se presentó al Congreso.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/promesas-incumplidas-chaves-no-redujo-aparato-estatal-ni-logro-venta-de-instituciones/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Asamblea Legislativa",
+          "url": "https://www.asamblea.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 34,
+      "statement": "Aplicaremos la reforma fiscal sin excepciones",
+      "statementEN": "We will apply fiscal reform without exceptions",
+      "context": "Promesa de campaña sobre política fiscal",
+      "date": "2022-02-15",
+      "category": "promises",
+      "truth": "El gobierno presentó una versión modificada de la Ley de Fortalecimiento de Finanzas Públicas que incluía excepciones para intereses de deuda, cambiando definiciones, rangos y cláusulas de escape.",
+      "sources": [
+        {
+          "name": "Teletica",
+          "url": "https://www.teletica.com/politica/cuales-promesas-de-campana-ha-cumplido-rodrigo-chaves-tras-mil-dias-en-zapote_377740",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/economia/politica-economica/gobierno-registra-menor-deficit-en-15-anos-pero/6AFBW6OAMZFLJMASY2OCS5RF5Y/story/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 35,
+      "statement": "Recompensaremos a quienes denuncien corrupción",
+      "statementEN": "We will reward those who report corruption",
+      "context": "Promesa de campaña sobre lucha anticorrupción",
+      "date": "2022-02-15",
+      "category": "promises",
+      "truth": "La ley aprobada excluyó las recompensas por recomendación de la Procuraduría. Opositores denuncian que denunciantes de corrupción han enfrentado persecución política y acoso laboral.",
+      "sources": [
+        {
+          "name": "Teletica",
+          "url": "https://www.teletica.com/politica/cuales-promesas-de-campana-ha-cumplido-rodrigo-chaves-tras-mil-dias-en-zapote_377740",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Frente Amplio - Ariel Robles",
+          "url": "https://www.asamblea.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 36,
+      "statement": "Lograremos el 75% de avance en la ampliación de Ruta 27",
+      "statementEN": "We will achieve 75% progress on Route 27 expansion",
+      "context": "Meta del Plan Nacional de Desarrollo",
+      "date": "2022-05-15",
+      "category": "promises",
+      "truth": "Casi tres años después, no hay señales claras de inicio del proyecto. Mideplán indica 'sin avance significativo'. El gobierno rechazó el trabajo preparatorio de la administración anterior.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/promesas-incumplidas-de-chaves-ni-ciudad-gobierno-ni-la-marina-de-limon-ni-los-aeropuertos-vieron-la-luz/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Observador CR",
+          "url": "https://observador.cr/tras-anos-de-polemica-y-presas-gobierno-y-globalvia-llegan-a-acuerdo-para-ampliar-ruta-27/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 37,
+      "statement": "Terminaremos con las barreras que encarecen las medicinas",
+      "statementEN": "We will end the barriers that make medicines expensive",
+      "context": "Plan de gobierno - reducción de costos",
+      "date": "2022-02-15",
+      "category": "promises",
+      "truth": "Para 2025, varios proyectos para reducir costos de medicinas circulan en la Asamblea sin apoyo del Ejecutivo. Cuando se le cuestionó, Chaves negó que fuera una promesa de gobierno.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/esto-prometio-chaves-para-bajar-el-costo-de-vida-y-esta-es-l/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "YouTube - Entrevista",
+          "url": "https://www.youtube.com/watch?v=z0Dt14Na1eY",
+          "type": "video",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 38,
+      "statement": "Nunca ha pasado que el Ministerio Público solicite informes preliminares en investigaciones electorales",
+      "statementEN": "It has never happened that the Public Ministry requests preliminary reports in electoral investigations",
+      "context": "Declaraciones del abogado José Miguel Villalobos en televisión",
+      "date": "2025-02-15",
+      "category": "other",
+      "truth": "El TSE documentó que en más de 20 ocasiones desde 2012, el Ministerio Público ha solicitado informes preliminares en casos de 8 partidos diferentes.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2025/02/doblecheck/abogado-de-chaves-presento-como-inedita-una-pesquisa-usual-en-investigacion-de-delitos-electorales/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "TSE - Departamento de Financiamiento",
+          "url": "https://www.tse.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 39,
+      "statement": "Estamos ayudando al hermano del norte a aceptar deportados",
+      "statementEN": "We are helping the brother to the north by accepting deportees",
+      "context": "Declaraciones sobre acuerdo para recibir nacionales de terceros países deportados por EE.UU.",
+      "date": "2025-01-15",
+      "category": "other",
+      "truth": "El acuerdo parecía involucrar coerción implícita - amenaza de aranceles comerciales. Para abril 2025, 85 personas permanecían en centro de recepción sin ser procesadas como prometió.",
+      "sources": [
+        {
+          "name": "Human Rights Watch",
+          "url": "https://www.hrw.org/report/2025/05/22/the-strategy-is-to-break-us/the-us-expulsion-of-third-country-nationals-to-costa",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 40,
+      "statement": "La prensa son señores feudales, ratas y mala gente",
+      "statementEN": "The press are feudal lords, rats and bad people",
+      "context": "Múltiples conferencias de prensa y declaraciones públicas",
+      "date": "2023-01-09",
+      "category": "other",
+      "truth": "La Sala Constitucional determinó que estas declaraciones constituyeron 'exceso injustificado' que podría promover acoso contra medios y periodistas referidos.",
+      "sources": [
+        {
+          "name": "LatAm Journalism Review",
+          "url": "https://latamjournalismreview.org/articles/costa-rican-president-rodrigo-chaves-plays-central-american-hardball-with-the-press/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Wikipedia - Journalists of La Nación v. Costa Rica",
+          "url": "https://en.wikipedia.org/wiki/Journalists_of_La_Naci%C3%B3n_v._Costa_Rica",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 41,
+      "statement": "Prometí causar la destrucción de las estructuras corruptas de La Nación y Canal 7",
+      "statementEN": "I promised to cause the destruction of the corrupt structures of La Nación and Channel 7",
+      "context": "Declaración de campaña, 29 de enero 2022",
+      "date": "2022-01-29",
+      "category": "other",
+      "truth": "27 expresidentes de Latinoamérica y España condenaron 'la afrenta sistemática contra medios y periodistas costarricenses', incluyendo manipulación de publicidad gubernamental.",
+      "sources": [
+        {
+          "name": "LatAm Journalism Review",
+          "url": "https://latamjournalismreview.org/articles/costa-rican-president-rodrigo-chaves-plays-central-american-hardball-with-the-press/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2023/07/26/ex-leaders-condemn-costa-rica-presidents-attacks-on-press",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 42,
+      "statement": "No tenemos nada que ver con campañas de acoso en línea",
+      "statementEN": "We have nothing to do with online harassment campaigns",
+      "context": "Negación de conexión con trolls en redes sociales",
+      "date": "2024-06-15",
+      "category": "other",
+      "truth": "Freedom House documentó 'intimidación en línea que empeora, particularmente contra periodistas críticos' bajo Chaves. Investigadores de UT encontraron uso de trolls y cuentas falsas.",
+      "sources": [
+        {
+          "name": "Freedom House",
+          "url": "https://freedomhouse.org/country/costa-rica/freedom-net/2024",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "The Real News",
+          "url": "https://therealnews.com/el-salvadors-model-of-authoritarianism-is-spreading-to-countries-like-costa-rica-and-honduras",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 43,
+      "statement": "De 101 propuestas de mi plan de gobierno, hemos cumplido todas",
+      "statementEN": "Of 101 proposals in my government plan, we have fulfilled all of them",
+      "context": "Declaraciones sobre cumplimiento de plan de gobierno",
+      "date": "2024-05-15",
+      "category": "promises",
+      "truth": "Según análisis de Teletica: solo 7 promesas cumplidas de 101, 82 incumplidas, y 10 con avance parcial.",
+      "sources": [
+        {
+          "name": "Teletica",
+          "url": "https://www.teletica.com/politica/cuales-promesas-de-campana-ha-cumplido-rodrigo-chaves-tras-mil-dias-en-zapote_377740",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/politica/tres-anos-de-rodrigo-chaves-18-metas-incumplidas/DY5XBKJTHJBYZFCZXB7OC3OZVA/story/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 44,
+      "statement": "El desempleo bajó porque creamos empleos",
+      "statementEN": "Unemployment dropped because we created jobs",
+      "context": "Informe ante Asamblea Legislativa, mayo 2023",
+      "date": "2023-05-01",
+      "category": "economy",
+      "truth": "Analistas señalan que la tasa bajó principalmente porque personas dejaron de buscar trabajo, no por creación de empleo. Entre octubre 2022 y marzo 2023, la economía perdió 97,000 empleos.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2023/05/03/president-rodrigo-chaves-reports-on-costa-ricas-progress",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Latina Republic",
+          "url": "https://latinarepublic.com/2024/01/19/the-president-of-costa-rica-reflects-on-2023/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 45,
+      "statement": "Hubo una transformación estructural donde jóvenes y menos educados dejaron de buscar trabajo por la pandemia",
+      "statementEN": "There was a structural transformation where youth and less educated stopped looking for work due to the pandemic",
+      "context": "Explicación sobre caída de desempleo en entrevista",
+      "date": "2024-01-15",
+      "category": "economy",
+      "truth": "Esta declaración contradice su afirmación anterior de que el desempleo bajó por creación de empleos. Admite que personas salieron del mercado laboral en lugar de encontrar trabajo.",
+      "sources": [
+        {
+          "name": "Latina Republic",
+          "url": "https://latinarepublic.com/2024/01/19/the-president-of-costa-rica-reflects-on-2023/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/que-prometio-chaves-en-su-plan-de-gobierno-y-que-ha-cumplido/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 46,
+      "statement": "No, no hemos podido observar un cambio en calidad educativa, pero lanzamos un plan mucho más robusto",
+      "statementEN": "No, we haven't been able to observe a change in educational quality, but we launched a much more robust plan",
+      "context": "Entrevista sobre resultados educativos",
+      "date": "2024-01-15",
+      "category": "other",
+      "truth": "Contradicción entre afirmar tener un plan robusto y admitir que no hay resultados observables. Simultáneamente aboga por recortar presupuesto educativo.",
+      "sources": [
+        {
+          "name": "Latina Republic",
+          "url": "https://latinarepublic.com/2024/01/19/the-president-of-costa-rica-reflects-on-2023/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "El País",
+          "url": "https://english.elpais.com/international/2023-07-06/rodrigo-chaves-eagerness-to-transform-costa-rica-impacts-public-health-care-and-education.html",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 47,
+      "statement": "Este país todavía se mantiene como un refugio de calma con un auge económico que no hemos visto en años",
+      "statementEN": "This country still stands as a haven of calm with an economic surge we haven't seen in years",
+      "context": "Declaraciones minimizando crisis de homicidios",
+      "date": "2025-10-15",
+      "category": "other",
+      "truth": "Costa Rica registró 3,058 homicidios desde que asumió. 2023 fue el año más mortífero en la historia con 906 asesinatos. 2024 tuvo 871 y 2025 proyecta ~900.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/10/16/president-chaves-brushes-off-costa-rica-homicide-surge",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/12/23/costa-rica-surpasses-3000-homicides-under-president-chaves",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 48,
+      "statement": "Las organizaciones criminales pasaron de 35 a 340 pero no es nuestra culpa",
+      "statementEN": "Criminal organizations went from 35 to 340 but it's not our fault",
+      "context": "Declaraciones del Ministro de Seguridad Mario Zamora",
+      "date": "2024-09-15",
+      "category": "other",
+      "truth": "El aumento de 10x en organizaciones criminales ocurrió durante su administración. Simultáneamente recortaron gasto social a niveles más bajos en una década, afectando prevención.",
+      "sources": [
+        {
+          "name": "Americas Quarterly",
+          "url": "https://americasquarterly.org/article/costa-ricas-safe-haven-reckoning/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/12/23/costa-rica-surpasses-3000-homicides-under-president-chaves",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "cabinet"
+    },
+    {
+      "id": 49,
+      "statement": "El modelo de salud universal es inviable",
+      "statementEN": "The universal healthcare model is unviable",
+      "context": "Declaraciones sobre sistema de salud",
+      "date": "2023-06-15",
+      "category": "health",
+      "truth": "El sistema de salud universal de Costa Rica es reconocido internacionalmente como uno de los más exitosos de Latinoamérica, logrando resultados comparables a países más ricos.",
+      "sources": [
+        {
+          "name": "El País",
+          "url": "https://english.elpais.com/international/2023-07-06/rodrigo-chaves-eagerness-to-transform-costa-rica-impacts-public-health-care-and-education.html",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "FMI - Costa Rica",
+          "url": "https://www.imf.org/-/media/files/publications/cr/2025/english/1criea2025001-print-pdf.pdf",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 50,
+      "statement": "No tuve ningún rol directo en el esquema de contratos del BCIE",
+      "statementEN": "I had no direct role in the BCIE contract scheme",
+      "context": "Defensa ante acusaciones de corrupción",
+      "date": "2025-07-01",
+      "category": "corruption",
+      "truth": "Fiscales presentaron grabaciones de audio de 2023 donde Chaves supuestamente discute detalles de contratos relacionados con cargos de corrupción. El contrato involucró $405,800 en servicios.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/07/03/costa-ricas-chaves-slams-supreme-court-as-national-disgrace-in-corruption-clash",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/07/03/costa-ricas-chaves-slams-supreme-court-as-national-disgrace-in-corruption-clash",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 51,
+      "statement": "La Corte Suprema es una desgracia nacional por pedir levantar mi inmunidad",
+      "statementEN": "The Supreme Court is a national disgrace for asking to lift my immunity",
+      "context": "Reacción a solicitud de desafuero",
+      "date": "2025-07-03",
+      "category": "corruption",
+      "truth": "La Corte Suprema siguió procedimiento constitucional estándar para investigar delitos. Atacar a la corte por ejercer su función legal representa ataque a independencia judicial.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/07/03/costa-ricas-chaves-slams-supreme-court-as-national-disgrace-in-corruption-clash",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Halifax City News",
+          "url": "https://halifax.citynews.ca/2025/06/23/costa-rican-prosecutors-accuse-president-other-high-ranking-officials-of-illegal-campaign-finance/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 52,
+      "statement": "Estados Unidos está cubriendo todos los costos de los deportados en Costa Rica",
+      "statementEN": "The United States is covering all costs of deportees in Costa Rica",
+      "context": "Declaraciones sobre acuerdo de deportación",
+      "date": "2025-01-15",
+      "category": "other",
+      "truth": "Human Rights Watch documentó que el gobierno no procesó a la mayoría de los individuos para retorno. 85 personas permanecían en centros de recepción meses después.",
+      "sources": [
+        {
+          "name": "Human Rights Watch",
+          "url": "https://www.hrw.org/report/2025/05/22/the-strategy-is-to-break-us/the-us-expulsion-of-third-country-nationals-to-costa",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 53,
+      "statement": "Los analistas que critican son muchos y baratos, quieren confundir",
+      "statementEN": "Analysts who criticize are dime a dozen, they want to confuse",
+      "context": "Respuesta a críticas sobre estadísticas de desempleo",
+      "date": "2024-01-15",
+      "category": "other",
+      "truth": "En lugar de abordar cuestionamientos metodológicos legítimos sobre cómo se presentan las estadísticas de empleo, ataca a quienes las cuestionan.",
+      "sources": [
+        {
+          "name": "Latina Republic",
+          "url": "https://latinarepublic.com/2024/01/19/the-president-of-costa-rica-reflects-on-2023/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2023/05/03/president-rodrigo-chaves-reports-on-costa-ricas-progress",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "minor",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 54,
+      "statement": "No hay una sola orden, una sola directriz presidencial que diga que se va a cambiar el reglamento de viáticos",
+      "statementEN": "There is not a single order, a single presidential directive saying the per diem regulations will be changed",
+      "context": "Negación de cambios a viáticos gubernamentales",
+      "date": "2024-03-15",
+      "category": "other",
+      "truth": "La Nación documentó 52 falsedades del gobierno, incluyendo cambios a reglamentos que el presidente negaba haber ordenado.",
+      "sources": [
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/el-pais/politica/52-falsedades-del-gobierno/ORLTEIINURFIDCM34CK4DX3CKI/story/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "La Nación - Opinión",
+          "url": "https://www.nacion.com/opinion/columnistas/52-falsedades-y-contando/J7SLEJMYHJH5HPA44EXY4Y7PGE/story/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 55,
+      "statement": "El CIEP hace encuestas con muestras muy pequeñas que no representan al país",
+      "statementEN": "CIEP conducts surveys with very small samples that don't represent the country",
+      "context": "Críticas a encuestas que muestran baja aprobación, difundidas por grupo 'Apoyamos a Rodrigo Chaves'",
+      "date": "2023-09-15",
+      "category": "statistics",
+      "truth": "El CIEP explicó que en encuestas importa la representatividad, no el tamaño absoluto. La muestra de 1,000 personas reflejaba correctamente la distribución demográfica del censo 2022.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2023/10/doblecheck/critica-falsa-sobre-encuestas/",
+          "type": "news",
+          "accessDate": "2025-01-14"
+        },
+        {
+          "name": "CIEP - UCR",
+          "url": "https://ciep.ucr.ac.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-14"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 56,
+      "statement": "Somos campeones con la inflación más baja del mundo",
+      "statementEN": "We are champions with the lowest inflation in the world",
+      "context": "Declaraciones públicas sobre logros económicos",
+      "date": "2024-06-15",
+      "category": "economy",
+      "truth": "Costa Rica tuvo la quinta inflación alimentaria más alta de la OCDE en 2024 con 6.8%. Países como Chile, Colombia y México tuvieron inflación alimentaria más baja.",
+      "sources": [
+        {
+          "name": "OCDE - Consumer Price Index",
+          "url": "https://data.oecd.org/price/inflation-cpi.htm",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/inflacion-alimentaria-costa-rica/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 57,
+      "statement": "Portar un AK-47 es solo una multa en Costa Rica",
+      "statementEN": "Carrying an AK-47 is only a fine in Costa Rica",
+      "context": "Declaraciones sobre legislación de armas para justificar reformas",
+      "date": "2024-03-15",
+      "category": "statistics",
+      "truth": "La posesión ilegal de armas de guerra está penada con 4 a 8 años de prisión según el artículo 89 de la Ley de Armas y Explosivos.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2024/03/doblecheck/chaves-armas-guerra/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Ley de Armas y Explosivos",
+          "url": "https://www.pgrweb.go.cr/scij/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 58,
+      "statement": "El Hospital de Cartago estará listo en mi gobierno",
+      "statementEN": "The Cartago Hospital will be ready during my administration",
+      "context": "Promesa de infraestructura de salud",
+      "date": "2022-08-15",
+      "category": "health",
+      "truth": "El proyecto del Hospital de Cartago permanece estancado. Para 2025 no hay avance significativo en la construcción prometida.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/hospital-cartago-promesa-chaves/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "CCSS",
+          "url": "https://www.ccss.sa.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 59,
+      "statement": "Construiremos el nuevo Hospital de Limón",
+      "statementEN": "We will build the new Limón Hospital",
+      "context": "Promesa de infraestructura hospitalaria para el Caribe",
+      "date": "2022-09-15",
+      "category": "health",
+      "truth": "El Hospital Tony Facio de Limón sigue deteriorándose. No hay proyecto concreto para un nuevo hospital en la zona.",
+      "sources": [
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/el-pais/salud/hospital-tony-facio-limon/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "CCSS",
+          "url": "https://www.ccss.sa.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 60,
+      "statement": "La Ruta de la Salud va a reducir las listas de espera",
+      "statementEN": "The Health Route will reduce waiting lists",
+      "context": "Anuncio de política de salud",
+      "date": "2023-03-15",
+      "category": "health",
+      "truth": "Las listas de espera de la CCSS han aumentado durante su gobierno. Miles de pacientes esperan meses o años para cirugías y procedimientos.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/listas-espera-ccss-aumentan/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "CCSS - Estadísticas",
+          "url": "https://www.ccss.sa.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 61,
+      "statement": "El TSE está dando un golpe de estado técnico",
+      "statementEN": "The TSE is carrying out a technical coup d'état",
+      "context": "Acusación contra el Tribunal Supremo de Elecciones",
+      "date": "2025-06-20",
+      "category": "other",
+      "truth": "El presidente del TSE, Luis Diego Brenes, rechazó categóricamente la acusación como infundada. El TSE actúa dentro de sus competencias constitucionales.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/06/23/tse-president-rejects-coup-accusation/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "TSE",
+          "url": "https://www.tse.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 62,
+      "statement": "Costa Rica mantiene su posición en libertad de prensa",
+      "statementEN": "Costa Rica maintains its position in press freedom",
+      "context": "Declaraciones tras caída en ranking de RSF",
+      "date": "2024-05-03",
+      "category": "other",
+      "truth": "Costa Rica cayó del puesto 8 al 36 en el ranking de Reporteros Sin Fronteras durante su gobierno, la peor caída en la historia del país.",
+      "sources": [
+        {
+          "name": "Reporteros Sin Fronteras",
+          "url": "https://rsf.org/en/country/costa-rica",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2024/05/03/costa-rica-falls-in-press-freedom-ranking/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 63,
+      "statement": "La investigación del Banco Mundial fue por quejas menores",
+      "statementEN": "The World Bank investigation was for minor complaints",
+      "context": "Minimización del caso de acoso sexual",
+      "date": "2022-03-10",
+      "category": "corruption",
+      "truth": "El tribunal encontró comportamiento sistemático de naturaleza sexual hacia múltiples mujeres entre 2009-2013, resultando en sanción formal.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2022/03/doblecheck/enganos-rodrigo-chaves-acoso-sexual/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "World Bank Tribunal",
+          "url": "https://tribunal.worldbank.org/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 64,
+      "statement": "Las pensiones de lujo consumen todo el presupuesto nacional",
+      "statementEN": "Luxury pensions consume the entire national budget",
+      "context": "Declaraciones sobre reforma de pensiones",
+      "date": "2022-07-15",
+      "category": "economy",
+      "truth": "Las llamadas pensiones de lujo representan menos del 1% del presupuesto total del régimen de pensiones. El gasto principal es del IVM de la CCSS.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2022/07/doblecheck/pensiones-de-lujo-enganoso-discurso-gobierno-chaves/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Contraloría General",
+          "url": "https://www.cgr.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 65,
+      "statement": "El crimen organizado llegó con los gobiernos anteriores",
+      "statementEN": "Organized crime arrived with previous governments",
+      "context": "Declaraciones evadiendo responsabilidad por crisis de seguridad",
+      "date": "2024-08-15",
+      "category": "other",
+      "truth": "Las organizaciones criminales pasaron de 35 a 340 durante su gobierno. Los homicidios aumentaron 67% bajo su administración.",
+      "sources": [
+        {
+          "name": "Americas Quarterly",
+          "url": "https://americasquarterly.org/article/costa-ricas-safe-haven-reckoning/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "OIJ - Estadísticas",
+          "url": "https://www.oij.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 66,
+      "statement": "Costa Rica es el país más seguro de Centroamérica",
+      "statementEN": "Costa Rica is the safest country in Central America",
+      "context": "Declaraciones minimizando crisis de homicidios",
+      "date": "2024-12-15",
+      "category": "statistics",
+      "truth": "La tasa de homicidios de Costa Rica (17.2 por 100,000) ya supera a Panamá y Nicaragua. 2023 fue el año más violento de la historia.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/12/23/costa-rica-surpasses-3000-homicides-under-president-chaves",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "UNODC",
+          "url": "https://dataunodc.un.org/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 67,
+      "statement": "Reduciremos el costo de la canasta básica en 6 meses",
+      "statementEN": "We will reduce the cost of the basic food basket in 6 months",
+      "context": "Promesa de campaña sobre costo de vida",
+      "date": "2022-04-15",
+      "category": "promises",
+      "truth": "La canasta básica alimentaria aumentó de ₡56,000 en mayo 2022 a más de ₡70,000 en 2024, un incremento de 25%.",
+      "sources": [
+        {
+          "name": "INEC - CBA",
+          "url": "https://www.inec.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/canasta-basica-aumenta/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 68,
+      "statement": "Vamos a bajar el precio del combustible",
+      "statementEN": "We are going to lower fuel prices",
+      "context": "Promesa de campaña sobre costo de combustibles",
+      "date": "2022-03-15",
+      "category": "promises",
+      "truth": "Los precios de combustibles se mantienen altos. El gobierno no ha implementado reformas estructurales al modelo de precios de RECOPE.",
+      "sources": [
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/economia/politica-economica/combustibles-precio/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "ARESEP",
+          "url": "https://aresep.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 69,
+      "statement": "Venderemos RECOPE para bajar precios de gasolina",
+      "statementEN": "We will sell RECOPE to lower gas prices",
+      "context": "Promesa de privatización de refinería estatal",
+      "date": "2022-05-20",
+      "category": "promises",
+      "truth": "No se ha presentado proyecto formal para vender RECOPE. La propuesta enfrenta oposición constitucional significativa.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/venta-recope-sin-avance/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Asamblea Legislativa",
+          "url": "https://www.asamblea.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 70,
+      "statement": "El tren eléctrico comenzará en mi gobierno",
+      "statementEN": "The electric train will start during my administration",
+      "context": "Promesa de infraestructura de transporte",
+      "date": "2022-11-15",
+      "category": "promises",
+      "truth": "El proyecto del Tren Eléctrico de Pasajeros no tiene avance significativo. No hay licitación ni financiamiento asegurado.",
+      "sources": [
+        {
+          "name": "Delfino.cr",
+          "url": "https://delfino.cr/2024/05/tren-electrico-sin-avance/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "INCOFER",
+          "url": "https://www.incofer.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 71,
+      "statement": "No hay crisis en la CCSS",
+      "statementEN": "There is no crisis in the CCSS",
+      "context": "Declaraciones sobre sistema de salud pública",
+      "date": "2023-09-15",
+      "category": "health",
+      "truth": "La CCSS enfrenta déficit de ₡200,000 millones, listas de espera récord, y escasez de medicamentos documentada por múltiples medios.",
+      "sources": [
+        {
+          "name": "El País",
+          "url": "https://english.elpais.com/international/2023-07-06/rodrigo-chaves-eagerness-to-transform-costa-rica-impacts-public-health-care-and-education.html",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "CCSS - Junta Directiva",
+          "url": "https://www.ccss.sa.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 72,
+      "statement": "Los periodistas de La Nación son delincuentes",
+      "statementEN": "La Nación journalists are criminals",
+      "context": "Ataques públicos a medios de comunicación",
+      "date": "2023-06-15",
+      "category": "other",
+      "truth": "La IAPA y 27 expresidentes condenaron estos ataques. La Sala IV determinó que constituyen violación a libertad de expresión.",
+      "sources": [
+        {
+          "name": "IAPA",
+          "url": "https://www.sipiapa.org/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2023/07/26/ex-leaders-condemn-costa-rica-presidents-attacks-on-press",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 73,
+      "statement": "Los medios inventan las estadísticas de homicidios",
+      "statementEN": "The media invents homicide statistics",
+      "context": "Negación de crisis de seguridad",
+      "date": "2024-10-15",
+      "category": "other",
+      "truth": "Las estadísticas provienen del OIJ, entidad oficial del Poder Judicial. Costa Rica superó 3,000 homicidios desde mayo 2022.",
+      "sources": [
+        {
+          "name": "OIJ",
+          "url": "https://www.oij.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/12/23/costa-rica-surpasses-3000-homicides-under-president-chaves",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 74,
+      "statement": "No he atacado a ningún periodista",
+      "statementEN": "I have not attacked any journalist",
+      "context": "Negación de ataques documentados a la prensa",
+      "date": "2024-01-15",
+      "category": "other",
+      "truth": "Hay documentación extensa de insultos como 'ratas', 'señores feudales', 'delincuentes' dirigidos a periodistas específicos.",
+      "sources": [
+        {
+          "name": "LatAm Journalism Review",
+          "url": "https://latamjournalismreview.org/articles/costa-rican-president-rodrigo-chaves-plays-central-american-hardball-with-the-press/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Sala Constitucional",
+          "url": "https://salaconstitucional.poder-judicial.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 75,
+      "statement": "La deuda pública está bajo control total",
+      "statementEN": "The public debt is under total control",
+      "context": "Declaraciones sobre situación fiscal",
+      "date": "2024-04-15",
+      "category": "economy",
+      "truth": "La deuda pública supera el 60% del PIB. El FMI advierte que Costa Rica necesita consolidación fiscal adicional.",
+      "sources": [
+        {
+          "name": "FMI - Costa Rica",
+          "url": "https://www.imf.org/en/Countries/CRI",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Ministerio de Hacienda",
+          "url": "https://www.hacienda.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 76,
+      "statement": "Eliminamos la corrupción del gobierno",
+      "statementEN": "We eliminated corruption from the government",
+      "context": "Declaraciones sobre logros anticorrupción",
+      "date": "2024-05-15",
+      "category": "corruption",
+      "truth": "El propio presidente enfrenta cargos de financiamiento ilícito. Múltiples funcionarios están siendo investigados por irregularidades.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/06/23/costa-ricas-president-chaves-accused-of-illicit-campaign-financing",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Ministerio Público",
+          "url": "https://ministeriopublico.poder-judicial.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 77,
+      "statement": "Aumentamos el presupuesto de seguridad como nunca antes",
+      "statementEN": "We increased the security budget like never before",
+      "context": "Declaraciones sobre inversión en seguridad",
+      "date": "2024-03-15",
+      "category": "statistics",
+      "truth": "El gasto social cayó de 24.2% a 20.7% del PIB, el más bajo en una década. La policía reporta falta de recursos y equipamiento.",
+      "sources": [
+        {
+          "name": "Americas Quarterly",
+          "url": "https://americasquarterly.org/article/costa-ricas-safe-haven-reckoning/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Contraloría General",
+          "url": "https://www.cgr.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 78,
+      "statement": "El narcotráfico no ha aumentado en Costa Rica",
+      "statementEN": "Drug trafficking has not increased in Costa Rica",
+      "context": "Minimización de crisis de narcotráfico",
+      "date": "2024-07-15",
+      "category": "statistics",
+      "truth": "Costa Rica se convirtió en centro regional de narcotráfico. Las organizaciones criminales aumentaron de 35 a 340 bajo su gobierno.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/americas/costa-rica-crime-drug-trafficking/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "OIJ",
+          "url": "https://www.oij.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 79,
+      "statement": "La inversión extranjera ha crecido gracias a mi gobierno",
+      "statementEN": "Foreign investment has grown thanks to my government",
+      "context": "Atribución de crecimiento de IED",
+      "date": "2023-11-15",
+      "category": "economy",
+      "truth": "El crecimiento de IED es tendencia de largo plazo que comenzó hace una década. Las zonas francas se establecieron antes de su gobierno.",
+      "sources": [
+        {
+          "name": "CINDE",
+          "url": "https://www.cinde.org/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Banco Central",
+          "url": "https://www.bccr.fi.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 80,
+      "statement": "La Ley Jaguar es constitucional",
+      "statementEN": "The Jaguar Law is constitutional",
+      "context": "Defensa de proyecto de ley cuestionado",
+      "date": "2024-02-15",
+      "category": "other",
+      "truth": "La Sala Constitucional declaró inconstitucionales múltiples artículos de la Ley Jaguar, invalidando aspectos centrales del proyecto.",
+      "sources": [
+        {
+          "name": "Sala Constitucional",
+          "url": "https://salaconstitucional.poder-judicial.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/el-pais/politica/sala-iv-ley-jaguar-inconstitucional/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 81,
+      "statement": "No hubo irregularidades en la contratación del BCIE",
+      "statementEN": "There were no irregularities in the BCIE contract",
+      "context": "Defensa ante acusaciones de corrupción",
+      "date": "2025-06-15",
+      "category": "corruption",
+      "truth": "Fiscales presentaron grabaciones donde supuestamente se discuten detalles del contrato de $405,800 investigado por corrupción.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/07/03/costa-ricas-chaves-slams-supreme-court-as-national-disgrace-in-corruption-clash",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Ministerio Público",
+          "url": "https://ministeriopublico.poder-judicial.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 82,
+      "statement": "Los fiscales me persiguen políticamente",
+      "statementEN": "Prosecutors are politically persecuting me",
+      "context": "Defensa ante investigaciones judiciales",
+      "date": "2025-07-01",
+      "category": "corruption",
+      "truth": "Las investigaciones siguen procedimientos legales estándar. La Corte Suprema siguió protocolo constitucional para solicitar desafuero.",
+      "sources": [
+        {
+          "name": "Poder Judicial",
+          "url": "https://www.poder-judicial.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Halifax City News",
+          "url": "https://halifax.citynews.ca/2025/06/23/costa-rican-prosecutors-accuse-president-other-high-ranking-officials-of-illegal-campaign-finance/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 83,
+      "statement": "Mis ministros no tienen conflictos de interés",
+      "statementEN": "My ministers have no conflicts of interest",
+      "context": "Defensa del gabinete",
+      "date": "2023-04-15",
+      "category": "corruption",
+      "truth": "Varios ministros han sido cuestionados por conflictos de interés, incluyendo vínculos empresariales con sectores que regulan.",
+      "sources": [
+        {
+          "name": "Observador CR",
+          "url": "https://observador.cr/ministros-conflictos-interes/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/ministros-conflictos-de-interes/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "cabinet"
+    },
+    {
+      "id": 84,
+      "statement": "Reduciremos el Estado en un 25%",
+      "statementEN": "We will reduce the State by 25%",
+      "context": "Promesa de campaña sobre reducción estatal",
+      "date": "2022-03-15",
+      "category": "promises",
+      "truth": "No se ha logrado reducción significativa del aparato estatal. Las instituciones prometidas eliminar siguen funcionando.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/promesas-incumplidas-chaves-no-redujo-aparato-estatal-ni-logro-venta-de-instituciones/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Teletica",
+          "url": "https://www.teletica.com/politica/cuales-promesas-de-campana-ha-cumplido-rodrigo-chaves-tras-mil-dias-en-zapote_377740",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 85,
+      "statement": "Mi gobierno ha sido el más transparente de la historia",
+      "statementEN": "My government has been the most transparent in history",
+      "context": "Declaraciones sobre transparencia gubernamental",
+      "date": "2024-05-08",
+      "category": "other",
+      "truth": "El gobierno ha sido criticado por falta de transparencia, restricciones a medios, y negativa a entregar información pública.",
+      "sources": [
+        {
+          "name": "Freedom House",
+          "url": "https://freedomhouse.org/country/costa-rica/freedom-net/2024",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "CPJ",
+          "url": "https://cpj.org/americas/costa-rica/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 86,
+      "statement": "Nunca prometí bajar el precio del arroz",
+      "statementEN": "I never promised to lower rice prices",
+      "context": "Negación de promesa documentada de campaña",
+      "date": "2024-06-15",
+      "category": "promises",
+      "truth": "Existe video de campaña con cuenta regresiva 'Faltan X días para que baje el arroz' y promesas explícitas de reducción.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/esto-prometio-chaves-para-bajar-el-costo-de-vida-y-esta-es-l/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "YouTube - Promesa arroz",
+          "url": "https://www.youtube.com/",
+          "type": "video",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 87,
+      "statement": "El FMI elogia nuestra política económica",
+      "statementEN": "The IMF praises our economic policy",
+      "context": "Declaraciones sobre evaluación internacional",
+      "date": "2024-09-15",
+      "category": "economy",
+      "truth": "El FMI ha expresado preocupación por la sostenibilidad fiscal y recomienda más consolidación, no solo elogios.",
+      "sources": [
+        {
+          "name": "FMI - Article IV Costa Rica",
+          "url": "https://www.imf.org/en/Countries/CRI",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/economia/politica-economica/fmi-costa-rica/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 88,
+      "statement": "La educación ha mejorado bajo mi gobierno",
+      "statementEN": "Education has improved under my government",
+      "context": "Declaraciones sobre resultados educativos",
+      "date": "2024-02-15",
+      "category": "other",
+      "truth": "Hay 849 centros educativos con órdenes sanitarias. El propio Chaves admitió que no observan cambios en calidad educativa.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/las-promesas-incumplidas-de-chaves-educacion-sin-ruta-con-becas-congeladas-y-centros-con-ordenes-sanitarias/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Latina Republic",
+          "url": "https://latinarepublic.com/2024/01/19/the-president-of-costa-rica-reflects-on-2023/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 89,
+      "statement": "Resolveremos la crisis de infraestructura vial",
+      "statementEN": "We will solve the road infrastructure crisis",
+      "context": "Promesa de mejora de carreteras",
+      "date": "2022-06-15",
+      "category": "promises",
+      "truth": "La red vial nacional continúa deteriorándose. Proyectos clave como Ruta 27 y Circunvalación Norte tienen mínimo avance.",
+      "sources": [
+        {
+          "name": "LANAMME-UCR",
+          "url": "https://www.lanamme.ucr.ac.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/promesas-incumplidas-de-chaves-ni-ciudad-gobierno-ni-la-marina-de-limon-ni-los-aeropuertos-vieron-la-luz/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 90,
+      "statement": "No hay trolls en redes sociales trabajando para mi gobierno",
+      "statementEN": "There are no trolls on social media working for my government",
+      "context": "Negación de campañas de acoso coordinadas",
+      "date": "2024-06-15",
+      "category": "other",
+      "truth": "Freedom House e investigadores de UT documentaron uso de trolls y cuentas falsas para atacar críticos y periodistas.",
+      "sources": [
+        {
+          "name": "Freedom House",
+          "url": "https://freedomhouse.org/country/costa-rica/freedom-net/2024",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "The Real News",
+          "url": "https://therealnews.com/el-salvadors-model-of-authoritarianism-is-spreading-to-countries-like-costa-rica-and-honduras",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 91,
+      "statement": "La Contraloría obstruye el desarrollo del país",
+      "statementEN": "The Comptroller obstructs the country's development",
+      "context": "Ataques a órgano de control fiscal",
+      "date": "2024-11-15",
+      "category": "other",
+      "truth": "La Contraloría ejerce control constitucional sobre finanzas públicas. Casa Presidencial admitió bajo juramento que acusaciones fueron 'en sentido figurado'.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2025/01/doblecheck/desinformaciones-del-gobierno-2024/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Contraloría General",
+          "url": "https://www.cgr.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 92,
+      "statement": "Hemos creado más empleos que cualquier gobierno anterior",
+      "statementEN": "We have created more jobs than any previous government",
+      "context": "Declaraciones sobre empleo",
+      "date": "2024-08-15",
+      "category": "economy",
+      "truth": "Entre octubre 2022 y marzo 2023, la economía perdió 97,000 empleos. La baja en desempleo se atribuye a personas que dejaron de buscar trabajo.",
+      "sources": [
+        {
+          "name": "INEC",
+          "url": "https://www.inec.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2023/05/03/president-rodrigo-chaves-reports-on-costa-ricas-progress",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 93,
+      "statement": "Las exportaciones récord son mérito de mi gobierno",
+      "statementEN": "Record exports are my government's achievement",
+      "context": "Atribución de crecimiento exportador",
+      "date": "2024-07-15",
+      "category": "economy",
+      "truth": "El crecimiento exportador es tendencia de largo plazo impulsada por inversiones en zonas francas establecidas hace décadas.",
+      "sources": [
+        {
+          "name": "PROCOMER",
+          "url": "https://www.procomer.com/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Banco Central",
+          "url": "https://www.bccr.fi.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 94,
+      "statement": "No hay favoritismo en las contrataciones públicas",
+      "statementEN": "There is no favoritism in public contracts",
+      "context": "Negación de irregularidades en contratación",
+      "date": "2024-05-15",
+      "category": "corruption",
+      "truth": "Múltiples investigaciones por contrataciones cuestionadas, incluyendo el caso del BCIE y contratos sin licitación.",
+      "sources": [
+        {
+          "name": "Ministerio Público",
+          "url": "https://ministeriopublico.poder-judicial.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/el-pais/politica/contrataciones-irregulares-gobierno-chaves/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 95,
+      "statement": "El partido PPSD no recibió dinero no declarado",
+      "statementEN": "The PPSD party did not receive undeclared money",
+      "context": "Defensa ante investigación de financiamiento",
+      "date": "2025-06-20",
+      "category": "corruption",
+      "truth": "Fiscales acusaron formalmente de financiamiento ilícito mediante 'dos estructuras paralelas' al TSE. Hay grabaciones de audio como evidencia.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/06/23/costa-ricas-president-chaves-accused-of-illicit-campaign-financing",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "TSE",
+          "url": "https://www.tse.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 96,
+      "statement": "Resolvimos el problema del agua en Guanacaste",
+      "statementEN": "We solved the water problem in Guanacaste",
+      "context": "Declaraciones sobre crisis hídrica",
+      "date": "2024-03-15",
+      "category": "promises",
+      "truth": "El proyecto PAACUME tiene solo 10-12% de avance a pesar de tener $425 millones de financiamiento del BCIE ya asegurados.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/promesas-incumplidas-de-chaves-ni-ciudad-gobierno-ni-la-marina-de-limon-ni-los-aeropuertos-vieron-la-luz/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "SENARA",
+          "url": "https://www.senara.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 97,
+      "statement": "El costo de la electricidad ha bajado",
+      "statementEN": "The cost of electricity has gone down",
+      "context": "Declaraciones sobre tarifas eléctricas",
+      "date": "2024-04-15",
+      "category": "economy",
+      "truth": "Las tarifas eléctricas se han mantenido altas. Costa Rica sigue teniendo una de las tarifas más altas de Centroamérica.",
+      "sources": [
+        {
+          "name": "ARESEP",
+          "url": "https://aresep.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/tarifas-electricas-aumentan/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 98,
+      "statement": "La política arrocera benefició a los consumidores",
+      "statementEN": "The rice policy benefited consumers",
+      "context": "Defensa de política agrícola",
+      "date": "2024-08-15",
+      "category": "economy",
+      "truth": "El arroz no bajó de precio. Producción nacional cayó 57%, área cultivada 60%, productores 47%, e importaciones aumentaron 94%.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/chaves-cierra-tercer-ano-con-deficit-arroz-mas-caro-y-sin-tocar-pensiones-de-lujo/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "CONARROZ",
+          "url": "https://www.conarroz.com/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 99,
+      "statement": "La Sala IV actúa por intereses políticos",
+      "statementEN": "The Constitutional Chamber acts on political interests",
+      "context": "Ataques a Sala Constitucional tras fallos adversos",
+      "date": "2024-06-15",
+      "category": "other",
+      "truth": "La Sala IV ejerce control constitucional independiente. Sus fallos adversos al gobierno se basan en análisis jurídico, no político.",
+      "sources": [
+        {
+          "name": "Sala Constitucional",
+          "url": "https://salaconstitucional.poder-judicial.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/el-pais/politica/sala-iv-independencia-judicial/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 100,
+      "statement": "Las becas educativas aumentaron bajo mi gobierno",
+      "statementEN": "Educational scholarships increased under my government",
+      "context": "Declaraciones sobre política educativa",
+      "date": "2024-03-15",
+      "category": "other",
+      "truth": "Las becas están congeladas desde 2022. La meta de 5% de préstamos CONAPE para inglés solo alcanzó 4%.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/las-promesas-incumplidas-de-chaves-educacion-sin-ruta-con-becas-congeladas-y-centros-con-ordenes-sanitarias/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "CONAPE",
+          "url": "https://www.conape.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 101,
+      "statement": "No tenemos responsabilidad en los femicidios",
+      "statementEN": "We have no responsibility for femicides",
+      "context": "Declaraciones sobre violencia de género",
+      "date": "2024-09-15",
+      "category": "statistics",
+      "truth": "Los recortes a programas de prevención y atención a violencia doméstica han afectado la protección de mujeres en riesgo.",
+      "sources": [
+        {
+          "name": "INAMU",
+          "url": "https://www.inamu.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "OIJ - Femicidios",
+          "url": "https://www.oij.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 102,
+      "statement": "La pobreza extrema bajó a mínimos históricos",
+      "statementEN": "Extreme poverty dropped to historic lows",
+      "context": "Declaraciones sobre indicadores sociales",
+      "date": "2024-11-15",
+      "category": "statistics",
+      "truth": "La metodología de medición cambió, haciendo comparaciones directas engañosas. La pobreza no ha bajado significativamente.",
+      "sources": [
+        {
+          "name": "INEC - ENAHO",
+          "url": "https://www.inec.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2024/11/doblecheck/pobreza-no-es-la-mas-baja-desde-que-hay-datos/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 103,
+      "statement": "El crecimiento económico es el mejor en 30 años",
+      "statementEN": "Economic growth is the best in 30 years",
+      "context": "Declaraciones sobre desempeño económico",
+      "date": "2024-04-15",
+      "category": "economy",
+      "truth": "El crecimiento proyectado de 2.7-3.5% es menor que años previos como 2021 (7.8%) y comparable a promedios históricos.",
+      "sources": [
+        {
+          "name": "Banco Central",
+          "url": "https://www.bccr.fi.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2023/04/doblecheck/inflacion-2023-rodrigo-chaves/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 104,
+      "statement": "La oposición impide todos mis proyectos",
+      "statementEN": "The opposition blocks all my projects",
+      "context": "Excusa por incumplimiento de promesas",
+      "date": "2024-07-15",
+      "category": "other",
+      "truth": "Múltiples proyectos fueron rechazados por defectos técnicos y legales, no por obstrucción política. La Ley Jaguar fue declarada inconstitucional.",
+      "sources": [
+        {
+          "name": "Asamblea Legislativa",
+          "url": "https://www.asamblea.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Sala Constitucional",
+          "url": "https://salaconstitucional.poder-judicial.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 105,
+      "statement": "No tengo intención de reelegirme",
+      "statementEN": "I have no intention of being reelected",
+      "context": "Declaraciones sobre futuro político",
+      "date": "2023-05-15",
+      "category": "other",
+      "truth": "Posteriormente Chaves expresó interés en buscar reelección si la Sala IV lo permite, contradiciendo declaraciones anteriores.",
+      "sources": [
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/el-pais/politica/chaves-reeleccion/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/chaves-reeleccion-consecutiva/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 106,
+      "statement": "Cumplí la promesa de transparentar el Consejo de Gobierno",
+      "statementEN": "I fulfilled the promise to make the Government Council transparent",
+      "context": "Declaraciones sobre transparencia",
+      "date": "2023-11-15",
+      "category": "promises",
+      "truth": "Chaves admitió en video que 'me equivoqué' al hacer esta promesa y nunca la implementó.",
+      "sources": [
+        {
+          "name": "Delfino.cr",
+          "url": "https://delfino.cr/2022/11/chaves-justifica-incumplimiento-de-promesa-campana-de-transmitir-el-consejo-de-gobierno",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/el-pais/politica/rodrigo-chaves-me-equivoque-al-prometer/Y2DEHC2SABDKDAFPDWYSTCHXT4/story/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 107,
+      "statement": "La dolarización de la economía no es mi responsabilidad",
+      "statementEN": "The dollarization of the economy is not my responsibility",
+      "context": "Declaraciones sobre tipo de cambio",
+      "date": "2024-02-15",
+      "category": "economy",
+      "truth": "El tipo de cambio se mantuvo artificialmente bajo mientras el Banco Central vendía reservas, generando desequilibrios.",
+      "sources": [
+        {
+          "name": "Banco Central",
+          "url": "https://www.bccr.fi.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/economia/finanzas/tipo-cambio-intervencion-bccr/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 108,
+      "statement": "No hubo nepotismo en nombramientos de mi gobierno",
+      "statementEN": "There was no nepotism in my government's appointments",
+      "context": "Defensa de nombramientos cuestionados",
+      "date": "2023-08-15",
+      "category": "corruption",
+      "truth": "Se documentaron nombramientos de familiares y allegados en puestos clave, cuestionados por la oposición y medios.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/nombramientos-gobierno-chaves/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Observador CR",
+          "url": "https://observador.cr/nombramientos-cuestionados-gobierno/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 109,
+      "statement": "La policía tiene todo el equipo que necesita",
+      "statementEN": "The police have all the equipment they need",
+      "context": "Declaraciones sobre recursos de seguridad",
+      "date": "2024-05-15",
+      "category": "statistics",
+      "truth": "Policías han denunciado falta de vehículos, chalecos, armas y equipamiento básico para enfrentar el crimen organizado.",
+      "sources": [
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/el-pais/seguridad/policia-falta-recursos/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "SEC",
+          "url": "https://www.ministeriodegobernacion.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 110,
+      "statement": "El sector turismo se recuperó gracias a mis políticas",
+      "statementEN": "The tourism sector recovered thanks to my policies",
+      "context": "Atribución de recuperación post-pandemia",
+      "date": "2024-03-15",
+      "category": "economy",
+      "truth": "La recuperación turística es un fenómeno global post-pandemia, no exclusivo de Costa Rica ni atribuible a políticas específicas.",
+      "sources": [
+        {
+          "name": "ICT",
+          "url": "https://www.ict.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "OMT",
+          "url": "https://www.unwto.org/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "minor",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 111,
+      "statement": "No existe una estructura paralela de financiamiento del PPSD",
+      "statementEN": "There is no parallel financing structure of PPSD",
+      "context": "Negación de irregularidades de financiamiento",
+      "date": "2025-06-22",
+      "category": "corruption",
+      "truth": "Fiscales documentaron exactamente 'dos estructuras paralelas' para recaudar fondos fuera del TSE.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/06/23/costa-ricas-president-chaves-accused-of-illicit-campaign-financing",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Ministerio Público",
+          "url": "https://ministeriopublico.poder-judicial.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 112,
+      "statement": "Solucionamos el problema de los venezolanos y nicaragüenses",
+      "statementEN": "We solved the problem of Venezuelans and Nicaraguans",
+      "context": "Declaraciones sobre migración",
+      "date": "2024-06-15",
+      "category": "other",
+      "truth": "No hay política migratoria integral. Human Rights Watch documentó problemas con el acuerdo de deportación con EE.UU.",
+      "sources": [
+        {
+          "name": "Human Rights Watch",
+          "url": "https://www.hrw.org/report/2025/05/22/the-strategy-is-to-break-us/the-us-expulsion-of-third-country-nationals-to-costa",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Dirección de Migración",
+          "url": "https://www.migracion.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 113,
+      "statement": "Las zonas francas son mi logro más importante",
+      "statementEN": "Free trade zones are my most important achievement",
+      "context": "Atribución de éxito de zonas francas",
+      "date": "2024-09-15",
+      "category": "economy",
+      "truth": "Las zonas francas fueron establecidas hace más de 30 años. Su éxito es resultado de políticas de largo plazo.",
+      "sources": [
+        {
+          "name": "CINDE",
+          "url": "https://www.cinde.org/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "PROCOMER",
+          "url": "https://www.procomer.com/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "minor",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 114,
+      "statement": "El PLN y otros partidos son los culpables de todo",
+      "statementEN": "PLN and other parties are to blame for everything",
+      "context": "Evasión de responsabilidad por problemas actuales",
+      "date": "2024-08-15",
+      "category": "other",
+      "truth": "El gobierno lleva casi 3 años. Muchos problemas actuales como la crisis de homicidios se han agravado durante su gestión.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/12/23/costa-rica-surpasses-3000-homicides-under-president-chaves",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/el-pais/politica/tres-anos-gobierno-chaves/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 115,
+      "statement": "Los sindicatos paralizan el país",
+      "statementEN": "Unions paralyze the country",
+      "context": "Ataques a movimiento sindical",
+      "date": "2023-10-15",
+      "category": "other",
+      "truth": "Los sindicatos ejercen derechos constitucionales de negociación y huelga. Las protestas responden a políticas gubernamentales.",
+      "sources": [
+        {
+          "name": "OIT",
+          "url": "https://www.ilo.org/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/sindicatos-responden-chaves/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 116,
+      "statement": "El déficit fiscal es el más bajo en décadas",
+      "statementEN": "The fiscal deficit is the lowest in decades",
+      "context": "Declaraciones sobre finanzas públicas",
+      "date": "2024-12-15",
+      "category": "economy",
+      "truth": "La mejora fiscal se debe principalmente a la Regla Fiscal de la administración anterior y altos ingresos por zonas francas.",
+      "sources": [
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/economia/politica-economica/gobierno-registra-menor-deficit-en-15-anos-pero/6AFBW6OAMZFLJMASY2OCS5RF5Y/story/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Ministerio de Hacienda",
+          "url": "https://www.hacienda.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 117,
+      "statement": "La Ruta de la Educación está documentada",
+      "statementEN": "The Education Route is documented",
+      "context": "Defensa de política educativa",
+      "date": "2024-01-15",
+      "category": "other",
+      "truth": "La Contraloría solicitó documentación en diciembre 2023. La ministra renunció sin haber documentado por escrito la política.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/las-promesas-incumplidas-de-chaves-educacion-sin-ruta-con-becas-congeladas-y-centros-con-ordenes-sanitarias/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Contraloría General",
+          "url": "https://www.cgr.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "cabinet"
+    },
+    {
+      "id": 118,
+      "statement": "No he insultado a nadie públicamente",
+      "statementEN": "I have not insulted anyone publicly",
+      "context": "Negación de comportamiento documentado",
+      "date": "2024-02-15",
+      "category": "other",
+      "truth": "Hay extenso registro de insultos a periodistas ('ratas', 'señores feudales'), la Sala IV, la Contraloría y oponentes políticos.",
+      "sources": [
+        {
+          "name": "LatAm Journalism Review",
+          "url": "https://latamjournalismreview.org/articles/costa-rican-president-rodrigo-chaves-plays-central-american-hardball-with-the-press/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/el-pais/politica/52-falsedades-del-gobierno/ORLTEIINURFIDCM34CK4DX3CKI/story/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 119,
+      "statement": "El poder judicial está politizado",
+      "statementEN": "The judicial power is politicized",
+      "context": "Ataques a independencia judicial tras investigaciones",
+      "date": "2025-07-02",
+      "category": "other",
+      "truth": "Las investigaciones siguen procedimiento legal estándar. Descalificar al poder judicial cuando investiga al gobierno es táctico, no factual.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/07/03/costa-ricas-chaves-slams-supreme-court-as-national-disgrace-in-corruption-clash",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Poder Judicial",
+          "url": "https://www.poder-judicial.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 120,
+      "statement": "Las cárceles están funcionando perfectamente",
+      "statementEN": "The prisons are functioning perfectly",
+      "context": "Declaraciones sobre sistema penitenciario",
+      "date": "2024-04-15",
+      "category": "other",
+      "truth": "Las cárceles costarricenses enfrentan sobrepoblación severa, condiciones inhumanas documentadas, y control parcial de pandillas.",
+      "sources": [
+        {
+          "name": "Ministerio de Justicia",
+          "url": "https://www.mjp.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/el-pais/seguridad/carceles-hacinamiento/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 121,
+      "statement": "Eliminamos la burocracia innecesaria",
+      "statementEN": "We eliminated unnecessary bureaucracy",
+      "context": "Promesa de simplificación estatal",
+      "date": "2023-05-15",
+      "category": "promises",
+      "truth": "Las instituciones prometidas eliminar (CONAVI, COSEVI, CTP, CNP) siguen operando sin cambios significativos.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/promesas-incumplidas-chaves-no-redujo-aparato-estatal-ni-logro-venta-de-instituciones/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "MOPT",
+          "url": "https://www.mopt.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 122,
+      "statement": "El dengue está bajo control",
+      "statementEN": "Dengue is under control",
+      "context": "Declaraciones sobre epidemia",
+      "date": "2024-08-15",
+      "category": "health",
+      "truth": "Costa Rica enfrentó una de las peores epidemias de dengue en su historia durante 2024, con miles de casos y muertes.",
+      "sources": [
+        {
+          "name": "Ministerio de Salud",
+          "url": "https://www.ministeriodesalud.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/dengue-epidemia-record/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 123,
+      "statement": "Todos los costarricenses apoyan mi gobierno",
+      "statementEN": "All Costa Ricans support my government",
+      "context": "Declaraciones sobre apoyo popular",
+      "date": "2024-03-15",
+      "category": "statistics",
+      "truth": "Las encuestas del CIEP muestran aprobación entre 30-40%, no apoyo mayoritario universal.",
+      "sources": [
+        {
+          "name": "CIEP - UCR",
+          "url": "https://ciep.ucr.ac.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/el-pais/politica/encuesta-ciep-aprobacion-chaves/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 124,
+      "statement": "No existe relación entre recortes sociales y aumento de criminalidad",
+      "statementEN": "There is no relationship between social cuts and increased crime",
+      "context": "Negación de impacto de recortes",
+      "date": "2024-09-15",
+      "category": "statistics",
+      "truth": "Expertos en seguridad vinculan directamente la reducción del gasto social de 24.2% a 20.7% del PIB con el aumento de homicidios.",
+      "sources": [
+        {
+          "name": "Americas Quarterly",
+          "url": "https://americasquarterly.org/article/costa-ricas-safe-haven-reckoning/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Estado de la Nación",
+          "url": "https://estadonacion.or.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 125,
+      "statement": "Las Alianzas Estratégicas son legales y transparentes",
+      "statementEN": "Strategic Alliances are legal and transparent",
+      "context": "Defensa de modelo de contratación cuestionado",
+      "date": "2024-05-15",
+      "category": "corruption",
+      "truth": "La modalidad de Alianzas Estratégicas propuesta violaba la Ley de Contratación Pública según la Contraloría.",
+      "sources": [
+        {
+          "name": "Contraloría General",
+          "url": "https://www.cgr.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/promesas-incumplidas-de-chaves-ni-ciudad-gobierno-ni-la-marina-de-limon-ni-los-aeropuertos-vieron-la-luz/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 126,
+      "statement": "El aumento de homicidios es culpa del Poder Judicial",
+      "statementEN": "The increase in homicides is the Judiciary's fault",
+      "context": "Evasión de responsabilidad por crisis de seguridad",
+      "date": "2024-10-15",
+      "category": "other",
+      "truth": "El Ejecutivo controla la política de seguridad, presupuesto policial y programas de prevención, no el Poder Judicial.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/10/16/president-chaves-brushes-off-costa-rica-homicide-surge",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Poder Judicial",
+          "url": "https://www.poder-judicial.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 127,
+      "statement": "No hay crisis humanitaria con los deportados",
+      "statementEN": "There is no humanitarian crisis with deportees",
+      "context": "Declaraciones sobre acuerdo de deportación con EE.UU.",
+      "date": "2025-05-15",
+      "category": "other",
+      "truth": "Human Rights Watch documentó que 85 personas permanecían en centros de recepción sin ser procesadas como prometió el gobierno.",
+      "sources": [
+        {
+          "name": "Human Rights Watch",
+          "url": "https://www.hrw.org/report/2025/05/22/the-strategy-is-to-break-us/the-us-expulsion-of-third-country-nationals-to-costa",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 128,
+      "statement": "El internet en Costa Rica mejoró gracias a mi gobierno",
+      "statementEN": "Internet in Costa Rica improved thanks to my government",
+      "context": "Atribución de mejoras en conectividad",
+      "date": "2024-06-15",
+      "category": "other",
+      "truth": "Las mejoras en internet son inversiones de largo plazo de ICE y operadores privados, no políticas específicas del gobierno actual.",
+      "sources": [
+        {
+          "name": "ICE",
+          "url": "https://www.grupoice.com/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "SUTEL",
+          "url": "https://www.sutel.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "minor",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 129,
+      "statement": "Cumplimos con la construcción de EBAIS prometidos",
+      "statementEN": "We fulfilled the construction of promised EBAIS",
+      "context": "Declaraciones sobre infraestructura de salud",
+      "date": "2024-07-15",
+      "category": "health",
+      "truth": "La construcción de EBAIS está atrasada. Las listas de espera en atención primaria han aumentado.",
+      "sources": [
+        {
+          "name": "CCSS",
+          "url": "https://www.ccss.sa.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/ebais-atrasos-construccion/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 130,
+      "statement": "La Asamblea Legislativa me bloquea todo",
+      "statementEN": "The Legislative Assembly blocks everything from me",
+      "context": "Excusa por proyectos no aprobados",
+      "date": "2024-05-15",
+      "category": "other",
+      "truth": "El gobierno ha aprobado legislación importante. Los proyectos rechazados tenían defectos técnicos o constitucionales.",
+      "sources": [
+        {
+          "name": "Asamblea Legislativa",
+          "url": "https://www.asamblea.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/el-pais/politica/proyectos-aprobados-gobierno-chaves/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 131,
+      "statement": "La UCR es un nido de oposición política",
+      "statementEN": "The UCR is a nest of political opposition",
+      "context": "Ataques a universidad pública tras verificación de hechos",
+      "date": "2023-11-15",
+      "category": "other",
+      "truth": "La UCR y Doble Check realizan verificación de hechos basada en metodología periodística, no oposición política.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/doblecheck/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "IAPA",
+          "url": "https://www.sipiapa.org/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 132,
+      "statement": "Los datos del INEC son manipulados por la oposición",
+      "statementEN": "INEC data is manipulated by the opposition",
+      "context": "Desacreditación de estadísticas oficiales",
+      "date": "2024-04-15",
+      "category": "statistics",
+      "truth": "El INEC es un organismo técnico independiente que produce estadísticas siguiendo estándares internacionales.",
+      "sources": [
+        {
+          "name": "INEC",
+          "url": "https://www.inec.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "CEPAL",
+          "url": "https://www.cepal.org/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 133,
+      "statement": "Tenemos el mejor sistema de salud de Latinoamérica",
+      "statementEN": "We have the best healthcare system in Latin America",
+      "context": "Declaraciones sobre sistema de salud",
+      "date": "2024-08-15",
+      "category": "health",
+      "truth": "Mientras el sistema fue históricamente fuerte, actualmente enfrenta déficit de ₡200,000 millones y listas de espera récord.",
+      "sources": [
+        {
+          "name": "CCSS",
+          "url": "https://www.ccss.sa.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "El País",
+          "url": "https://english.elpais.com/international/2023-07-06/rodrigo-chaves-eagerness-to-transform-costa-rica-impacts-public-health-care-and-education.html",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 134,
+      "statement": "Los ricos pagan más impuestos ahora",
+      "statementEN": "The rich pay more taxes now",
+      "context": "Declaraciones sobre política fiscal",
+      "date": "2024-03-15",
+      "category": "economy",
+      "truth": "No se han implementado reformas significativas de impuestos progresivos. La carga tributaria sigue concentrada en sectores medios.",
+      "sources": [
+        {
+          "name": "Ministerio de Hacienda",
+          "url": "https://www.hacienda.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/economia/politica-economica/impuestos-progresivos/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 135,
+      "statement": "El aeropuerto de Limón ya está en construcción",
+      "statementEN": "The Limón airport is already under construction",
+      "context": "Declaraciones sobre infraestructura aeroportuaria",
+      "date": "2024-06-15",
+      "category": "promises",
+      "truth": "Para 2025, no se ha iniciado ningún proceso licitatorio. Mideplán registra cero avance en los aeropuertos prometidos.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/promesas-incumplidas-de-chaves-ni-ciudad-gobierno-ni-la-marina-de-limon-ni-los-aeropuertos-vieron-la-luz/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Mideplán",
+          "url": "https://www.mideplan.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 136,
+      "statement": "Los aranceles de Trump no nos afectarán",
+      "statementEN": "Trump's tariffs will not affect us",
+      "context": "Declaraciones sobre política comercial",
+      "date": "2025-01-15",
+      "category": "economy",
+      "truth": "El acuerdo de deportación parece vinculado a amenazas arancelarias, demostrando vulnerabilidad a presión comercial de EE.UU.",
+      "sources": [
+        {
+          "name": "Human Rights Watch",
+          "url": "https://www.hrw.org/report/2025/05/22/the-strategy-is-to-break-us/the-us-expulsion-of-third-country-nationals-to-costa",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 137,
+      "statement": "El cambio climático no afecta a Costa Rica",
+      "statementEN": "Climate change does not affect Costa Rica",
+      "context": "Declaraciones minimizando impacto ambiental",
+      "date": "2024-07-15",
+      "category": "other",
+      "truth": "Costa Rica enfrenta sequías en Guanacaste, inundaciones extremas y aumento de dengue vinculados directamente al cambio climático.",
+      "sources": [
+        {
+          "name": "IMN",
+          "url": "https://www.imn.ac.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "PNUMA",
+          "url": "https://www.unep.org/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 138,
+      "statement": "Los medicamentos están disponibles en todos los hospitales",
+      "statementEN": "Medications are available in all hospitals",
+      "context": "Declaraciones sobre abastecimiento farmacéutico",
+      "date": "2024-05-15",
+      "category": "health",
+      "truth": "Múltiples reportajes documentan escasez de medicamentos esenciales en hospitales de la CCSS.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/escasez-medicamentos-ccss/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/el-pais/salud/medicamentos-ccss/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 139,
+      "statement": "Las comunidades indígenas apoyan mis políticas",
+      "statementEN": "Indigenous communities support my policies",
+      "context": "Declaraciones sobre políticas indígenas",
+      "date": "2024-04-15",
+      "category": "other",
+      "truth": "Organizaciones indígenas han protestado contra políticas que afectan sus territorios y derechos ancestrales.",
+      "sources": [
+        {
+          "name": "ADITIBRI",
+          "url": "https://www.aditibri.org/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/comunidades-indigenas-protestan/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 140,
+      "statement": "Mi gestión de la pandemia fue perfecta",
+      "statementEN": "My pandemic management was perfect",
+      "context": "Atribución retroactiva de manejo COVID",
+      "date": "2023-05-15",
+      "category": "health",
+      "truth": "Chaves asumió en mayo 2022 cuando la pandemia ya estaba controlada. El manejo exitoso fue de la administración Alvarado.",
+      "sources": [
+        {
+          "name": "Ministerio de Salud",
+          "url": "https://www.ministeriodesalud.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "OMS",
+          "url": "https://www.who.int/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 141,
+      "statement": "El ambiente empresarial nunca ha sido mejor",
+      "statementEN": "The business environment has never been better",
+      "context": "Declaraciones sobre clima de negocios",
+      "date": "2024-08-15",
+      "category": "economy",
+      "truth": "Empresarios reportan incertidumbre por ataques a instituciones, inseguridad y burocracia sin cambios significativos.",
+      "sources": [
+        {
+          "name": "UCCAEP",
+          "url": "https://www.uccaep.or.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/economia/clima-negocios-costa-rica/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 142,
+      "statement": "No he cambiado de posición sobre ningún tema",
+      "statementEN": "I have not changed my position on any issue",
+      "context": "Negación de contradicciones documentadas",
+      "date": "2024-06-15",
+      "category": "other",
+      "truth": "Hay registro de cambios de posición sobre reelección, Consejo de Gobierno televisado, promesas de arroz y múltiples políticas.",
+      "sources": [
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/el-pais/politica/52-falsedades-del-gobierno/ORLTEIINURFIDCM34CK4DX3CKI/story/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Teletica",
+          "url": "https://www.teletica.com/politica/cuales-promesas-de-campana-ha-cumplido-rodrigo-chaves-tras-mil-dias-en-zapote_377740",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 143,
+      "statement": "La diplomacia de Costa Rica está más fuerte que nunca",
+      "statementEN": "Costa Rica's diplomacy is stronger than ever",
+      "context": "Declaraciones sobre política exterior",
+      "date": "2024-09-15",
+      "category": "other",
+      "truth": "La caída en rankings de libertad de prensa y las acusaciones de ceder a presión de EE.UU. afectan la imagen internacional del país.",
+      "sources": [
+        {
+          "name": "Reporteros Sin Fronteras",
+          "url": "https://rsf.org/en/country/costa-rica",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Freedom House",
+          "url": "https://freedomhouse.org/country/costa-rica",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 144,
+      "statement": "El transporte público mejoró significativamente",
+      "statementEN": "Public transportation improved significantly",
+      "context": "Declaraciones sobre sistema de transporte",
+      "date": "2024-05-15",
+      "category": "promises",
+      "truth": "El tren eléctrico no avanza. Las concesiones de buses siguen sin renovar. El caos vial persiste.",
+      "sources": [
+        {
+          "name": "ARESEP",
+          "url": "https://aresep.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/transporte-publico-crisis/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 145,
+      "statement": "Las pensiones de lujo serán eliminadas en este gobierno",
+      "statementEN": "Luxury pensions will be eliminated in this government",
+      "context": "Promesa de reforma de pensiones",
+      "date": "2022-06-15",
+      "category": "promises",
+      "truth": "Más de dos años después, no se ha aprobado legislación para eliminar las pensiones de lujo.",
+      "sources": [
+        {
+          "name": "CRHoy",
+          "url": "https://crhoy.com/nacionales/chaves-cierra-tercer-ano-con-deficit-arroz-mas-caro-y-sin-tocar-pensiones-de-lujo/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Asamblea Legislativa",
+          "url": "https://www.asamblea.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 146,
+      "statement": "Nunca prometí eliminar impuestos en el primer año",
+      "statementEN": "I never promised to eliminate taxes in the first year",
+      "context": "Negación de promesa documentada",
+      "date": "2024-05-15",
+      "category": "promises",
+      "truth": "Su plan de gobierno prometía explícitamente eliminar 114 impuestos. La promesa está documentada en video y texto.",
+      "sources": [
+        {
+          "name": "Radio Zurquí",
+          "url": "https://radiozurqui.org/politica/las-promesas-incumplidas-de-rodrigo-chaves/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Plan de Gobierno PPSD",
+          "url": "https://www.tse.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 147,
+      "statement": "Los países desarrollados nos admiran",
+      "statementEN": "Developed countries admire us",
+      "context": "Declaraciones sobre imagen internacional",
+      "date": "2024-07-15",
+      "category": "other",
+      "truth": "La IAPA, 27 expresidentes y organizaciones internacionales han condenado los ataques a la prensa bajo su gobierno.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2023/07/26/ex-leaders-condemn-costa-rica-presidents-attacks-on-press",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "IAPA",
+          "url": "https://www.sipiapa.org/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 148,
+      "statement": "No existe ningún audio comprometedor",
+      "statementEN": "There is no compromising audio",
+      "context": "Negación de evidencia en caso BCIE",
+      "date": "2025-07-01",
+      "category": "corruption",
+      "truth": "Fiscales presentaron grabaciones de audio como evidencia central en el caso de corrupción del BCIE.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/07/03/costa-ricas-chaves-slams-supreme-court-as-national-disgrace-in-corruption-clash",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Ministerio Público",
+          "url": "https://ministeriopublico.poder-judicial.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 149,
+      "statement": "La deuda de Hacienda con la CCSS no existe",
+      "statementEN": "The Treasury's debt to CCSS does not exist",
+      "context": "Declaraciones sobre obligaciones estatales con seguridad social",
+      "date": "2024-03-15",
+      "category": "health",
+      "truth": "El gobierno mantiene una deuda acumulada con la CCSS que contribuye a la crisis financiera de la institución.",
+      "sources": [
+        {
+          "name": "CCSS",
+          "url": "https://www.ccss.sa.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "El País",
+          "url": "https://english.elpais.com/international/2023-07-06/rodrigo-chaves-eagerness-to-transform-costa-rica-impacts-public-health-care-and-education.html",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 150,
+      "statement": "Hemos devuelto la paz a los barrios",
+      "statementEN": "We have returned peace to the neighborhoods",
+      "context": "Declaraciones sobre seguridad ciudadana",
+      "date": "2024-11-15",
+      "category": "statistics",
+      "truth": "Los homicidios superaron 3,000 desde que asumió. 2023 fue el año más violento en la historia del país.",
+      "sources": [
+        {
+          "name": "Tico Times",
+          "url": "https://ticotimes.net/2025/12/23/costa-rica-surpasses-3000-homicides-under-president-chaves",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "OIJ",
+          "url": "https://www.oij.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 151,
+      "statement": "El modelo de Bukele es el futuro para Costa Rica",
+      "statementEN": "The Bukele model is the future for Costa Rica",
+      "context": "Declaraciones elogiando modelo salvadoreño",
+      "date": "2024-08-15",
+      "category": "other",
+      "truth": "El modelo de Bukele ha sido criticado internacionalmente por violaciones de derechos humanos y erosión democrática.",
+      "sources": [
+        {
+          "name": "Human Rights Watch - El Salvador",
+          "url": "https://www.hrw.org/americas/el-salvador",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "The Real News",
+          "url": "https://therealnews.com/el-salvadors-model-of-authoritarianism-is-spreading-to-countries-like-costa-rica-and-honduras",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 152,
+      "statement": "Las encuestas que me dan alta aprobación son las correctas",
+      "statementEN": "The polls that give me high approval are the correct ones",
+      "context": "Selectividad con datos de opinión pública",
+      "date": "2024-04-15",
+      "category": "statistics",
+      "truth": "El CIEP de la UCR utiliza metodología científica rigurosa. Descalificar encuestas desfavorables es sesgo, no análisis.",
+      "sources": [
+        {
+          "name": "CIEP - UCR",
+          "url": "https://ciep.ucr.ac.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2023/10/doblecheck/critica-falsa-sobre-encuestas/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 153,
+      "statement": "La investigación del TSE es completamente nueva e inusual",
+      "statementEN": "The TSE investigation is completely new and unusual",
+      "context": "Declaraciones del abogado de Chaves sobre proceso electoral",
+      "date": "2025-02-15",
+      "category": "other",
+      "truth": "El TSE documentó más de 20 casos similares desde 2012 involucrando 8 partidos diferentes.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2025/02/doblecheck/abogado-de-chaves-presento-como-inedita-una-pesquisa-usual-en-investigacion-de-delitos-electorales/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "TSE",
+          "url": "https://www.tse.go.cr/",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 154,
+      "statement": "El país está mejor que cuando llegué",
+      "statementEN": "The country is better than when I arrived",
+      "context": "Declaraciones sobre estado general del país",
+      "date": "2025-05-15",
+      "category": "other",
+      "truth": "Homicidios récord, caída en libertad de prensa, promesas incumplidas, y acusaciones de corrupción caracterizan su gestión.",
+      "sources": [
+        {
+          "name": "Teletica",
+          "url": "https://www.teletica.com/politica/cuales-promesas-de-campana-ha-cumplido-rodrigo-chaves-tras-mil-dias-en-zapote_377740",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/politica/tres-anos-de-rodrigo-chaves-18-metas-incumplidas/DY5XBKJTHJBYZFCZXB7OC3OZVA/story/",
+          "type": "news",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 155,
+      "statement": "La democracia costarricense está intacta bajo mi gobierno",
+      "statementEN": "Costa Rican democracy is intact under my government",
+      "context": "Declaraciones sobre estado de la democracia",
+      "date": "2024-12-15",
+      "category": "other",
+      "truth": "Freedom House, RSF e IAPA documentan deterioro de libertad de prensa y ataques a instituciones democráticas.",
+      "sources": [
+        {
+          "name": "Freedom House",
+          "url": "https://freedomhouse.org/country/costa-rica",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        },
+        {
+          "name": "Reporteros Sin Fronteras",
+          "url": "https://rsf.org/en/country/costa-rica",
+          "type": "official_document",
+          "accessDate": "2025-01-15"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2025-01-15",
+    "totalCount": 155,
+    "categories": ["economy", "health", "corruption", "promises", "statistics", "other"],
+    "sources": {
+      "dobleCheck": "Proyecto de verificación de hechos de la Universidad de Costa Rica",
+      "laNacion": "Periódico La Nación",
+      "crhoy": "CRHoy.com",
+      "ticoTimes": "The Tico Times",
+      "observador": "Observador CR",
+      "delfino": "Delfino.cr",
+      "teletica": "Teletica.com",
+      "freedomHouse": "Freedom House",
+      "humanRightsWatch": "Human Rights Watch",
+      "elPais": "El País"
+    }
+  }
+}
