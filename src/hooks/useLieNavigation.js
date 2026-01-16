@@ -1,11 +1,24 @@
-import { useState, useEffect, useCallback, useMemo } from 'react'
+import { useState, useEffect, useCallback, useMemo, useRef } from 'react'
 import liesData from '../data/lies.json'
 
 export function useLieNavigation() {
-  const [currentIndex, setCurrentIndex] = useState(0)
+  // Initialize currentIndex from URL parameter if present
+  const [currentIndex, setCurrentIndex] = useState(() => {
+    const params = new URLSearchParams(window.location.search)
+    const lieId = params.get('lie')
+    if (lieId) {
+      const id = parseInt(lieId, 10)
+      const index = liesData.lies.findIndex(lie => lie.id === id)
+      if (index !== -1) {
+        return index
+      }
+    }
+    return 0
+  })
   const [categoryFilter, setCategoryFilter] = useState('all')
   const [severityFilter, setSeverityFilter] = useState('all')
   const [isPaused, setIsPaused] = useState(false)
+  const prevFilters = useRef({ category: 'all', severity: 'all' })
 
   // Filter lies based on current filters
   const filteredLies = useMemo(() => {
@@ -41,18 +54,6 @@ export function useLieNavigation() {
     }
   }, [filteredLies])
 
-  // Handle URL parameters for deep linking
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search)
-    const lieId = params.get('lie')
-    if (lieId) {
-      const id = parseInt(lieId, 10)
-      const index = liesData.lies.findIndex(lie => lie.id === id)
-      if (index !== -1) {
-        setCurrentIndex(index)
-      }
-    }
-  }, [])
 
   // Update URL when lie changes
   useEffect(() => {
@@ -93,9 +94,17 @@ export function useLieNavigation() {
     return () => clearInterval(interval)
   }, [goToNext, isPaused])
 
-  // Reset index when filters change
+  // Reset index when filters actually change (not on initial mount)
   useEffect(() => {
-    setCurrentIndex(0)
+    const filtersChanged =
+      prevFilters.current.category !== categoryFilter ||
+      prevFilters.current.severity !== severityFilter
+
+    if (filtersChanged) {
+      setCurrentIndex(0)
+    }
+
+    prevFilters.current = { category: categoryFilter, severity: severityFilter }
   }, [categoryFilter, severityFilter])
 
   return {
