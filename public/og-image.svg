@@ -69,7 +69,7 @@
       <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
     </circle>
     <text x="50" y="28" font-family="Monaco, Consolas, monospace" font-size="14" fill="#a3a3a3" letter-spacing="2">FALSEDADES</text>
-    <text x="50" y="55" font-family="Monaco, Consolas, monospace" font-size="28" font-weight="bold" fill="#f87171">115 DOCUMENTADAS</text>
+    <text x="50" y="55" font-family="Monaco, Consolas, monospace" font-size="28" font-weight="bold" fill="#fbbf24">50 DOCUMENTADAS</text>
   </g>
 
   <!-- Costa Rica flag colors accent (subtle) -->
