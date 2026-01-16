@@ -70,16 +70,16 @@ export function Background() {
 
         ctx.beginPath()
         ctx.arc(x, y, size, 0, Math.PI * 2)
-        ctx.fillStyle = `rgba(220, 38, 38, ${opacity})`
+        ctx.fillStyle = `rgba(245, 158, 11, ${opacity})`
         ctx.fill()
       }
 
       // Draw scan line
       const scanY = ((time * 50) % (canvas.height + 100)) - 50
       const gradient = ctx.createLinearGradient(0, scanY - 2, 0, scanY + 2)
-      gradient.addColorStop(0, 'rgba(220, 38, 38, 0)')
-      gradient.addColorStop(0.5, 'rgba(220, 38, 38, 0.03)')
-      gradient.addColorStop(1, 'rgba(220, 38, 38, 0)')
+      gradient.addColorStop(0, 'rgba(245, 158, 11, 0)')
+      gradient.addColorStop(0.5, 'rgba(245, 158, 11, 0.03)')
+      gradient.addColorStop(1, 'rgba(245, 158, 11, 0)')
       ctx.fillStyle = gradient
       ctx.fillRect(0, scanY - 2, canvas.width, 4)
 
@@ -101,7 +101,7 @@ export function Background() {
         className="fixed inset-0"
         style={{
           background: `
-            radial-gradient(ellipse 80% 50% at 50% -20%, rgba(220, 38, 38, 0.08) 0%, transparent 50%),
+            radial-gradient(ellipse 80% 50% at 50% -20%, rgba(245, 158, 11, 0.08) 0%, transparent 50%),
             radial-gradient(ellipse 60% 40% at 100% 100%, rgba(202, 138, 4, 0.04) 0%, transparent 40%),
             linear-gradient(180deg, #0a0a0a 0%, #0d0d0d 50%, #0a0a0a 100%)
           `,
@@ -156,7 +156,7 @@ export function Background() {
       <div
         className="fixed top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] pointer-events-none"
         style={{
-          background: 'radial-gradient(ellipse at center top, rgba(220, 38, 38, 0.06) 0%, transparent 70%)',
+          background: 'radial-gradient(ellipse at center top, rgba(245, 158, 11, 0.06) 0%, transparent 70%)',
         }}
       />
 

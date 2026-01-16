@@ -18,7 +18,7 @@ export const ExportCard = forwardRef(({ lie }, ref) => {
   const truthSize = lie.truth.length > 350 ? '20px' : lie.truth.length > 250 ? '22px' : '24px'
 
   const severityColors = {
-    critical: { bg: 'rgba(220, 38, 38, 0.25)', border: '#dc2626', text: '#f87171' },
+    critical: { bg: 'rgba(245, 158, 11, 0.25)', border: '#f59e0b', text: '#fbbf24' },
     major: { bg: 'rgba(249, 115, 22, 0.25)', border: '#f97316', text: '#fb923c' },
     moderate: { bg: 'rgba(245, 158, 11, 0.25)', border: '#f59e0b', text: '#fbbf24' },
     minor: { bg: 'rgba(109, 109, 109, 0.25)', border: '#6d6d6d', text: '#b0b0b0' },
@@ -61,15 +61,15 @@ export const ExportCard = forwardRef(({ lie }, ref) => {
           left: 0,
           right: 0,
           height: '6px',
-          background: '#dc2626',
+          background: '#f59e0b',
         }}
       />
 
       {/* Corner brackets */}
-      <div style={{ position: 'absolute', top: '40px', left: '40px', width: '60px', height: '60px', borderTop: '3px solid #dc2626', borderLeft: '3px solid #dc2626' }} />
-      <div style={{ position: 'absolute', top: '40px', right: '40px', width: '60px', height: '60px', borderTop: '3px solid #dc2626', borderRight: '3px solid #dc2626' }} />
-      <div style={{ position: 'absolute', bottom: '40px', left: '40px', width: '60px', height: '60px', borderBottom: '3px solid #dc2626', borderLeft: '3px solid #dc2626' }} />
-      <div style={{ position: 'absolute', bottom: '40px', right: '40px', width: '60px', height: '60px', borderBottom: '3px solid #dc2626', borderRight: '3px solid #dc2626' }} />
+      <div style={{ position: 'absolute', top: '40px', left: '40px', width: '60px', height: '60px', borderTop: '3px solid #f59e0b', borderLeft: '3px solid #f59e0b' }} />
+      <div style={{ position: 'absolute', top: '40px', right: '40px', width: '60px', height: '60px', borderTop: '3px solid #f59e0b', borderRight: '3px solid #f59e0b' }} />
+      <div style={{ position: 'absolute', bottom: '40px', left: '40px', width: '60px', height: '60px', borderBottom: '3px solid #f59e0b', borderLeft: '3px solid #f59e0b' }} />
+      <div style={{ position: 'absolute', bottom: '40px', right: '40px', width: '60px', height: '60px', borderBottom: '3px solid #f59e0b', borderRight: '3px solid #f59e0b' }} />
 
       {/* Main content */}
       <div
@@ -100,7 +100,7 @@ export const ExportCard = forwardRef(({ lie }, ref) => {
                 color: '#ffffff',
               }}
             >
-              MENTIRAS DE CHAVES
+              MENTIRAS DE PILAR CISNEROS
             </div>
             <div
               style={{
@@ -147,8 +147,8 @@ export const ExportCard = forwardRef(({ lie }, ref) => {
               fontSize: '160px',
               fontWeight: 900,
               lineHeight: 0.85,
-              color: '#dc2626',
-              textShadow: '4px 4px 0px #7f1d1d',
+              color: '#f59e0b',
+              textShadow: '4px 4px 0px #92400e',
             }}
           >
             {String(lie.id).padStart(3, '0')}
@@ -458,7 +458,7 @@ export const ExportCard = forwardRef(({ lie }, ref) => {
               color: '#555555',
             }}
           >
-            mentirasdechaves.com
+            mentirasdepilar.com
           </span>
 
           <span
@@ -476,7 +476,7 @@ export const ExportCard = forwardRef(({ lie }, ref) => {
                 width: '12px',
                 height: '12px',
                 borderRadius: '50%',
-                background: '#dc2626',
+                background: '#f59e0b',
               }}
             />
             Falsedad Verificada
@@ -498,8 +498,8 @@ export const ExportCard = forwardRef(({ lie }, ref) => {
             letterSpacing: '0.2em',
             textTransform: 'uppercase',
             color: '#ffffff',
-            background: '#b91c1c',
-            border: '4px solid #991b1b',
+            background: '#d97706',
+            border: '4px solid #b45309',
             transform: 'rotate(-12deg)',
             zIndex: 20,
           }}

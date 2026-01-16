@@ -6,12 +6,12 @@ export function ShareButton({ lie }) {
 
   const handleShare = async () => {
     const url = `${window.location.origin}${window.location.pathname}?lie=${lie.id}`
-    const text = `Falsedad #${lie.id} de Rodrigo Chaves: "${lie.statement.substring(0, 100)}..."`
+    const text = `Falsedad #${lie.id} de Pilar Cisneros: "${lie.statement.substring(0, 100)}..."`
 
     if (navigator.share) {
       try {
         await navigator.share({
-          title: 'Mentiras de Rodrigo Chaves - Expediente Documentado',
+          title: 'Mentiras de Pilar Cisneros - Expediente Documentado',
           text: text,
           url: url,
         })

@@ -56,7 +56,7 @@ export function LieDisplay({ lie, onMouseEnter, onMouseLeave }) {
               <span
                 className="absolute -top-2 -right-2 sm:top-0 sm:right-0 text-[80px] sm:text-[120px] lg:text-[160px] font-mono font-bold leading-none gradient-text-crimson"
                 style={{
-                  WebkitTextStroke: '1px rgba(220, 38, 38, 0.3)',
+                  WebkitTextStroke: '1px rgba(245, 158, 11, 0.3)',
                   WebkitTextFillColor: 'transparent',
                 }}
               >

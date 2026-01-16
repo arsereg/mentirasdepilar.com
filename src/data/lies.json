@@ -1,38 +1,56 @@
 {
+  "metadata": {
+    "categories": [
+      { "id": "economy", "label": "Economía", "labelEN": "Economy" },
+      { "id": "health", "label": "Salud", "labelEN": "Health" },
+      { "id": "corruption", "label": "Corrupción", "labelEN": "Corruption" },
+      { "id": "promises", "label": "Promesas", "labelEN": "Promises" },
+      { "id": "statistics", "label": "Estadísticas", "labelEN": "Statistics" },
+      { "id": "other", "label": "Otros", "labelEN": "Other" }
+    ],
+    "severities": [
+      { "id": "minor", "label": "Menor", "labelEN": "Minor" },
+      { "id": "moderate", "label": "Moderada", "labelEN": "Moderate" },
+      { "id": "major", "label": "Mayor", "labelEN": "Major" },
+      { "id": "critical", "label": "Crítica", "labelEN": "Critical" }
+    ],
+    "lastUpdated": "2026-01-16",
+    "totalLies": 50
+  },
   "lies": [
     {
       "id": 1,
-      "statement": "Los presupuestos del Poder Judicial crecieron más de 12 veces entre 2000 y 2018",
-      "statementEN": "The Judicial Power budgets grew more than 12 times between 2000 and 2018",
-      "context": "Declaración ante la Corte Plena del Poder Judicial",
-      "date": "2022-06-20",
-      "category": "statistics",
-      "truth": "El crecimiento real fue de 2.65 veces (265%), no 12 veces. El Estado de la Justicia del Programa Estado de la Nación verificó esta cifra ajustando por inflación usando el IPC.",
+      "statement": "Intel está reconsiderando la posibilidad de invertir millones de dólares en Costa Rica porque necesitan las jornadas de 12 horas",
+      "statementEN": "Intel is reconsidering investing millions of dollars in Costa Rica because they need the 12-hour workdays",
+      "context": "Declaración en el plenario de la Asamblea Legislativa tras el rechazo de la Sala Constitucional a las jornadas 4x3",
+      "date": "2023-11-17",
+      "category": "economy",
+      "truth": "Intel desmintió públicamente esta afirmación, confirmando que sus planes de inversión en Costa Rica no han cambiado y que el país sigue siendo una parte importante de sus operaciones de manufactura global. La Casa Presidencial reconoció que Chaves solo tuvo una conversación con Intel, no con 'empresas importantes' como afirmó Cisneros.",
       "sources": [
         {
           "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2022/06/doblecheck/rodrigo-chaves-datos-incorrectos-poder-judicial/",
+          "url": "https://radios.ucr.ac.cr/2024/02/doblecheck/falsa-alarma-jornadas-4x3/",
           "type": "fact_check",
-          "accessDate": "2025-01-15"
+          "accessDate": "2026-01-16"
         }
       ],
-      "severity": "major",
-      "relatedParty": "personal"
+      "severity": "critical",
+      "relatedParty": "PPSD"
     },
     {
       "id": 2,
-      "statement": "Educación recibe solo 6.8% del presupuesto nacional",
-      "statementEN": "Education receives only 6.8% of the national budget",
-      "context": "Sesión ante la Corte Plena respondiendo a magistrada Sandra Zúñiga",
-      "date": "2022-06-20",
+      "statement": "El 57% de las personas en el país cree que ningún periodista es creíble",
+      "statementEN": "57% of people in the country believe that no journalist is credible",
+      "context": "Sesión legislativa presentando supuestos hallazgos de encuesta de la Universidad de Costa Rica",
+      "date": "2023-10-15",
       "category": "statistics",
-      "truth": "Según la Contraloría General de la República, el MEP recibe 23% del presupuesto nacional, no 6.8%. Chaves confundió porcentaje del PIB con porcentaje del presupuesto.",
+      "truth": "La encuesta real de PROLEDI y CIEP de la UCR mostró que solo el 20% de la muestra indicó que ningún medio tiene credibilidad actualmente, y el 10.56% no pudo dar ningún nombre. Los investigadores confirmaron que Cisneros tergiversó la información.",
       "sources": [
         {
           "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2022/06/doblecheck/rodrigo-chaves-datos-incorrectos-poder-judicial/",
+          "url": "https://radios.ucr.ac.cr/2023/10/doblecheck/pilar-cisneros-tergiversar-una-encuesta/",
           "type": "fact_check",
-          "accessDate": "2025-01-15"
+          "accessDate": "2026-01-16"
         }
       ],
       "severity": "major",
@@ -40,43 +58,37 @@
     },
     {
       "id": 3,
-      "statement": "El decreto elimina la obligatoriedad de la vacuna contra COVID-19",
-      "statementEN": "The decree eliminates mandatory COVID-19 vaccination",
-      "context": "Anuncio en Teatro 1887, primer día de gobierno",
-      "date": "2022-05-08",
-      "category": "health",
-      "truth": "El decreto no cambió los requisitos de vacunación. Solo 'solicitó' a la CNVE (Comisión Nacional de Vacunación) que diera recomendaciones. La CNVE mantiene la autoridad legal sobre vacunas obligatorias.",
+      "statement": "Más del 80% de la población no confía en Teletica ni en Repretel",
+      "statementEN": "More than 80% of the population does not trust Teletica or Repretel",
+      "context": "Sesión legislativa presentando supuestos hallazgos de encuesta de la Universidad de Costa Rica",
+      "date": "2023-10-15",
+      "category": "statistics",
+      "truth": "Los coordinadores del centro PROLEDI aclararon que la encuesta preguntó cuál medio tiene 'más credibilidad', no cuál 'no tiene credibilidad'. Teletica recibió 18.3% y Repretel 16.5% de menciones como más creíble. Cisneros realizó una inversión lógica que los investigadores rechazaron explícitamente como imposible de concluir.",
       "sources": [
         {
           "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2022/05/doblecheck/decreto-rodrigo-chaves-no-cambia-obligatoriedad-vacuna-anticovid/",
+          "url": "https://radios.ucr.ac.cr/2023/10/doblecheck/pilar-cisneros-tergiversar-una-encuesta/",
           "type": "fact_check",
-          "accessDate": "2025-01-15"
-        },
-        {
-          "name": "La Nación",
-          "url": "https://www.nacion.com/el-pais/politica/decreto-de-chaves-sobre-vacunacion-no-estaba/HFJS33LNTRFQ7HOVWJDCAZOF5E/story/",
-          "type": "news",
-          "accessDate": "2025-01-15"
+          "accessDate": "2026-01-16"
         }
       ],
-      "severity": "critical",
+      "severity": "major",
       "relatedParty": "personal"
     },
     {
       "id": 4,
-      "statement": "Costa Rica no tiene suficientes reservas en dólares",
-      "statementEN": "Costa Rica doesn't have sufficient dollar reserves",
-      "context": "Declaraciones públicas sobre situación económica heredada",
-      "date": "2022-06-15",
-      "category": "economy",
-      "truth": "El Banco Central de Costa Rica desmintió esta afirmación, confirmando que el país sí contaba con reservas adecuadas en dólares.",
+      "statement": "El 95% de las personas son incapaces de identificar un solo ataque contra la prensa en el país",
+      "statementEN": "95% of people are unable to identify a single attack against the press in the country",
+      "context": "Sesión legislativa presentando supuestos hallazgos de encuesta de la Universidad de Costa Rica",
+      "date": "2023-10-15",
+      "category": "statistics",
+      "truth": "La encuesta preguntó por 'la mayor amenaza' a la libertad de expresión, y 95% se abstuvo o dijo no poder identificarla. Sin embargo, el 63% de los encuestados SÍ reportaron conocer ataques y ofensas contra los medios. Cisneros tergiversó los datos.",
       "sources": [
         {
-          "name": "Cultura CR",
-          "url": "https://culturacr.net/banco-central-desmiente-al-presidente-chaves-sobre-reservas-usadas-en-gobierno-anterior/",
-          "type": "news",
-          "accessDate": "2025-01-15"
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2023/10/doblecheck/pilar-cisneros-tergiversar-una-encuesta/",
+          "type": "fact_check",
+          "accessDate": "2026-01-16"
         }
       ],
       "severity": "major",
@@ -84,2216 +96,931 @@
     },
     {
       "id": 5,
-      "statement": "La Caja Costarricense del Seguro Social está sujeta a la regla fiscal",
-      "statementEN": "The Costa Rican Social Security Fund is subject to the fiscal rule",
-      "context": "Declaraciones sobre restricciones presupuestarias",
-      "date": "2022-07-20",
-      "category": "economy",
-      "truth": "El Ministro de Hacienda Nogui Acosta aclaró que la CCSS está explícitamente excluida de la regla fiscal.",
+      "statement": "Las jornadas 4x3 solo aplicarían al 5% o menos de los trabajadores, el 95% continuará en su jornada normal",
+      "statementEN": "The 4x3 workdays would only apply to 5% or fewer workers, 95% will continue with their normal workday",
+      "context": "Debate legislativo sobre la propuesta de jornadas laborales extendidas",
+      "date": "2023-08-15",
+      "category": "statistics",
+      "truth": "Doble Check examinó 77 documentos del expediente legislativo y ninguno cuantifica la población elegible para las jornadas 4x3. La UCR y el INEC confirmaron que no existen datos sobre esta población. Cisneros citó porcentajes sin base documental alguna y cuando se le pidió fuentes respondió: 'Con todo respeto, no le voy a hacer el trabajo a usted. Busque en Google.'",
       "sources": [
         {
-          "name": "Revista Reflexiones UCR",
-          "url": "https://archivo.revistas.ucr.ac.cr/index.php/reflexiones/article/download/62086/63366/301949",
-          "type": "academic",
-          "accessDate": "2025-01-15"
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2023/09/doblecheck/no-hay-certeza-cuantos-trabajadores-jornadas-4x3/",
+          "type": "fact_check",
+          "accessDate": "2026-01-16"
+        },
+        {
+          "name": "Doble Check - UCR (2025)",
+          "url": "https://radios.ucr.ac.cr/2025/06/doblecheck/no-hay-pruebas-jornadas-4x3-cubririan-5-poblacion/",
+          "type": "fact_check",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 6,
+      "statement": "El fideicomiso Costa Rica Próspera fue creado antes del registro oficial de la candidatura de Rodrigo Chaves, se cerró un día antes",
+      "statementEN": "The Costa Rica Próspera trust was created before the official registration of Rodrigo Chaves' candidacy, it was closed one day before",
+      "context": "Comisión legislativa especial investigando el financiamiento de campaña 2022",
+      "date": "2023-02-15",
+      "category": "corruption",
+      "truth": "El TSE indicó que la primera ratificación interna de Chaves como candidato presidencial ocurrió el 4 de julio de 2021. Además, Cisneros citó selectivamente una resolución del TSE de 2009, omitiendo la parte donde indica que estos grupos privados no deben usarse como medios indirectos de financiamiento partidario.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2023/03/doblecheck/pilar-cisneros-costa-rica-prospera/",
+          "type": "fact_check",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 7,
+      "statement": "La presidenta del Tribunal Electoral ha trabajado toda su vida atada a un partido político, solo al PLN. No ha tenido un solo trabajo fuera del PLN y luego en el Tribunal Electoral",
+      "statementEN": "The Electoral Tribunal president has worked her entire life tied to a political party, only to the PLN. She has not had a single job outside the PLN and then the Electoral Tribunal",
+      "context": "Sesión legislativa defendiendo las críticas del presidente Chaves contra Eugenia Zamora, presidenta del TSE",
+      "date": "2025-10-30",
+      "category": "other",
+      "truth": "El currículum público de Zamora demuestra que trabajó en la ONU (ACNUR) en México de 1983-1985, como directora del Instituto Interamericano del Niño de la OEA en Uruguay por más de 7 años (1988-1996), y como consultora de la Fundación Arias de 2003-2005. Casi una década de trabajo en organizaciones internacionales y no gubernamentales.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2025/11/doblecheck/trayectoria-laboral-de-eugenia-zamora/",
+          "type": "fact_check",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 8,
+      "statement": "Si Costa Rica eliminara las exenciones fiscales para grupos poderosos, podría pagar todo el déficit fiscal sin nuevos impuestos",
+      "statementEN": "If Costa Rica eliminated tax exemptions for powerful groups, it could pay the entire fiscal deficit without new taxes",
+      "context": "Video publicado en redes sociales sobre política fiscal",
+      "date": "2020-12-01",
+      "category": "economy",
+      "truth": "Doble Check calificó esta afirmación como 'falsa y exagerada'. Cisneros confundió erróneamente dos conjuntos de datos distintos: las 192 leyes que proporcionan exenciones fiscales y la magnitud total de las exenciones como porcentaje del PIB. Cuando se le pidieron fuentes, solo dio una referencia vaga a 'un artículo de un economista'.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2020/12/doblecheck/verificacion-a-critica-de-pilar-cisneros/",
+          "type": "fact_check",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 9,
+      "statement": "Dirigió campaña de desinformación con información fabricada sobre Leonel Baruch",
+      "statementEN": "Directed disinformation campaign with fabricated information about Leonel Baruch",
+      "context": "Testimonio jurado de Alberto Vargas Zúñiga ('Piero Calandrelli') ante la Fiscalía General",
+      "date": "2021-11-15",
+      "category": "corruption",
+      "truth": "Según testimonio bajo juramento en el caso 23-000009-0033-PE, Cisneros identificó los objetivos a atacar, aprobó el contenido e instruyó: 'no importa si tiene que exagerar, porque el tico básico todo se lo cree'. El testigo declaró que el 95% de la información del video sobre el 'megacaso' de evasión fiscal de ₡11 mil millones fue inventada o tergiversada.",
+      "sources": [
+        {
+          "name": "CR Hoy",
+          "url": "https://crhoy.com/nacionales/trol-revela-ante-fiscalia-lo-que-pilar-cisneros-le-dijo-el-tico-basico-todo-se-lo-cree/",
+          "type": "news",
+          "accessDate": "2026-01-16"
+        },
+        {
+          "name": "CR Hoy - Testigo revela",
+          "url": "https://crhoy.com/nacionales/testigo-revelo-que-pilar-cisneros-ordeno-atacar-a-leonel-baruch-y-otros-en-campana-de-chaves/",
+          "type": "news",
+          "accessDate": "2026-01-16"
+        },
+        {
+          "name": "Doble Check - Interferencia",
+          "url": "https://radios.ucr.ac.cr/2023/08/interferencia/piero-baruch/",
+          "type": "fact_check",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 10,
+      "statement": "Nunca entraría a la política electoral",
+      "statementEN": "I would never enter electoral politics",
+      "context": "Múltiples entrevistas antes de 2021 donde afirmó con 'contundencia, convicción y de corazón' que no entraría a la política",
+      "date": "2020-01-01",
+      "category": "promises",
+      "truth": "El 30 de agosto de 2021, anunció su candidatura como diputada por el PPSD, contradiciendo directamente sus declaraciones anteriores. También describió al PPSD como 'un partido nuevo de gente sencilla, profesional y trabajadora', pero en agosto de 2023 denunció al partido y a su presidenta Luz Mary Alpízar como corruptos.",
+      "sources": [
+        {
+          "name": "CR Hoy",
+          "url": "https://crhoy.com/nacionales/la-mentira-marca-carrera-politica-de-pilar-cisneros/",
+          "type": "news",
+          "accessDate": "2026-01-16"
         }
       ],
       "severity": "moderate",
       "relatedParty": "personal"
     },
     {
-      "id": 6,
-      "statement": "El daño a la pista del aeropuerto de Liberia fue causado por la tormenta tropical Bonnie",
-      "statementEN": "The damage to Liberia airport runway was caused by tropical storm Bonnie",
-      "context": "Justificación para contratación de emergencia por $40 millones",
-      "date": "2023-06-21",
-      "category": "corruption",
-      "truth": "Un informe técnico de la Unidad de Infraestructura Aeronáutica estableció que 'no había elementos suficientes para atribuir el daño de la pista al paso de Bonnie'. La pista se había deteriorado durante años antes de la tormenta. Se usaron fotografías de 2019 para justificar el daño.",
+      "id": 11,
+      "statement": "El TSE impone una 'mordaza' al gobierno al prohibir la difusión de logros gubernamentales durante la campaña electoral",
+      "statementEN": "The TSE imposes a 'gag order' on the government by prohibiting the dissemination of government achievements during the electoral campaign",
+      "context": "Declaraciones acusando al Tribunal Supremo de Elecciones de censura",
+      "date": "2025-10-15",
+      "category": "other",
+      "truth": "El TSE ha aclarado durante años que lo que determina la prohibición es el uso de recursos públicos para producir información, no el pago de publicidad. La interpretación actualizada del TSE se basa en sentencias vinculantes de la Corte Interamericana de Derechos Humanos de octubre 2024, no en reinterpretación arbitraria.",
       "sources": [
         {
-          "name": "CRHoy",
-          "url": "https://crhoy.com/nacionales/caso-pista-oscura-chaves-y-amador-estan-bajo-investigacion-en-causa-penal-paralela/",
-          "type": "news",
-          "accessDate": "2025-01-15"
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2025/10/doblecheck/pilar-cisneros-evade-fundamentar-mordaza-tse/",
+          "type": "fact_check",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 12,
+      "statement": "La propuesta costarricense de jornadas 4x3 es similar a las iniciativas laborales españolas de reducción de horas",
+      "statementEN": "The Costa Rican 4x3 workday proposal is similar to Spanish labor initiatives for hour reduction",
+      "context": "Debates legislativos sobre la propuesta de jornadas laborales extendidas",
+      "date": "2022-05-15",
+      "category": "other",
+      "truth": "Las iniciativas españolas buscaban mantener o aumentar la compensación mientras reducían las horas semanales de 40 a 32. La propuesta costarricense extiende las horas diarias a 12 sin garantizar compensación adicional, manteniendo el máximo de 48 horas semanales. El economista Luis Paulino Vargas documentó que son políticas con principios opuestos.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2022/05/doblecheck/propuesta-jornadas-4-3-no-es-igual-que-nueva-semana-laboral-reino-unido/",
+          "type": "fact_check",
+          "accessDate": "2026-01-16"
         },
         {
-          "name": "Revista Reflexiones UCR",
-          "url": "https://archivo.revistas.ucr.ac.cr/index.php/reflexiones/article/download/62086/63366/301949",
-          "type": "academic",
-          "accessDate": "2025-01-15"
+          "name": "Surcos Digital",
+          "url": "https://surcosdigital.com/jornadas-laborales-de-12-horas-la-demagogia-de-pilar-cisneros/",
+          "type": "news",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 13,
+      "statement": "Recomendó a ministros del gobierno que mintieran: 'Si puede no mentir, no mienta'",
+      "statementEN": "Recommended government ministers to lie: 'If you can avoid lying, don't lie'",
+      "context": "Entrevista con el periodista Douglas Sánchez en el programa 'Cara a Cara'",
+      "date": "2025-08-08",
+      "category": "corruption",
+      "truth": "Esta formulación reconoce una recomendación previa de mentir como táctica, aunque intentó posicionarla como consejo condicional. La declaración representa una admisión significativa sobre su enfoque hacia la veracidad en la gobernanza.",
+      "sources": [
+        {
+          "name": "CR Hoy",
+          "url": "https://crhoy.com/nacionales/la-mentira-marca-carrera-politica-de-pilar-cisneros/",
+          "type": "news",
+          "accessDate": "2026-01-16"
         }
       ],
       "severity": "critical",
-      "relatedParty": "government"
+      "relatedParty": "cabinet"
     },
     {
-      "id": 7,
-      "statement": "Visitaré Letonia para reunirme con un funcionario",
-      "statementEN": "I will visit Latvia to meet with an official",
-      "context": "Anuncio de viaje oficial a Europa",
-      "date": "2023-07-15",
-      "category": "other",
-      "truth": "El funcionario era de Lituania, no de Letonia. Son dos países bálticos completamente diferentes. Casa Presidencial tuvo que reconocer el error geográfico.",
+      "id": 14,
+      "statement": "¿Por qué debemos informar? ¿Qué es transparencia? ¿Deben todas las reuniones ser públicas?",
+      "statementEN": "Why should we inform? What is transparency? Must all meetings be public?",
+      "context": "Discusiones sobre eurobonos del gobierno y transparencia en julio 2022",
+      "date": "2022-07-15",
+      "category": "corruption",
+      "truth": "Estas respuestas indicaron un rechazo fundamental a los principios de transparencia en la gobernanza democrática, cuestionando la necesidad de informar al público sobre reuniones y deliberaciones de órganos gubernamentales.",
       "sources": [
         {
-          "name": "Cultura CR",
-          "url": "https://culturacr.net/presidente-chaves-visitara-pais-de-primera-dama-con-excusa-falsa-confundio-letonia-con-lituania/",
+          "name": "CR Hoy",
+          "url": "https://crhoy.com/nacionales/la-mentira-marca-carrera-politica-de-pilar-cisneros/",
           "type": "news",
-          "accessDate": "2025-01-15"
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 15,
+      "statement": "Participación en financiamiento electoral ilícito - 'esquema oscuro' de aproximadamente $500,000",
+      "statementEN": "Participation in illicit electoral financing - 'dark scheme' of approximately $500,000",
+      "context": "Acusación formal de la Fiscalía General solicitando desafuero e inicio de juicio",
+      "date": "2025-06-24",
+      "category": "corruption",
+      "truth": "La Fiscalía General presentó acusación criminal contra Cisneros y otros siete funcionarios por su presunta participación en financiamiento político ilícito. Se detallan estructuras de financiamiento paralelas con aproximadamente $500,000 moviéndose por canales irregulares.",
+      "sources": [
+        {
+          "name": "El País",
+          "url": "https://elpais.com/america/2025-06-24/la-fiscalia-de-costa-rica-acusa-al-presidente-chaves-de-financiamiento-electoral-ilegal.html",
+          "type": "news",
+          "accessDate": "2026-01-16"
         },
         {
-          "name": "La Teja",
-          "url": "https://www.lateja.cr/nacional/rodrigo-chaves-justifico-viaje-a-letonia-el-pais/6U4O3F2N2BELNLSJFG6PMBJAVU/story/",
+          "name": "Monumental",
+          "url": "https://www.monumental.co.cr/2025/10/15/inicia-conocimiento-de-caso-contra-chaves-y-cisneros-por-presunto-financiamiento-irregular/",
           "type": "news",
-          "accessDate": "2025-01-15"
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 16,
+      "statement": "La propuesta 4x3 de Costa Rica es igual al modelo de semana laboral de 4 días del Reino Unido",
+      "statementEN": "Costa Rica's 4x3 proposal is the same as the UK's 4-day work week model",
+      "context": "Presentaciones durante junio y julio 2022 promoviendo las jornadas 4x3",
+      "date": "2022-06-20",
+      "category": "other",
+      "truth": "El programa británico Four Day Week Global reduce las horas semanales de 40 a 32 manteniendo el salario completo. La propuesta costarricense mantiene las 48 horas semanales pero comprimidas en 4 días de 12 horas. Son modelos fundamentalmente diferentes: uno reduce tiempo laboral, el otro solo lo redistribuye.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2022/05/doblecheck/propuesta-jornadas-4-3-no-es-igual-que-nueva-semana-laboral-reino-unido/",
+          "type": "fact_check",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 17,
+      "statement": "El 96% de las personas que actualmente trabajan en jornadas 4x3 indican que quieren continuar en este esquema",
+      "statementEN": "96% of people currently working 4x3 schedules indicate they want to continue",
+      "context": "Programa de televisión 'Según Pilar Cisneros' en mayo 2025",
+      "date": "2025-05-15",
+      "category": "statistics",
+      "truth": "Esta estadística fue presentada sin citación, atribución de fuente ni transparencia metodológica sobre cómo se recopilaron los datos. Ninguna organización de verificación independiente validó esta cifra del 96%, y Cisneros no proporcionó ninguna institución de investigación ni metodología de encuesta.",
+      "sources": [
+        {
+          "name": "YouTube - Según Pilar Cisneros",
+          "url": "https://www.youtube.com/watch?v=5DzySVKZg0Y",
+          "type": "video",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 18,
+      "statement": "La inversión de Costa Rica para atender la pobreza no ha permitido reducir la pobreza",
+      "statementEN": "Costa Rica's investment to address poverty has not allowed poverty reduction",
+      "context": "Video publicado en redes sociales sobre política fiscal",
+      "date": "2020-12-01",
+      "category": "statistics",
+      "truth": "Doble Check verificó que esta afirmación es FALSA. Según datos oficiales, las tasas de pobreza en Costa Rica habían disminuido de aproximadamente 21.6% de los hogares a 18.9%, con reducción particular en las tasas de pobreza extrema.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2020/12/doblecheck/verificacion-a-critica-de-pilar-cisneros/",
+          "type": "fact_check",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 19,
+      "statement": "Los ingresos promedio en el sector público son tres veces más altos que en el sector privado",
+      "statementEN": "Average incomes in the public sector are three times higher than in the private sector",
+      "context": "Declaraciones sobre gasto gubernamental y asignación de recursos",
+      "date": "2020-12-01",
+      "category": "statistics",
+      "truth": "Doble Check aplicó metodología de análisis de regresión controlando variables como nivel educativo, clasificación laboral, estatus de formalidad y horas trabajadas, encontrando que el diferencial real es aproximadamente 32%, no 300%. La comparación bruta ignora que los puestos públicos requieren mayor educación y son empleos formales a tiempo completo.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2020/12/doblecheck/verificacion-a-critica-de-pilar-cisneros/",
+          "type": "fact_check",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 20,
+      "statement": "Mientras otros países cosechan entre 10 y 14 toneladas de arroz por hectárea, aquí producimos entre 3 y 4 toneladas",
+      "statementEN": "While other countries harvest between 10 and 14 tons of rice per hectare, here we produce between 3 and 4 tons",
+      "context": "Oposición al proyecto Fonarroz (fondo de apoyo a productores de arroz)",
+      "date": "2025-09-15",
+      "category": "statistics",
+      "truth": "Según datos del USDA y FAS Crop Explorer, Costa Rica logra rendimientos de 4.25 a 4.64 toneladas por hectárea, superando a Tailandia (2.79-2.86 t/ha) e igualando a India (4.19-4.32 t/ha), el mayor exportador mundial. Conarroz confirmó que las declaraciones 'carecen de cualquier sustento técnico'.",
+      "sources": [
+        {
+          "name": "Delfino.cr",
+          "url": "https://delfino.cr/2025/09/productores-de-arroz-defienden-eficiencia-de-la-produccion-nacional-ante-criticas-de-pilar-cisneros",
+          "type": "news",
+          "accessDate": "2026-01-16"
+        },
+        {
+          "name": "CR Hoy",
+          "url": "https://crhoy.com/economia/conarroz-declaraciones-de-pilar-cisneros-carecen-de-sustento-tecnico/",
+          "type": "news",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 21,
+      "statement": "El salario mínimo de Costa Rica reduce la competitividad del país y lo hace poco competitivo",
+      "statementEN": "Costa Rica's minimum wage reduces the country's competitiveness and makes it uncompetitive",
+      "context": "Sesión legislativa del 7 de julio de 2025 comparando con República Dominicana",
+      "date": "2025-07-07",
+      "category": "economy",
+      "truth": "Esta declaración contradice directamente al presidente Chaves, quien el 21 de agosto de 2024 celebró públicamente que Costa Rica tiene 'el mejor salario mínimo de América Latina' según Bloomberg. Cisneros critica lo mismo que Chaves destacó como logro, además de ignorar la paridad de poder adquisitivo y el costo de vida.",
+      "sources": [
+        {
+          "name": "CR Hoy",
+          "url": "https://crhoy.com/nacionales/pilar-cisneros-ve-el-salario-minimo-de-costa-rica-alto-y-cree-que-le-resta-competitividad-al-pais/",
+          "type": "news",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 22,
+      "statement": "Uso de discursos de odio y violencia política basados en desinformación, posverdad y ofensa",
+      "statementEN": "Use of hate speech and political violence based on disinformation, post-truth and offense",
+      "context": "Sesión legislativa del 3 de abril de 2024, acusaciones contra presidenta del Colegio de Periodistas",
+      "date": "2024-04-03",
+      "category": "other",
+      "truth": "El Colegio de Periodistas respondió formalmente que Cisneros empleó 'discursos de odio y violencia política basados en desinformación, posverdad y ofensa', describiendo sus comentarios como 'dardos envenenados' que ponían en riesgo la democracia y la organización institucional.",
+      "sources": [
+        {
+          "name": "CR Hoy",
+          "url": "https://crhoy.com/nacionales/colper-pilar-cisneros-uso-discursos-de-odio-y-violencia-politica-basados-en-desinformacion/",
+          "type": "news",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 23,
+      "statement": "Nunca he atacado a un periodista",
+      "statementEN": "I have never attacked a journalist",
+      "context": "Audiencia de comisión legislativa especial investigando contratos de Sinart",
+      "date": "2024-04-03",
+      "category": "other",
+      "truth": "Investigación documentó conexiones entre Cisneros y grupos que promovían mensajes de odio en redes sociales contra periodistas, incluyendo los del extinto programa NC Once. Aproximadamente 60 videos evidencian relaciones entre diputados del gobierno y grupos organizados que atacaban periodistas.",
+      "sources": [
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/el-pais/politica/agresores-de-periodistas-de-nc-once-estaban/HZYTKCVCINAKHPXAGHB3X5DIXM/story/",
+          "type": "news",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 24,
+      "statement": "No tengo que restringirme exactamente a la pregunta y respuesta de la encuesta",
+      "statementEN": "I don't have to restrict myself exactly to the question and answer of the survey",
+      "context": "Respuesta cuando fue confrontada sobre tergiversación de encuesta UCR",
+      "date": "2023-10-18",
+      "category": "other",
+      "truth": "Esta declaración admite implícitamente que modificó los datos de la encuesta mientras defendía esto como práctica analítica aceptable. Los representantes de PROLEDI explícitamente informaron que este tipo de manipulación de datos es impermisible y contradice estándares establecidos para representación de datos.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2023/10/doblecheck/pilar-cisneros-tergiversar-una-encuesta/",
+          "type": "fact_check",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 25,
+      "statement": "No tengo esa respuesta; no soy abogada, soy periodista",
+      "statementEN": "I don't have that answer; I'm not a lawyer, I'm a journalist",
+      "context": "Respuesta cuando se le preguntó sobre autoridad del TSE para interpretar leyes electorales",
+      "date": "2025-10-01",
+      "category": "other",
+      "truth": "Cisneros hizo afirmaciones constitucionales definitivas sobre la 'mordaza' del TSE sin fundamento legal, pero cuando fue cuestionada se refugió en falta de experiencia legal. Ocupa una posición de liderazgo legislativo que requiere experiencia en asuntos legales y constitucionales.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2025/10/doblecheck/pilar-cisneros-evade-fundamentar-mordaza-tse/",
+          "type": "fact_check",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 26,
+      "statement": "Ejemplos de gobiernos anteriores demuestran que el TSE nunca restringió comunicaciones similares",
+      "statementEN": "Examples from previous governments demonstrate that the TSE never restricted similar communications",
+      "context": "Presentación de publicaciones en redes sociales de gobiernos de Alvarado, Solís y Chinchilla",
+      "date": "2025-10-01",
+      "category": "other",
+      "truth": "Los ejemplos citados ocurrieron ANTES de junio 2025, cuando el TSE ajustó su interpretación siguiendo sentencias de la Corte IDH de octubre 2024. La jurisprudencia internacional que fundamenta las restricciones actuales no existía durante los gobiernos anteriores, haciendo la comparación cronológicamente inválida.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2025/10/doblecheck/pilar-cisneros-evade-fundamentar-mordaza-tse/",
+          "type": "fact_check",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 27,
+      "statement": "El TSE inventó la mordaza a través de una interpretación, cambió las reglas saltando sobre el primer poder de la República",
+      "statementEN": "The TSE invented the gag order through an interpretation, changed the rules jumping over the first power of the Republic",
+      "context": "Acusaciones contra el Tribunal Supremo de Elecciones sobre restricciones de comunicación",
+      "date": "2025-10-01",
+      "category": "other",
+      "truth": "Especialistas en derecho constitucional confirmaron que los órganos electorales en Costa Rica poseen autoridad para interpretar normas electorales a través de jurisprudencia, y tales interpretaciones no requieren modificación legislativa cuando representan aclaraciones de principios legales existentes.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2025/10/doblecheck/tse-puede-interpretar-las-normas-electorales/",
+          "type": "fact_check",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 28,
+      "statement": "Nunca en la historia de esa policía se ha contratado un número tan grande de agentes como ahora - 100 nuevos agentes en la PCD",
+      "statementEN": "Never in the history of that police has such a large number of agents been hired as now - 100 new agents in the PCD",
+      "context": "Confrontación con representante sindical de la Policía de Control de Drogas",
+      "date": "2025-11-15",
+      "category": "statistics",
+      "truth": "Cisneros simultáneamente reconoció que el sindicato había presionado por estas contrataciones, lo cual socava la caracterización de las contrataciones como iniciativa de política gubernamental autónoma. Además, descalificó al representante como 'desinformado' mientras se posicionaba con conocimiento superior sobre operaciones de la PCD.",
+      "sources": [
+        {
+          "name": "YouTube",
+          "url": "https://www.youtube.com/watch?v=afvMIDJp9II",
+          "type": "video",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 29,
+      "statement": "Las jornadas excepcionales son voluntarias y solo aplicarán a cuatro actividades productivas específicas",
+      "statementEN": "The exceptional workdays are voluntary and will only apply to four specific productive activities",
+      "context": "Debate legislativo sobre jornadas 4x3",
+      "date": "2023-08-15",
+      "category": "other",
+      "truth": "Esta caracterización oscurece la coerción económica que los trabajadores individuales podrían enfrentar cuando los empleadores presentan la opción 4x3 en contextos de empleo alternativo limitado. La economía laboral reconoce la distinción entre voluntariedad formal y elección sustantiva que el encuadre de Cisneros descarta.",
+      "sources": [
+        {
+          "name": "YouTube - Debate legislativo",
+          "url": "https://www.youtube.com/watch?v=277WCC4XJdo",
+          "type": "video",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 30,
+      "statement": "Los trabajadores recibirán una hora y media de descanso por día que será considerada como horas efectivas de trabajo y por lo tanto pagada",
+      "statementEN": "Workers will receive one and a half hours of rest per day that will be considered as effective working hours and therefore paid",
+      "context": "Debate legislativo sobre jornadas 4x3",
+      "date": "2023-08-15",
+      "category": "economy",
+      "truth": "El encuadre de Cisneros sugería que los trabajadores recibirían compensación más allá de su salario base por este tiempo de descanso, cuando la propuesta legislativa en realidad integraba estos períodos de descanso en el cálculo total de horas trabajadas en lugar de proporcionar compensación suplementaria.",
+      "sources": [
+        {
+          "name": "YouTube - Debate legislativo",
+          "url": "https://www.youtube.com/watch?v=277WCC4XJdo",
+          "type": "video",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 31,
+      "statement": "Con un recargo de 16.67% en horas diurnas y 25% en nocturnas, los salarios de los trabajadores permanecerán exactamente iguales",
+      "statementEN": "With a 16.67% surcharge on daytime hours and 25% on nighttime hours, worker salaries will remain exactly the same",
+      "context": "Debate legislativo sobre jornadas 4x3",
+      "date": "2023-08-15",
+      "category": "economy",
+      "truth": "Esta afirmación confunde el porcentaje de recargo con el mantenimiento real del salario. El recargo se calculaba por hora que, multiplicado por el número reducido de días laborables por semana (cuatro en lugar de cinco), resultaría en diferente compensación semanal total.",
+      "sources": [
+        {
+          "name": "YouTube - Debate legislativo",
+          "url": "https://www.youtube.com/watch?v=277WCC4XJdo",
+          "type": "video",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 32,
+      "statement": "Una vez que completa su jornada tiene 24 horas de descanso obligatorio y después puede hacer horas extra",
+      "statementEN": "Once you complete your workday you have 24 hours of mandatory rest and after that you can do overtime",
+      "context": "Debate legislativo sobre horas extra en jornadas 4x3",
+      "date": "2023-08-15",
+      "category": "other",
+      "truth": "Este encuadre presenta la prohibición legal de horas extra obligatorias como efectivamente no restrictiva al enfatizar la disponibilidad teórica de horas extra voluntarias después de los períodos de descanso. Los trabajadores fatigados por jornadas de 12 horas enfrentarían barreras personales sustanciales para aceptar horas adicionales.",
+      "sources": [
+        {
+          "name": "YouTube - Debate legislativo",
+          "url": "https://www.youtube.com/watch?v=5DzySVKZg0Y",
+          "type": "video",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 33,
+      "statement": "Tuvo pleno conocimiento del fideicomiso Costa Rica Próspera como estructura de financiamiento paralela sin reportar anomalías",
+      "statementEN": "Had full knowledge of the Costa Rica Próspera trust as a parallel financing structure without reporting anomalies",
+      "context": "Acusación de la Fiscalía General presentada el 23-24 de junio de 2025",
+      "date": "2025-06-24",
+      "category": "corruption",
+      "truth": "La Fiscalía indicó que Cisneros tuvo 'coordinación directa' sobre productos de campaña contratados a través de la agencia Madison Revolution S.A., pagados con fondos del fideicomiso sospechoso, y que 'tomó decisiones y dirigió lo que se solicitaba de la agencia'. Como miembro del comité ejecutivo superior del partido, violó el artículo 275 del Código Electoral.",
+      "sources": [
+        {
+          "name": "CR Hoy",
+          "url": "https://crhoy.com/nacionales/cisneros-no-denuncio-y-se-beneficio-de-financiamiento-irregular-en-campana-senala-la-fiscalia/",
+          "type": "news",
+          "accessDate": "2026-01-16"
+        },
+        {
+          "name": "CR Hoy - 3 delitos",
+          "url": "https://crhoy.com/nacionales/los-3-delitos-por-los-que-la-fiscalia-acuso-a-chaves-pilar-brunner-y-otros-en-el-caso-financiamiento-jaguar/",
+          "type": "news",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 34,
+      "statement": "Yo le digo a los ministros, a veces es necesario mentir",
+      "statementEN": "I tell the ministers, sometimes it's necessary to lie",
+      "context": "Declaración pública sobre comunicación gubernamental",
+      "date": "2025-08-08",
+      "category": "corruption",
+      "truth": "Esta declaración representa no simplemente una afirmación falsa sino una recomendación documentada de que funcionarios gubernamentales deben participar en el engaño. Cuando fue cuestionada, Cisneros afirmó que ella detesta mentir pero continuó recomendando esta práctica a funcionarios del gobierno.",
+      "sources": [
+        {
+          "name": "CR Hoy",
+          "url": "https://crhoy.com/nacionales/pilar-cisneros-yo-le-digo-a-los-ministros-a-veces-es-necesario-mentir/",
+          "type": "news",
+          "accessDate": "2026-01-16"
+        },
+        {
+          "name": "El Heraldo Político",
+          "url": "https://elheraldopolitico.com/blog-1/f/se-los-dije-pilar-cisneros-admite-que-ha-mentido",
+          "type": "news",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "cabinet"
+    },
+    {
+      "id": 35,
+      "statement": "Leonel Baruch enumera 5 mentiras de Pilar Cisneros sobre él y sus empresas",
+      "statementEN": "Leonel Baruch enumerates 5 lies from Pilar Cisneros about him and his companies",
+      "context": "Respuesta pública de Baruch a acusaciones de Cisneros",
+      "date": "2023-08-15",
+      "category": "corruption",
+      "truth": "El empresario Leonel Baruch documentó públicamente cinco afirmaciones falsas específicas que Cisneros hizo sobre él y sus empresas, describiéndolas como parte de una campaña de difamación coordinada que incluía el falso 'megacaso' de evasión fiscal.",
+      "sources": [
+        {
+          "name": "CR Hoy",
+          "url": "https://crhoy.com/nacionales/leonel-baruch-enumera-5-mentiras-de-la-diputada-pilar-cisneros/",
+          "type": "news",
+          "accessDate": "2026-01-16"
+        },
+        {
+          "name": "CR Hoy - Repartición de mentiras",
+          "url": "https://crhoy.com/nacionales/leonel-baruch-a-pilar-cisneros-la-reparticion-de-mentiras-no-tiene-campo-en-costa-rica/",
+          "type": "news",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 36,
+      "statement": "La Contraloría insiste en mentir",
+      "statementEN": "The Comptroller's Office insists on lying",
+      "context": "Declaraciones públicas atacando a la Contraloría General de la República",
+      "date": "2024-06-15",
+      "category": "other",
+      "truth": "Cisneros acusó a la Contraloría General de la República de mentir, atacando una de las instituciones de control más importantes del país sin presentar evidencia que sustentara tal acusación contra el órgano fiscalizador.",
+      "sources": [
+        {
+          "name": "AM Prensa",
+          "url": "https://www.amprensa.com/2024/06/pilar-cisneros-la-contralora-insiste-en-mentir/",
+          "type": "news",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 37,
+      "statement": "Las exenciones fiscales benefician principalmente a 'grupos poderosos'",
+      "statementEN": "Tax exemptions mainly benefit 'powerful groups'",
+      "context": "Video sobre política fiscal y soluciones al déficit",
+      "date": "2020-12-01",
+      "category": "economy",
+      "truth": "Muchas exenciones benefician a pequeñas y medianas empresas, cooperativas agrícolas e instituciones educativas. Las aproximadamente 1,400 exenciones tienen diversos propósitos y beneficiarios. La Contraloría las califica de 'caja negra' por falta de transparencia, no por beneficiar solo a poderosos.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2020/12/doblecheck/verificacion-a-critica-de-pilar-cisneros/",
+          "type": "fact_check",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 38,
+      "statement": "Declaraciones irrespetuosas, desconectadas de la realidad y ofensivas hacia productores agrícolas",
+      "statementEN": "Disrespectful statements, disconnected from reality and offensive to agricultural producers",
+      "context": "Oposición al proyecto Fonarroz y críticas al sector arrocero",
+      "date": "2025-09-15",
+      "category": "other",
+      "truth": "La Cámara Nacional de Agricultura (CNAA) respondió que sus declaraciones eran 'irrespetuosas, desconectadas de la realidad y ofensivas hacia quienes, con esfuerzo y sacrificio, han sostenido la provisión de alimentos para los costarricenses durante décadas'.",
+      "sources": [
+        {
+          "name": "CR Hoy",
+          "url": "https://crhoy.com/economia/camara-de-agricultura-rechaza-declaraciones-irrespetuosas-de-pilar-cisneros/",
+          "type": "news",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 39,
+      "statement": "La megacárcel cierra las bocas de quienes decían que era pura paja",
+      "statementEN": "The mega-prison shuts the mouths of those who said it was all talk",
+      "context": "Declaraciones defendiendo el proyecto de megacárcel del gobierno",
+      "date": "2026-01-10",
+      "category": "promises",
+      "truth": "Aunque describe logros de infraestructura (5 módulos para 1,020 prisioneros cada uno, consultorios médicos, etc.), no proporciona datos sobre impacto real en tasas de criminalidad, seguridad carcelaria o seguridad pública. Presenta infraestructura como equivalente a efectividad sin evidencia intermedia.",
+      "sources": [
+        {
+          "name": "YouTube",
+          "url": "https://www.youtube.com/watch?v=V99FHUuUAeA",
+          "type": "video",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 40,
+      "statement": "El C5 es el cambio más importante en la historia policial de Costa Rica",
+      "statementEN": "The C5 is the most important change in Costa Rican police history",
+      "context": "Descripción del centro de comando policial en construcción",
+      "date": "2026-01-10",
+      "category": "other",
+      "truth": "Afirma que integrará más de 15,000 cámaras de vigilancia, tecnología de reconocimiento facial y GPS para vehículos patrulla. Sin embargo, no proporciona evidencia de que estas inversiones produzcan las mejoras de seguridad que su retórica sugiere, moviendo de descripción de infraestructura a afirmación de efectividad sin evidencia.",
+      "sources": [
+        {
+          "name": "YouTube",
+          "url": "https://www.youtube.com/watch?v=V99FHUuUAeA",
+          "type": "video",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "minor",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 41,
+      "statement": "Red gubernamental irregular que disemina información falsa a la población",
+      "statementEN": "Irregular governmental network that disseminates false information to the population",
+      "context": "Investigación académica sobre campañas de desinformación 2022-2023",
+      "date": "2022-11-15",
+      "category": "corruption",
+      "truth": "Investigación académica de la Universidad de Costa Rica identificó 'una red gubernamental irregular que diseminaba información falsa a la población', con evidencia sugiriendo conexiones que llegaban a círculos legislativos cercanos a Cisneros, incluyendo al individuo conocido como Piero Calandrelli.",
+      "sources": [
+        {
+          "name": "Scielo - UCR",
+          "url": "https://www.scielo.sa.cr/pdf/rup/v14n2/2215-2989-rup-14-02-53.pdf",
+          "type": "academic",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 42,
+      "statement": "Describió al PPSD como 'un partido nuevo de gente sencilla, profesional y trabajadora' en 2021",
+      "statementEN": "Described PPSD as 'a new party of simple, professional and hardworking people' in 2021",
+      "context": "Mensaje de YouTube anunciando su candidatura el 30 de agosto de 2021",
+      "date": "2021-08-30",
+      "category": "promises",
+      "truth": "Para el 5 de agosto de 2023, Cisneros y otros ocho diputados del PPSD anunciaron apoyo público a una agrupación política diferente mientras caracterizaban al liderazgo del PPSD, específicamente a la presidenta Luz Mary Alpízar, y al partido mismo como corruptos. Contradicción directa con su endoso inicial.",
+      "sources": [
+        {
+          "name": "CR Hoy",
+          "url": "https://crhoy.com/nacionales/la-mentira-marca-carrera-politica-de-pilar-cisneros/",
+          "type": "news",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "moderate",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 43,
+      "statement": "52 falsedades del gobierno documentadas por La Nación",
+      "statementEN": "52 government falsehoods documented by La Nación",
+      "context": "Investigación periodística sobre declaraciones falsas del gobierno de Chaves",
+      "date": "2024-05-08",
+      "category": "statistics",
+      "truth": "La Nación documentó 52 falsedades del gobierno de Rodrigo Chaves, muchas de las cuales fueron repetidas o amplificadas por Cisneros como jefa de fracción del partido oficialista.",
+      "sources": [
+        {
+          "name": "La Nación",
+          "url": "https://www.nacion.com/el-pais/politica/52-falsedades-del-gobierno/ORLTEIINURFIDCM34CK4DX3CKI/story/",
+          "type": "news",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "critical",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 44,
+      "statement": "Salió del plenario como protesta durante discusión tras marcha de agricultores",
+      "statementEN": "Left the plenary as protest during discussion after farmers' march",
+      "context": "Sesión legislativa de noviembre 2025 sobre sector agrícola",
+      "date": "2025-11-11",
+      "category": "other",
+      "truth": "Cisneros abandonó el plenario legislativo como protesta durante la discusión de demandas de agricultores, eludiendo el debate sustantivo sobre las preocupaciones del sector que ella misma había criticado con datos erróneos.",
+      "sources": [
+        {
+          "name": "Monumental",
+          "url": "https://www.monumental.co.cr/2025/11/11/pilar-cisneros-salio-del-plenario-como-protesta-en-medio-de-discusion-tras-marcha-de-agricultores/",
+          "type": "news",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "minor",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 45,
+      "statement": "Calificó a CR Hoy como 'el periódico tóxico' con credibilidad de 1.69%",
+      "statementEN": "Called CR Hoy 'the toxic newspaper' with 1.69% credibility",
+      "context": "Presentación de datos de encuesta UCR en sesión legislativa",
+      "date": "2023-10-18",
+      "category": "other",
+      "truth": "La encuesta preguntó cuál medio tiene 'más credibilidad'. CR Hoy recibió pocas menciones en esa pregunta abierta. 'Tóxico' fue el juicio editorial de Cisneros, no un hallazgo de la encuesta. La pregunta no medía 'toxicidad' ni falta de credibilidad general.",
+      "sources": [
+        {
+          "name": "Doble Check - UCR",
+          "url": "https://radios.ucr.ac.cr/2023/10/doblecheck/pilar-cisneros-tergiversar-una-encuesta/",
+          "type": "fact_check",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "personal"
+    },
+    {
+      "id": 46,
+      "statement": "Vamos a destruir las estructuras corruptas de La Nación y Canal 7",
+      "statementEN": "We are going to destroy the corrupt structures of La Nación and Canal 7",
+      "context": "Video de campaña 2021 donde Cisneros aplaudía mientras Chaves hacía esta declaración",
+      "date": "2021-11-15",
+      "category": "other",
+      "truth": "Video evidencia muestra a Cisneros presente y aplaudiendo cuando el entonces candidato Rodrigo Chaves declaró que destruirían las 'estructuras corruptas' de medios de comunicación específicos, sugiriendo su participación en ataques dirigidos contra organizaciones mediáticas.",
+      "sources": [
+        {
+          "name": "CR Hoy",
+          "url": "https://crhoy.com/nacionales/la-mentira-marca-carrera-politica-de-pilar-cisneros/",
+          "type": "news",
+          "accessDate": "2026-01-16"
+        }
+      ],
+      "severity": "major",
+      "relatedParty": "PPSD"
+    },
+    {
+      "id": 47,
+      "statement": "Propuso emplear detector de mentiras para revelar la verdad",
+      "statementEN": "Proposed using a lie detector to reveal the truth",
+      "context": "Respuesta cuando fue confrontada con evidencia de coordinación en ataques a medios",
+      "date": "2024-04-03",
+      "category": "other",
+      "truth": "Cuando fue confrontada con evidencia de coordinación en ataques contra organizaciones mediáticas, Cisneros propuso emplear 'un detector de mentiras para revelar la verdad', a pesar de que los detectores de mentiras son poco confiables y no validados para tales propósitos.",
+      "sources": [
+        {
+          "name": "CR Hoy",
+          "url": "https://crhoy.com/nacionales/la-mentira-marca-carrera-politica-de-pilar-cisneros/",
+          "type": "news",
+          "accessDate": "2026-01-16"
         }
       ],
       "severity": "minor",
       "relatedParty": "personal"
     },
     {
-      "id": 8,
-      "statement": "No debemos aprovechar los recursos del sector privado mediante Alianzas Estratégicas que la ley permite",
-      "statementEN": "We should not take advantage of private sector resources through Strategic Alliances that the law permits",
-      "context": "Informe anual a la Asamblea Legislativa, atribuida falsamente a la Contraloría",
-      "date": "2024-05-02",
-      "category": "corruption",
-      "truth": "Esta cita fue FABRICADA. La Contraloría nunca dijo esto. Solo después de un recurso de amparo, Casa Presidencial admitió bajo juramento que las palabras eran una 'interpretación' del Ejecutivo, no una cita real.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2024/08/doblecheck/gobierno-fabrico-cita-contraloria-alianzas/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "government"
-    },
-    {
-      "id": 9,
-      "statement": "El 95.7% de las denuncias penales en Costa Rica quedan en impunidad",
-      "statementEN": "95.7% of criminal complaints in Costa Rica end in impunity",
-      "context": "Declaraciones atacando al Poder Judicial, usando el 'impunómetro' de Juan Diego Castro",
-      "date": "2024-06-15",
-      "category": "statistics",
-      "truth": "Esta metodología es fundamentalmente errónea. Expertos como Marcelo Bergman del CELIV explicaron que ningún sistema judicial, ni el más eficiente, resuelve la mayoría de delitos menores. Los autores de los estudios citados contradijeron explícitamente esta interpretación.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2024/11/doblecheck/impunidad-juan-diego-castro/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        },
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2024/12/doblecheck/datos-que-el-poder-judicial-no-menciona/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 10,
-      "statement": "La Contraloría y sus funcionarios han cogobernado inconstitucionalmente desde 1994",
-      "statementEN": "The Comptroller and its officials have unconstitutionally co-governed since 1994",
-      "context": "Declaraciones tras el rechazo de la Ley Jaguar por la Sala Constitucional",
-      "date": "2024-07-20",
-      "category": "corruption",
-      "truth": "La Sala Constitucional NO concluyó que la Contraloría haya 'cogobernado'. La Ministra Laura Fernández tuvo que admitir bajo juramento que su declaración sobre 'coadministración' fue solo en 'sentido figurado' y que no tenían información para respaldarla.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2025/01/doblecheck/desinformaciones-del-gobierno-2024/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "government"
-    },
-    {
-      "id": 11,
-      "statement": "El artículo 5 de la ley de JAPDEVA dice claramente que sí puede construir una marina bajo este modelo",
-      "statementEN": "Article 5 of the JAPDEVA law clearly states that it can build a marina under this model",
-      "context": "Gira por Limón promocionando el proyecto de Marina de Limón",
-      "date": "2024-08-15",
-      "category": "corruption",
-      "truth": "El artículo 5 de la ley de JAPDEVA NO contiene tal lenguaje. La Sala Constitucional declaró la propuesta inconstitucional porque violaba el artículo 182 de la Constitución que exige licitación pública para obras públicas.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2025/09/doblecheck/propuesta-de-chaves-para-marina-limon-es-inconstitucional/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 12,
-      "statement": "El próximo miércoles 1 de octubre será un día triste para la democracia porque me amordazan",
-      "statementEN": "Next Wednesday October 1st will be a sad day for democracy because they are gagging me",
-      "context": "Cadena nacional con imagen de persona con cinta en la boca",
-      "date": "2024-09-28",
-      "category": "promises",
-      "truth": "El TSE negó esta caracterización falsa. Las restricciones electorales han existido por casi un siglo y se aplicaron en siete procesos electorales previos. El presidente puede seguir dando conferencias de prensa, solo no puede transmitirlas como propaganda oficial.",
-      "sources": [
-        {
-          "name": "Interferencia - UCR",
-          "url": "https://radios.ucr.ac.cr/2025/09/interferencia/destacada/tse-rodrigo-chaves/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 13,
-      "statement": "Logramos una reducción histórica de la pobreza al 18%, la más baja en 16 años",
-      "statementEN": "We achieved a historic poverty reduction to 18%, the lowest in 16 years",
-      "context": "Informe anual a la Asamblea Legislativa",
-      "date": "2024-05-02",
-      "category": "statistics",
-      "truth": "Economistas del IICE-UCR señalaron que muchos hogares 'salieron de la pobreza' por diferencias mínimas de hasta ₡1,000, sin mejora real en calidad de vida. La caída abrupta de 21.8% a 18% nunca había ocurrido bajo condiciones normales, sugiriendo problemas metodológicos.",
-      "sources": [
-        {
-          "name": "CRHoy",
-          "url": "https://crhoy.com/nacionales/baja-en-pobreza-de-la-que-se-ufana-chaves-ha-generado-dudas/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "moderate",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 14,
-      "statement": "Es entre ellos que se matan",
-      "statementEN": "It's between them that they kill each other",
-      "context": "Visita a Limón durante período de alta violencia, refiriéndose a homicidios",
-      "date": "2023-08-15",
-      "category": "other",
-      "truth": "Chaves afirmó esto como verdad. Después, en noviembre 2024, negó haberlo dicho. Videos demuestran que sí lo afirmó. Durante su administración, 152 personas murieron como 'daños colaterales' - un aumento del 422% respecto al período anterior.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2025/11/doblecheck/rodrigo-chaves-entre-ellos-se-matan/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 15,
-      "statement": "El Banco BCT está siendo investigado en Panamá por lavado de dinero, evasión fiscal y crimen organizado internacional",
-      "statementEN": "BCT Bank is being investigated in Panama for money laundering, tax evasion and international organized crime",
-      "context": "Declaraciones públicas sobre supuesta investigación bancaria",
-      "date": "2025-01-10",
-      "category": "corruption",
-      "truth": "BCT emitió comunicado oficial negando cualquier investigación. El artículo de La Estrella no mencionaba crimen organizado. El supuesto 'mega caso' fiscal fue desestimado el 9 de enero de 2023. La denuncia original se basó en un video de TikTok.",
-      "sources": [
-        {
-          "name": "CRHoy",
-          "url": "https://crhoy.com/nacionales/chaves-difunde-informacion-falsa-sobre-supuesta-investigacion-contra-el-banco-bct-en-panama/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 16,
-      "statement": "El presupuesto judicial creció 16 veces desde 2000",
-      "statementEN": "The judicial budget grew 16 times since 2000",
-      "context": "Declaraciones de Chaves y diputada Pilar Cisneros",
-      "date": "2024-10-15",
-      "category": "statistics",
-      "truth": "Compararon cifras nominales sin ajustar por inflación. Al calcular correctamente ajustando el presupuesto 2024 a valores de 2000 usando el IPC, el presupuesto del Poder Judicial se triplicó, no se multiplicó por 16.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/tag/presupuesto/feed/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 17,
-      "statement": "Luis Amador es testigo de la corona en el caso de la pista del aeropuerto",
-      "statementEN": "Luis Amador is the crown witness in the airport runway case",
-      "context": "Declaraciones sobre investigación penal del aeropuerto de Liberia",
-      "date": "2024-09-20",
-      "category": "other",
-      "truth": "El abogado de Amador negó explícitamente esta caracterización, afirmando que Amador no está sirviendo como testigo en ninguna capacidad en el caso.",
-      "sources": [
-        {
-          "name": "CRHoy",
-          "url": "https://crhoy.com/nacionales/abogado-desmiente-que-amador-sea-testigo-de-la-corona-en-escandalo-por-pista-del-aeropuerto-de-liberia/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "moderate",
-      "relatedParty": "government"
-    },
-    {
-      "id": 18,
-      "statement": "El escándalo de deforestación en el Caribe Sur es un escandalillo falso por denuncias políticas de Ariel Robles",
-      "statementEN": "The deforestation scandal in the Southern Caribbean is a false little scandal from political complaints by Ariel Robles",
-      "context": "Respuesta a investigación sobre tala ilegal cerca del refugio Gandoca-Manzanillo",
-      "date": "2024-08-20",
-      "category": "corruption",
-      "truth": "La investigación involucró 26 allanamientos, recursos significativos de la Fiscalía Anticorrupción y Ambiental, y múltiples agencias. Se investiga prevaricato, incumplimiento de deberes, tráfico de influencias e ideológica falsedad.",
-      "sources": [
-        {
-          "name": "Divergentes",
-          "url": "https://www.divergentes.com/chaves-enfrenta-un-escandalo-por-tala-de-bosques-en-el-caribe-sur-de-costa-rica/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 19,
-      "statement": "Ciudad Gobierno generaría casi 30,000 empleos",
-      "statementEN": "Government City would generate almost 30,000 jobs",
-      "context": "Promoción del proyecto Ciudad Gobierno",
-      "date": "2024-03-15",
-      "category": "promises",
-      "truth": "El proyecto fue declarado inconstitucional por la Sala Constitucional. La Contraloría determinó que el mecanismo de contratación propuesto violaba la Ley de Contratación Pública. A enero 2025, no se ha iniciado ninguna construcción.",
-      "sources": [
-        {
-          "name": "CRHoy",
-          "url": "https://crhoy.com/nacionales/promesas-incumplidas-de-chaves-ni-ciudad-gobierno-ni-la-marina-de-limon-ni-los-aeropuertos-vieron-la-luz/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 20,
-      "statement": "Los contratos previos demuestran que nuestra metodología para Ciudad Gobierno es legal",
-      "statementEN": "Previous contracts demonstrate that our methodology for Government City is legal",
-      "context": "Defensa del modelo de contratación para Ciudad Gobierno",
-      "date": "2024-04-10",
-      "category": "corruption",
-      "truth": "Doble Check examinó los contratos específicos citados por el Ejecutivo como precedente y encontró que ninguno de ellos tenía las mismas características que el arreglo propuesto por el gobierno.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2025/01/doblecheck/desinformaciones-del-gobierno-2024/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 21,
-      "statement": "Yo no fui el autor intelectual del financiamiento ilegal de campaña",
-      "statementEN": "I was not the intellectual author of illegal campaign financing",
-      "context": "Defensa ante investigación de financiamiento electoral",
-      "date": "2024-06-20",
-      "category": "corruption",
-      "truth": "Una investigación legislativa concluyó que la campaña de Chaves dependió de un fideicomiso privado para financiar su campaña presidencial, un mecanismo posiblemente ilegal. El informe identificó específicamente a Chaves como el 'autor intelectual' del arreglo.",
-      "sources": [
-        {
-          "name": "La Nación",
-          "url": "https://www.nacion.com/el-pais/politica/informe-senala-a-rodrigo-chaves-como-autor/BCCJNEUWI5BIXIEWA2BKMHF2YM/story/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 22,
-      "statement": "El TSE está equivocado sobre el informe de financiamiento de partidos",
-      "statementEN": "The TSE is wrong about the party financing report",
-      "context": "Respuesta a hallazgos del Departamento de Financiamiento de Partidos Políticos",
-      "date": "2024-05-25",
-      "category": "corruption",
-      "truth": "El TSE aclaró que la caracterización del Ejecutivo sobre el informe del DFPP sobre financiamiento de partidos era inexacta.",
-      "sources": [
-        {
-          "name": "CRHoy",
-          "url": "https://crhoy.com/nacionales/oficial-tse-desmiente-argumentos-de-chaves-sobre-informe-de-financiamiento-electoral/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 23,
-      "statement": "El Poder Judicial es la fábrica de impunidad más cara y grande del mundo",
-      "statementEN": "The Judicial Power is the most expensive and largest impunity factory in the world",
-      "context": "Ataques al sistema judicial costarricense",
-      "date": "2024-07-10",
-      "category": "statistics",
-      "truth": "Esta afirmación se basa en el metodológicamente erróneo 'impunómetro'. Expertos en sistemas judiciales demostraron que el cálculo es fundamentalmente engañoso. Irónicamente, Chaves no aplicó esta misma lógica a las 60 denuncias penales en su contra.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2024/11/doblecheck/impunidad-juan-diego-castro/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 24,
-      "statement": "Los decretos de vacunación ya estaban listos cuando los firmé el 8 de mayo",
-      "statementEN": "The vaccination decrees were ready when I signed them on May 8th",
-      "context": "Anuncio público de firma de decretos en Teatro 1887",
-      "date": "2022-05-08",
-      "category": "health",
-      "truth": "Los textos de los decretos no fueron publicados en La Gaceta (diario oficial) hasta dos días después, sugiriendo que no estaban realmente listos en el momento del anuncio público.",
-      "sources": [
-        {
-          "name": "La Nación",
-          "url": "https://www.nacion.com/el-pais/politica/decreto-de-chaves-sobre-vacunacion-no-estaba/HFJS33LNTRFQ7HOVWJDCAZOF5E/story/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "moderate",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 25,
-      "statement": "Nunca dije que 'es entre ellos que se matan'",
-      "statementEN": "I never said 'it's between them that they kill each other'",
-      "context": "Entrevista en noviembre 2024 negando declaraciones previas",
-      "date": "2024-11-20",
-      "category": "other",
-      "truth": "Existen grabaciones de video de agosto 2023 que demuestran que Chaves SÍ hizo esta afirmación y la confirmó como verdadera, no la refutó como falaz según afirmó después.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2025/11/doblecheck/rodrigo-chaves-entre-ellos-se-matan/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 26,
-      "statement": "La Contraloría interpreta a su antojo el artículo 5 de la ley de JAPDEVA",
-      "statementEN": "The Comptroller interprets article 5 of the JAPDEVA law at her whim",
-      "context": "Críticas a la Contraloría por bloquear Marina de Limón",
-      "date": "2024-08-18",
-      "category": "corruption",
-      "truth": "La Contraloría seguía la ley establecida. La Sala Constitucional confirmó que la propuesta del Ejecutivo era inconstitucional porque violaba el artículo 182 de la Constitución que exige licitación pública.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2025/09/doblecheck/propuesta-de-chaves-para-marina-limon-es-inconstitucional/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 27,
-      "statement": "La Ley Jaguar fue rechazada por la Sala IV porque reconocieron que la Contraloría ha cogobernado",
-      "statementEN": "The Jaguar Law was rejected by the Constitutional Court because they recognized the Comptroller has co-governed",
-      "context": "Interpretación del fallo de la Sala Constitucional",
-      "date": "2024-07-22",
-      "category": "corruption",
-      "truth": "La Sala Constitucional rechazó la Ley Jaguar porque creaba 'una clara y directa vulneración a la Contraloría' y violaba requisitos constitucionales de contratación pública, no porque la Contraloría hubiera cogobernado.",
-      "sources": [
-        {
-          "name": "CRHoy",
-          "url": "https://crhoy.com/nacionales/promesas-incumplidas-de-chaves-ni-ciudad-gobierno-ni-la-marina-de-limon-ni-los-aeropuertos-vieron-la-luz/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 28,
-      "statement": "Puedo dar un registro diario de la coadministración de la Contraloría del Estado",
-      "statementEN": "I can provide a daily log of the Comptroller's co-administration of the State",
-      "context": "Declaraciones de la Ministra Laura Fernández en comisión legislativa",
-      "date": "2024-11-19",
-      "category": "corruption",
-      "truth": "Cuando se le confrontó mediante un recurso de amparo, la Ministra Fernández tuvo que testificar que su declaración fue solo en 'sentido figurado' y que la lista de hechos que anunció era 'información que no tenemos como tal'.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2025/01/doblecheck/desinformaciones-del-gobierno-2024/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 29,
-      "statement": "Las denuncias contra mí son ridículas y el Ministerio Público debería desestimarlas",
-      "statementEN": "The complaints against me are ridiculous and the Public Ministry should dismiss them",
-      "context": "Declaraciones en diciembre 2024 sobre las 60 denuncias en su contra",
-      "date": "2024-12-15",
-      "category": "other",
-      "truth": "Esta posición contradice su propio marco del 'impunómetro'. Cuando criticó al Poder Judicial por desestimaciones, implicó que eran indicadores de impunidad. Pero cuando se trata de denuncias contra él, exige desestimaciones.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2025/01/doblecheck/desinformaciones-del-gobierno-2024/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "moderate",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 30,
-      "statement": "La prensa canalla distorsiona todo lo que digo",
-      "statementEN": "The scoundrel press distorts everything I say",
-      "context": "Ataques repetidos a medios de comunicación",
-      "date": "2024-06-01",
-      "category": "other",
-      "truth": "La investigación académica de la UCR documentó que la administración emplea múltiples categorías de falsedades incluyendo contenido fabricado, información engañosa y contexto falso. Los medios verifican con fuentes oficiales y documentos.",
-      "sources": [
-        {
-          "name": "Revista Reflexiones UCR",
-          "url": "https://revistas.ucr.ac.cr/index.php/reflexiones/article/view/62086/63367",
-          "type": "academic",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "moderate",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 31,
-      "statement": "El gobierno anterior agotó las reservas en dólares del país",
-      "statementEN": "The previous government depleted the country's dollar reserves",
-      "context": "Críticas al gobierno de Carlos Alvarado",
-      "date": "2022-07-10",
-      "category": "economy",
-      "truth": "El Banco Central de Costa Rica desmintió esta afirmación, confirmando que las reservas estaban en niveles adecuados al momento del cambio de gobierno.",
-      "sources": [
-        {
-          "name": "Cultura CR",
-          "url": "https://culturacr.net/banco-central-desmiente-al-presidente-chaves-sobre-reservas-usadas-en-gobierno-anterior/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 32,
-      "statement": "El gobierno ha documentado 52 falsedades sin importancia",
-      "statementEN": "The government has documented 52 falsehoods of no importance",
-      "context": "Respuesta a investigación de La Nación sobre falsedades del gobierno",
-      "date": "2024-08-01",
-      "category": "other",
-      "truth": "La Nación documentó 52 falsedades significativas del gobierno con fuentes verificables. El gobierno no corrigió ni reconoció ninguna de estas falsedades.",
-      "sources": [
-        {
-          "name": "La Nación",
-          "url": "https://www.nacion.com/el-pais/politica/52-falsedades-del-gobierno/ORLTEIINURFIDCM34CK4DX3CKI/story/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 33,
-      "statement": "Los médicos mienten sobre el enganche salarial",
-      "statementEN": "Doctors are lying about salary increases",
-      "context": "Declaraciones sobre obligaciones salariales con trabajadores de salud",
-      "date": "2024-04-20",
-      "category": "health",
-      "truth": "Las organizaciones de profesionales médicos calificaron las aseveraciones de Chaves sobre el enganche salarial como 'mentiras', contradiciéndolas con documentación oficial de la CCSS.",
-      "sources": [
-        {
-          "name": "La República",
-          "url": "https://origin.larepublica.net/noticia/medicos-califican-de-mentiras-aseveraciones-de-rodrigo-chaves-sobre-enganche-salarial",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 34,
-      "statement": "La Contraloría difunde falsedades sobre el gobierno",
-      "statementEN": "The Comptroller spreads falsehoods about the government",
-      "context": "Ataques a la Contraloría General de la República",
-      "date": "2024-09-05",
-      "category": "corruption",
-      "truth": "La Contraloría acusó al presidente Chaves de difundir falsedades y exigió rectificación pública. La Contraloría basa sus análisis en documentos oficiales y legislación vigente.",
-      "sources": [
-        {
-          "name": "Observador CR",
-          "url": "https://observador.cr/contraloria-acusa-al-presidente-chaves-de-difundir-falsedades-y-exige-rectificacion-publica/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "government"
-    },
-    {
-      "id": 35,
-      "statement": "Solo tengo unas pocas causas judiciales en mi contra",
-      "statementEN": "I only have a few judicial cases against me",
-      "context": "Declaraciones sobre procesos legales",
-      "date": "2024-10-01",
-      "category": "corruption",
-      "truth": "Para octubre 2024, el presidente enfrentaba 37 causas judiciales incluyendo el caso Crucitas, la pista del aeropuerto Daniel Oduber, y casos relacionados con una diputada de su partido.",
-      "sources": [
-        {
-          "name": "Observador CR",
-          "url": "https://observador.cr/crucitas-pista-del-daniel-oduber-y-caso-de-diputada-elevan-a-37-causas-judiciales-contra-el-presidente-chaves/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 36,
-      "statement": "La metodología de alianzas estratégicas que propongo es completamente legal",
-      "statementEN": "The strategic alliance methodology I propose is completely legal",
-      "context": "Defensa de proyectos de infraestructura",
-      "date": "2024-05-15",
-      "category": "corruption",
-      "truth": "La Ley General de Contratación Pública prohíbe explícitamente usar alianzas estratégicas para evadir los procedimientos estándar de contratación requeridos para obras públicas.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2025/01/doblecheck/desinformaciones-del-gobierno-2024/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 37,
-      "statement": "El reglamento de JAPDEVA sobre alianzas estratégicas es válido",
-      "statementEN": "JAPDEVA's regulation on strategic alliances is valid",
-      "context": "Defensa del proyecto Marina de Limón",
-      "date": "2024-08-25",
-      "category": "corruption",
-      "truth": "La Contraloría emitió recordatorios indicando que el reglamento de alianzas estratégicas de JAPDEVA violaba las normas de contratación pública al crear nuevas excepciones a procedimientos legalmente establecidos.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2024/08/doblecheck/gobierno-fabrico-cita-contraloria-alianzas/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 38,
-      "statement": "El discurso de odio no ha aumentado durante mi gobierno",
-      "statementEN": "Hate speech has not increased during my government",
-      "context": "Defensa ante críticas sobre polarización política",
-      "date": "2024-11-01",
-      "category": "statistics",
-      "truth": "En 2021 se registraron 550,000 mensajes de odio en redes sociales. Para 2025, esa cifra superó los 2.1 millones - un aumento del 1,100% en discurso de odio relacionado con temas políticos.",
-      "sources": [
-        {
-          "name": "YouTube - Documentación",
-          "url": "https://www.youtube.com/watch?v=7v8J3B4VPFQ",
-          "type": "media",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 39,
-      "statement": "Las fotografías del daño de la pista son de después de la tormenta Bonnie",
-      "statementEN": "The photographs of runway damage are from after storm Bonnie",
-      "context": "Justificación de contratación de emergencia del aeropuerto de Liberia",
-      "date": "2023-07-01",
-      "category": "corruption",
-      "truth": "El informe de la Unidad de Infraestructura Aeronáutica reveló que la administración usó fotografías de 2019 - tres años antes de la tormenta - para justificar las reclamaciones de daño.",
-      "sources": [
-        {
-          "name": "CRHoy",
-          "url": "https://crhoy.com/nacionales/caso-pista-oscura-chaves-y-amador-estan-bajo-investigacion-en-causa-penal-paralela/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "government"
-    },
-    {
-      "id": 40,
-      "statement": "La Comisión Nacional de Emergencias confirmó el daño por la tormenta",
-      "statementEN": "The National Emergency Commission confirmed the storm damage",
-      "context": "Justificación de contratación de emergencia del aeropuerto",
-      "date": "2023-08-01",
-      "category": "corruption",
-      "truth": "La propia CNE eventualmente admitió que sería una 'exageración admitir que la tormenta dañó la pista'.",
-      "sources": [
-        {
-          "name": "Revista Reflexiones UCR",
-          "url": "https://archivo.revistas.ucr.ac.cr/index.php/reflexiones/article/download/62086/63366/301949",
-          "type": "academic",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "government"
-    },
-    {
-      "id": 41,
-      "statement": "No hay investigación penal paralela en mi contra por la pista del aeropuerto",
-      "statementEN": "There is no parallel criminal investigation against me for the airport runway",
-      "context": "Declaraciones sobre procesos legales",
-      "date": "2024-06-10",
-      "category": "corruption",
-      "truth": "Chaves, el ex ministro Luis Amador, la ministra Natalia Díaz Quintana y el ex director de Aviación Civil Fernando Naranjo Elizondo están bajo investigación por presunta falsedad ideológica en el caso.",
-      "sources": [
-        {
-          "name": "CRHoy",
-          "url": "https://crhoy.com/nacionales/caso-pista-oscura-chaves-y-amador-estan-bajo-investigacion-en-causa-penal-paralela/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 42,
-      "statement": "La pobreza se redujo drásticamente gracias a mis políticas económicas",
-      "statementEN": "Poverty was drastically reduced thanks to my economic policies",
-      "context": "Declaraciones sobre logros económicos",
-      "date": "2024-11-10",
-      "category": "statistics",
-      "truth": "Investigadores de la UCR señalaron que muchos hogares técnicamente cruzaron la línea de pobreza mediante aumentos de ingreso insignificantes que no tuvieron impacto significativo en su seguridad económica o acceso a recursos.",
-      "sources": [
-        {
-          "name": "CRHoy",
-          "url": "https://crhoy.com/nacionales/baja-en-pobreza-de-la-que-se-ufana-chaves-ha-generado-dudas/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        },
-        {
-          "name": "La Nación",
-          "url": "https://www.nacion.com/revista-dominical/que-esta-pasando-con-la-pobreza-en-costa-rica/APA4SLCMNJAGJDIEJMHMQGIN24/story/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 43,
-      "statement": "Las instituciones me persiguen políticamente",
-      "statementEN": "Institutions are politically persecuting me",
-      "context": "Defensa ante múltiples investigaciones",
-      "date": "2024-09-15",
-      "category": "other",
-      "truth": "Las investigaciones provienen de múltiples instituciones independientes (Contraloría, TSE, Fiscalía, Sala IV) basadas en evidencia documental y hallazgos técnicos, no en motivaciones políticas.",
-      "sources": [
-        {
-          "name": "Observador CR",
-          "url": "https://observador.cr/crucitas-pista-del-daniel-oduber-y-caso-de-diputada-elevan-a-37-causas-judiciales-contra-el-presidente-chaves/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 44,
-      "statement": "Mi campaña electoral se financió legalmente a través de cuentas bancarias del partido",
-      "statementEN": "My electoral campaign was legally financed through party bank accounts",
-      "context": "Defensa ante investigación de financiamiento de campaña",
-      "date": "2024-07-05",
-      "category": "corruption",
-      "truth": "Una investigación legislativa determinó que la campaña de Chaves dependió de un fideicomiso privado, un mecanismo posiblemente ilegal bajo la ley costarricense que requiere que los fondos de campaña fluyan a través de cuentas bancarias oficiales del partido.",
-      "sources": [
-        {
-          "name": "La Nación",
-          "url": "https://www.nacion.com/el-pais/politica/informe-senala-a-rodrigo-chaves-como-autor/BCCJNEUWI5BIXIEWA2BKMHF2YM/story/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 45,
-      "statement": "La ministra Natalia Díaz no tiene responsabilidad en el caso de la pista",
-      "statementEN": "Minister Natalia Díaz has no responsibility in the runway case",
-      "context": "Defensa de ministros del gabinete",
-      "date": "2024-07-20",
-      "category": "corruption",
-      "truth": "La ministra Díaz firmó la expansión del decreto de emergencia que incluyó la pista de Liberia y evitó decir si la presidencia estaba involucrada en la decisión.",
-      "sources": [
-        {
-          "name": "La Nación",
-          "url": "https://www.nacion.com/el-pais/infraestructura/natalia-diaz-evita-decir-si-en-presidencia/D2ZF6MLMQRDJLBNRJNTBGTCNCA/story/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 46,
-      "statement": "El sistema judicial tiene tasas de impunidad comparables a países en guerra",
-      "statementEN": "The judicial system has impunity rates comparable to countries at war",
-      "context": "Ataques al Poder Judicial usando estadísticas del impunómetro",
-      "date": "2024-08-10",
-      "category": "statistics",
-      "truth": "Evelyn Villarreal, coordinadora del Informe del Sistema de Justicia, explicó que el cálculo de Castro ignora la complejidad del recorrido judicial de cada denuncia, que frecuentemente incluye investigaciones que concluyen sin proceso formal.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2024/11/doblecheck/impunidad-juan-diego-castro/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 47,
-      "statement": "Definir la impunidad como denuncias sin condena es correcto",
-      "statementEN": "Defining impunity as complaints without conviction is correct",
-      "context": "Defensa de la metodología del impunómetro",
-      "date": "2024-09-01",
-      "category": "statistics",
-      "truth": "Los expertos explicaron que definir impunidad apropiadamente requiere demostrar que un crimen fue cometido pero quedó sin castigo. El cálculo de Castro nunca aborda esto - simplemente compara denuncias con condenas.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2024/12/doblecheck/datos-que-el-poder-judicial-no-menciona/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "moderate",
-      "relatedParty": "personal"
-    },
-    {
       "id": 48,
-      "statement": "Los estudios citados por Castro respaldan sus conclusiones sobre impunidad",
-      "statementEN": "The studies cited by Castro support his conclusions about impunity",
-      "context": "Defensa del impunómetro de Juan Diego Castro",
-      "date": "2024-10-05",
-      "category": "statistics",
-      "truth": "Los investigadores responsables de los estudios que Castro citó como fuentes contradicen explícitamente su interpretación de su trabajo.",
+      "statement": "El fideicomiso nunca coexistió con la campaña",
+      "statementEN": "The trust never coexisted with the campaign",
+      "context": "Respuesta a acusaciones de la Fiscalía sobre financiamiento irregular",
+      "date": "2025-06-24",
+      "category": "corruption",
+      "truth": "Las afirmaciones de Cisneros fueron contradichas por la evidencia documental y testimonio de testigos de la investigación de la Fiscalía. La investigación encontró que ella tuvo 'pleno conocimiento' del fideicomiso y 'coordinación directa' sobre productos de campaña pagados con esos fondos.",
       "sources": [
         {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2024/11/doblecheck/impunidad-juan-diego-castro/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
+          "name": "CR Hoy",
+          "url": "https://crhoy.com/nacionales/cisneros-no-denuncio-y-se-beneficio-de-financiamiento-irregular-en-campana-senala-la-fiscalia/",
+          "type": "news",
+          "accessDate": "2026-01-16"
         }
       ],
-      "severity": "major",
-      "relatedParty": "personal"
+      "severity": "critical",
+      "relatedParty": "PPSD"
     },
     {
       "id": 49,
-      "statement": "El gobierno no ha repetido falsedades después de ser corregido",
-      "statementEN": "The government has not repeated falsehoods after being corrected",
-      "context": "Defensa ante acusaciones de desinformación sistemática",
-      "date": "2024-12-01",
-      "category": "other",
-      "truth": "Doble Check documentó que en 2024, en al menos tres instancias específicas, la administración dobló la apuesta sobre falsedades repitiéndolas y amplificándolas a través de múltiples funcionarios y canales oficiales.",
+      "statement": "Confirmó que dejará la política en 2026",
+      "statementEN": "Confirmed she will leave politics in 2026",
+      "context": "Declaraciones sobre su futuro político",
+      "date": "2025-12-01",
+      "category": "promises",
+      "truth": "Dado su historial de prometer públicamente que nunca entraría en política y luego hacerlo, y de elogiar al PPSD para luego denunciarlo como corrupto, esta promesa de retiro merece escepticismo basado en su patrón documentado de contradicciones.",
       "sources": [
         {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2025/01/doblecheck/desinformaciones-del-gobierno-2024/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
+          "name": "Trivisión CR",
+          "url": "https://trivisioncr.com/noticias-de-politica/pilar-cisneros-confirma-que-dejara-la-politica-en-2026/",
+          "type": "news",
+          "accessDate": "2026-01-16"
         }
       ],
-      "severity": "major",
-      "relatedParty": "government"
+      "severity": "minor",
+      "relatedParty": "personal"
     },
     {
       "id": 50,
-      "statement": "La desinformación no es una estrategia de comunicación del gobierno",
-      "statementEN": "Disinformation is not a government communication strategy",
-      "context": "Defensa ante acusaciones de uso sistemático de falsedades",
-      "date": "2024-11-15",
-      "category": "other",
-      "truth": "La investigación académica de la UCR concluyó que la administración emplea múltiples categorías de falsedades como estrategia deliberada: contenido fabricado, información engañosa, contexto falso, contenido impostor e información manipulada.",
-      "sources": [
-        {
-          "name": "Revista Reflexiones UCR",
-          "url": "https://archivo.revistas.ucr.ac.cr/index.php/reflexiones/article/download/62086/63366/301949",
-          "type": "academic",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "government"
-    },
-    {
-      "id": 51,
-      "statement": "Los salarios en Costa Rica aumentaron un 11%",
-      "statementEN": "Salaries in Costa Rica increased by 11%",
-      "context": "Informe anual a la Asamblea Legislativa sobre logros económicos",
-      "date": "2025-01-10",
-      "category": "economy",
-      "truth": "Según el decreto N°44756-MTSS del Ministerio de Trabajo, el aumento real promedio fue solo del 2.4%, menos de una cuarta parte de lo que el presidente afirmó. Trabajadores no calificados: 2.37%, profesionales universitarios: 2.45%.",
-      "sources": [
-        {
-          "name": "Radio Zurquí",
-          "url": "https://radiozurqui.org/nacionales/chaves-miente-salarios-subieron-apenas-un-24-y-no-el-11-que-presume/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 52,
-      "statement": "Heredé una inflación del 12%",
-      "statementEN": "I inherited an inflation rate of 12%",
-      "context": "Declaraciones sobre logros económicos comparando con gobierno anterior",
-      "date": "2023-03-15",
-      "category": "economy",
-      "truth": "La inflación cuando asumió en mayo 2022 era 8.7%, no 12%. El 12.13% se alcanzó en agosto 2022, TRES MESES después de que Chaves asumió la presidencia.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2023/04/doblecheck/inflacion-2023-rodrigo-chaves/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 53,
-      "statement": "La inflación actual es la más baja en muchos años",
-      "statementEN": "Current inflation is the lowest in many years",
-      "context": "Declaraciones sobre logros económicos en marzo 2023",
-      "date": "2023-03-15",
-      "category": "economy",
-      "truth": "Las tasas de inflación de febrero-marzo 2023 (5.58% y 4.42%) eran más ALTAS que los registros mensuales entre enero 2015 y enero 2022. La comparación histórica era incorrecta.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2023/04/doblecheck/inflacion-2023-rodrigo-chaves/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "moderate",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 54,
-      "statement": "Intel está reconsiderando sus inversiones en Costa Rica por el rechazo de las jornadas 4x3",
-      "statementEN": "Intel is reconsidering its investments in Costa Rica due to the rejection of 4x3 work schedules",
-      "context": "Declaraciones tras el rechazo de la Sala IV a las jornadas extendidas",
-      "date": "2023-11-14",
-      "category": "economy",
-      "truth": "Intel declaró oficialmente: 'nuestros planes de inversión en Costa Rica no han cambiado y el país continúa siendo una parte importante de nuestras operaciones de manufactura a nivel global'.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2024/02/doblecheck/falsa-alarma-jornadas-4x3/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "government"
-    },
-    {
-      "id": 55,
-      "statement": "Varias empresas importantes me llamaron para decir que reconsideran sus inversiones",
-      "statementEN": "Several important companies called me to say they are reconsidering their investments",
-      "context": "Declaraciones de Pilar Cisneros en la Asamblea Legislativa sobre jornadas 4x3",
-      "date": "2023-11-15",
-      "category": "economy",
-      "truth": "El gobierno admitió bajo recurso de amparo que 'el presidente Rodrigo Chaves Robles no tuvo conversaciones adicionales con otras empresas para discutir el tema de interés, solo con Intel'.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2024/02/doblecheck/falsa-alarma-jornadas-4x3/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "government"
-    },
-    {
-      "id": 56,
-      "statement": "La Operación Costa Rica Segura pondrá 9,500 policías en las calles",
-      "statementEN": "Operation Secure Costa Rica will put 9,500 police officers on the streets",
-      "context": "Anuncio de iniciativa de seguridad",
-      "date": "2023-09-28",
-      "category": "promises",
-      "truth": "La operación se basaba en reducir días libres de los policías sin negociar con sindicatos. Dos días después, Chaves revirtió completamente la política, admitiendo que no había comprendido los detalles cuando la anunció.",
-      "sources": [
-        {
-          "name": "Divergentes",
-          "url": "https://www.divergentes.com/rodrigo-chaves-salida-falso-policias/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 57,
-      "statement": "Entiendo perfectamente la reestructuración laboral de la policía que estoy anunciando",
-      "statementEN": "I perfectly understand the police labor restructuring I am announcing",
-      "context": "Anuncio de Operación Costa Rica Segura",
-      "date": "2023-09-28",
-      "category": "other",
-      "truth": "En video publicado dos días después, Chaves admitió que no había comprendido adecuadamente los detalles de la reestructuración que su propio ministro de seguridad había propuesto cuando decidió hacerla pública.",
-      "sources": [
-        {
-          "name": "Divergentes",
-          "url": "https://www.divergentes.com/rodrigo-chaves-salida-falso-policias/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "moderate",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 58,
-      "statement": "SUTEL está cometiendo irregularidades graves para favorecer a las radioemisoras",
-      "statementEN": "SUTEL is committing serious irregularities to favor radio stations",
-      "context": "Conferencias de prensa atacando a SUTEL en abril 2024",
-      "date": "2024-04-15",
-      "category": "corruption",
-      "truth": "SUTEL rechazó formalmente las afirmaciones del presidente como 'completamente falsas'. SUTEL brinda recomendaciones técnicas, pero las decisiones de precios corresponden al MICITT.",
-      "sources": [
-        {
-          "name": "SUTEL - Comunicado oficial",
-          "url": "https://sutel.go.cr/noticias/sutel-rechaza-afirmaciones-del-presidente-rodrigo-chaves",
-          "type": "official_document",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 59,
-      "statement": "SUTEL sería responsable de un apagón de frecuencias de radio y televisión",
-      "statementEN": "SUTEL would be responsible for a radio and TV frequency blackout",
-      "context": "Declaraciones sobre regulación de telecomunicaciones",
-      "date": "2024-04-18",
-      "category": "other",
-      "truth": "SUTEL aclaró explícitamente que 'no es responsabilidad de SUTEL un eventual apagón de frecuencias de radio y televisión' y que la organización ha cumplido todos los requerimientos técnicos del MICITT.",
-      "sources": [
-        {
-          "name": "SUTEL - Comunicado oficial",
-          "url": "https://sutel.go.cr/noticias/sutel-rechaza-afirmaciones-del-presidente-rodrigo-chaves",
-          "type": "official_document",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 60,
-      "statement": "SUTEL interviene en determinar cuánto pagan las radioemisoras por el uso de frecuencias",
-      "statementEN": "SUTEL intervenes in determining how much radio stations pay for frequency use",
-      "context": "Ataques a la regulación de telecomunicaciones",
-      "date": "2024-04-20",
-      "category": "other",
-      "truth": "SUTEL negó categóricamente esta afirmación. Los equipos técnicos de SUTEL brindan recomendaciones y análisis, pero las decisiones de precios corresponden al MICITT y otras entidades gubernamentales.",
-      "sources": [
-        {
-          "name": "SUTEL - Comunicado oficial",
-          "url": "https://sutel.go.cr/noticias/sutel-rechaza-afirmaciones-del-presidente-rodrigo-chaves",
-          "type": "official_document",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "moderate",
-      "relatedParty": "government"
-    },
-    {
-      "id": 61,
-      "statement": "La luz al final del túnel ya está encendida para Paacume y empezaremos a construir en un año",
-      "statementEN": "The light at the end of the tunnel is on for Paacume and we'll start building in one year",
-      "context": "Gira por Guanacaste, promesa sobre proyecto de agua",
-      "date": "2022-11-15",
-      "category": "promises",
-      "truth": "Más de dos años después del compromiso, el proyecto permanece en etapa preliminar, sin construcción activa y sin cronograma claro para su finalización, a pesar de tener financiamiento ya arreglado.",
-      "sources": [
-        {
-          "name": "CRHoy",
-          "url": "https://crhoy.com/nacionales/promesas-incumplidas-de-chaves-ni-ciudad-gobierno-ni-la-marina-de-limon-ni-los-aeropuertos-vieron-la-luz/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 62,
-      "statement": "Avanzamos significativamente en los tres nuevos aeropuertos prometidos",
-      "statementEN": "We are making significant progress on the three promised new airports",
-      "context": "Declaraciones sobre proyectos de infraestructura",
-      "date": "2024-06-01",
-      "category": "promises",
-      "truth": "Los tres proyectos de aeropuerto (Limón, zona sur, terminal de carga en Liberia) permanecen sin avance significativo para 2025. El de Liberia fue anunciado sin análisis de factibilidad de demanda.",
-      "sources": [
-        {
-          "name": "CRHoy",
-          "url": "https://crhoy.com/nacionales/promesas-incumplidas-de-chaves-ni-ciudad-gobierno-ni-la-marina-de-limon-ni-los-aeropuertos-vieron-la-luz/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 63,
-      "statement": "La ampliación de la Ruta 27 estará 75% completa antes de que termine mi gobierno",
-      "statementEN": "Route 27 expansion will be 75% complete before my term ends",
-      "context": "Promesas de infraestructura vial",
-      "date": "2023-05-01",
-      "category": "promises",
-      "truth": "Después de casi tres años en la presidencia, no hay indicadores claros de avance significativo. Mideplan documentó ausencia de 'avances significativos' en esta meta.",
-      "sources": [
-        {
-          "name": "CRHoy",
-          "url": "https://crhoy.com/nacionales/promesas-incumplidas-de-chaves-ni-ciudad-gobierno-ni-la-marina-de-limon-ni-los-aeropuertos-vieron-la-luz/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 64,
-      "statement": "El aumento de listas de espera en la CCSS se debe a la investigación del caso barrenador",
-      "statementEN": "The increase in CCSS waiting lists is due to the barrenador case investigation",
-      "context": "Defensa ante críticas por deterioro del sistema de salud",
-      "date": "2024-10-15",
-      "category": "health",
-      "truth": "Las listas de espera aumentaron 142,000 personas desde mayo 2023 (12% de aumento). Una auditoría interna reveló que el gobierno no proporcionó las mejoras de infraestructura, equipos ni retención de personal prometidas.",
-      "sources": [
-        {
-          "name": "Columbia CR",
-          "url": "https://columbia.co.cr/presidente-chaves-atribuye-aumento-en-listas-de-espera-de-la-caja-a-investigacion-del-caso-barrenador",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 65,
-      "statement": "La hoja de ruta de salud cumplirá todas sus metas para mayo 2024",
-      "statementEN": "The health roadmap will meet all its goals by May 2024",
-      "context": "Presentación de plan para reducir listas de espera en CCSS",
-      "date": "2024-05-02",
-      "category": "health",
-      "truth": "Para octubre 2024, 18 de las metas prometidas en la hoja de ruta permanecían incumplidas. Los tiempos de espera aumentaron: 23 días más para procedimientos, 57 días más para consultas externas.",
-      "sources": [
-        {
-          "name": "Columbia CR",
-          "url": "https://columbia.co.cr/presidente-chaves-atribuye-aumento-en-listas-de-espera-de-la-caja-a-investigacion-del-caso-barrenador",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 66,
-      "statement": "Mi gobierno tiene un fuerte compromiso con el cambio climático y el medio ambiente",
-      "statementEN": "My government has a strong commitment to climate change and the environment",
-      "context": "Declaraciones sobre política ambiental",
-      "date": "2024-03-01",
-      "category": "other",
-      "truth": "En su discurso anual de mayo 2024 ante la Asamblea Legislativa, Chaves no mencionó el cambio climático ni ninguna preocupación ambiental. El Ministerio de Ambiente permanece sin viceministro desde julio 2023.",
-      "sources": [
-        {
-          "name": "Delfino CR",
-          "url": "https://delfino.cr/2024/05/chaves-omite-tema-ambiental-en-su-discurso-anual-como-presidente",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 67,
-      "statement": "Las políticas ambientales de mi gobierno protegen los recursos naturales",
-      "statementEN": "My government's environmental policies protect natural resources",
-      "context": "Defensa de política ambiental",
-      "date": "2024-04-01",
-      "category": "other",
-      "truth": "Observadores ambientales caracterizaron las políticas como 'ecocidas': revivir pesca de arrastre, promover exploración de combustibles fósiles, abandono de áreas protegidas, interés en minería a cielo abierto.",
-      "sources": [
-        {
-          "name": "Delfino CR",
-          "url": "https://delfino.cr/2024/05/chaves-omite-tema-ambiental-en-su-discurso-anual-como-presidente",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 68,
-      "statement": "La reforma del Ministerio de Ambiente mejorará la gestión ambiental",
-      "statementEN": "The reform of the Environment Ministry will improve environmental management",
-      "context": "Propuesta de reestructuración del MINAE",
-      "date": "2024-07-01",
-      "category": "other",
-      "truth": "Especialistas caracterizaron la propuesta como 'una monstruosidad jurídica' que eliminaría instituciones técnicas independientes (SINAC, SETENA, FONAFIFO) y consolidaría el poder de decisión sin supervisión técnica.",
-      "sources": [
-        {
-          "name": "Delfino CR",
-          "url": "https://delfino.cr/2024/05/chaves-omite-tema-ambiental-en-su-discurso-anual-como-presidente",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 69,
-      "statement": "El Banco Central proyectó inicialmente 2% de crecimiento y logramos 4.2%",
-      "statementEN": "The Central Bank initially projected 2% growth and we achieved 4.2%",
-      "context": "Declaraciones sobre logros económicos",
-      "date": "2023-03-20",
-      "category": "economy",
-      "truth": "La proyección inicial del BCCR fue 3.2% (julio 2022), luego revisada a 2.7%. El 4.2% citado era el IMAE de enero 2023, un indicador mensual temporal, no un crecimiento anual sostenido.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2023/04/doblecheck/inflacion-2023-rodrigo-chaves/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "moderate",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 70,
-      "statement": "Las listas de espera en la CCSS han disminuido gracias a nuestra gestión",
-      "statementEN": "CCSS waiting lists have decreased thanks to our management",
-      "context": "Declaraciones sobre sistema de salud",
-      "date": "2024-08-01",
-      "category": "health",
-      "truth": "Una auditoría interna de la CCSS reveló que las listas de espera aumentaron aproximadamente 142,000 personas desde mayo 2023, representando un crecimiento del 12% en lugar de una reducción.",
-      "sources": [
-        {
-          "name": "Columbia CR",
-          "url": "https://columbia.co.cr/presidente-chaves-atribuye-aumento-en-listas-de-espera-de-la-caja-a-investigacion-del-caso-barrenador",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 71,
-      "statement": "Mi discurso no tiene similitudes con el de líderes autoritarios",
-      "statementEN": "My discourse has no similarities with that of authoritarian leaders",
-      "context": "Defensa ante comparaciones con Trump y Bolsonaro",
-      "date": "2024-09-01",
-      "category": "other",
-      "truth": "Análisis de CRHoy identificó 'autoritarismo, soberbia y mentiras' como similitudes del discurso de Chaves con Trump y Bolsonaro, incluyendo ataques a medios independientes y deslegitimación de instituciones de control.",
-      "sources": [
-        {
-          "name": "CRHoy",
-          "url": "https://crhoy.com/nacionales/autoritarismo-soberbia-y-mentiras-las-similitudes-del-discurso-de-chaves-con-trump-y-bolsonaro/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "moderate",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 72,
-      "statement": "Los escáneres de contenedores funcionan correctamente",
-      "statementEN": "Container scanners are working correctly",
-      "context": "Declaraciones sobre seguridad portuaria",
-      "date": "2024-05-10",
-      "category": "other",
-      "truth": "Documentos oficiales probaron que la afirmación de Chaves sobre los escáneres era falsa, contradiciendo la información proporcionada por las autoridades portuarias.",
-      "sources": [
-        {
-          "name": "CRHoy",
-          "url": "https://www.crhoy.com/nacionales/portadalunesdocumentos-prueban-falsa-afirmacion-de-chaves-sobre-escaneres/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 73,
-      "statement": "La ex ministra de Salud actuó incorrectamente",
-      "statementEN": "The former Health Minister acted incorrectly",
-      "context": "Replicando información falsa en Twitter sobre ex funcionaria",
-      "date": "2023-08-15",
-      "category": "other",
-      "truth": "Chaves replicó información falsa en Twitter sobre la ex ministra de Salud, difundiendo desinformación sin verificar los hechos antes de publicar.",
-      "sources": [
-        {
-          "name": "CRHoy",
-          "url": "https://crhoy.com/nacionales/rodrigo-chaves-replico-informacion-falsa-en-twitter-sobre-exministra-de-salud/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "moderate",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 74,
-      "statement": "El gobierno y los ministerios no difunden información falsa en redes sociales",
-      "statementEN": "The government and ministries do not spread false information on social media",
-      "context": "Defensa de la comunicación gubernamental",
+      "statement": "Leonel Baruch pidió a Pilar Cisneros ciertas acciones antes de convertirse en blanco de ataques",
+      "statementEN": "Leonel Baruch asked Pilar Cisneros for certain actions before becoming target of attacks",
+      "context": "Revelaciones sobre la relación entre Cisneros y Baruch antes de la campaña de ataques",
       "date": "2024-06-15",
-      "category": "other",
-      "truth": "El gobierno y ministerios tuvieron que correr a borrar una publicación con información falsa tras críticas de ciudadanos, demostrando que sí difunden información incorrecta.",
-      "sources": [
-        {
-          "name": "CRHoy",
-          "url": "https://crhoy.com/nacionales/gobierno-y-ministerios-corrieron-a-borrar-posteo-con-informacion-falsa-tras-criticas-de-ciudadanos/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "moderate",
-      "relatedParty": "government"
-    },
-    {
-      "id": 75,
-      "statement": "La cuenta oficial de Rodrigo Chaves solo comparte información verificada",
-      "statementEN": "Rodrigo Chaves' official account only shares verified information",
-      "context": "Defensa de publicaciones en redes sociales",
-      "date": "2024-02-01",
-      "category": "other",
-      "truth": "La cuenta oficial de Rodrigo Chaves divulgó una noticia falsa, según documentó La Nación en su sección 'No Coma Cuento'.",
-      "sources": [
-        {
-          "name": "La Nación",
-          "url": "https://www.nacion.com/no-coma-cuento/cuenta-de-rodrigo-chaves-divulga-noticia-falsa/DI7ZNGVQ55HO5JGCAEYQWHTZEA/story/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "moderate",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 76,
-      "statement": "Mi gobierno ha cumplido la mayoría de las metas del Plan Nacional de Desarrollo",
-      "statementEN": "My government has met most of the National Development Plan goals",
-      "context": "Declaraciones sobre cumplimiento de metas gubernamentales",
-      "date": "2025-01-05",
-      "category": "promises",
-      "truth": "Tras tres años de gobierno, La Nación documentó 18 metas incumplidas del Plan Nacional de Desarrollo, con datos del propio Mideplan.",
-      "sources": [
-        {
-          "name": "La Nación",
-          "url": "https://www.nacion.com/politica/tres-anos-de-rodrigo-chaves-18-metas-incumplidas/DY5XBKJTHJBYZFCZXB7OC3OZVA/story/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 77,
-      "statement": "No tengo excusas para evitar enfrentar el escándalo de acoso sexual",
-      "statementEN": "I have no excuses to avoid facing the sexual harassment scandal",
-      "context": "Respuestas sobre investigación de acoso sexual durante su tiempo en el Banco Mundial",
-      "date": "2022-06-01",
-      "category": "other",
-      "truth": "CRHoy documentó 'las mil y una excusas de Rodrigo Chaves para capear el escándalo por acoso sexual', mostrando un patrón de evasión de responsabilidad.",
-      "sources": [
-        {
-          "name": "CRHoy",
-          "url": "https://crhoy.com/nacionales/las-mil-y-una-excusas-de-rodrigo-chaves-para-capear-escandalo-por-acoso-sexual/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 78,
-      "statement": "Las opiniones sobre mis políticas económicas son mayoritariamente positivas",
-      "statementEN": "Opinions about my economic policies are mostly positive",
-      "context": "Declaraciones sobre percepción pública",
-      "date": "2024-10-01",
-      "category": "economy",
-      "truth": "Un estudio reveló que las opiniones sobre las políticas económicas del gobierno alcanzaron su peor nota, contradiciendo las afirmaciones de apoyo popular.",
-      "sources": [
-        {
-          "name": "CRHoy",
-          "url": "https://crhoy.com/economia/estudio-opinion-sobre-politicas-economicas-del-gobierno-alcanzan-su-peor-nota/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "moderate",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 79,
-      "statement": "La prueba de jornadas 4x3 aplica a nuevos empleados",
-      "statementEN": "The 4x3 work schedule trial applies to new employees",
-      "context": "Promoción del proyecto de jornadas extendidas",
-      "date": "2023-06-01",
-      "category": "economy",
-      "truth": "Doble Check verificó que la prueba de jornadas 4x3 NO aplicaba a nuevos empleados como el gobierno afirmaba.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2023/06/doblecheck/prueba-jornadas-4-3-no-aplica-nuevos-empleados/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "moderate",
-      "relatedParty": "government"
-    },
-    {
-      "id": 80,
-      "statement": "Mi posición sobre nuevos impuestos ha sido consistente",
-      "statementEN": "My position on new taxes has been consistent",
-      "context": "Declaraciones sobre política fiscal",
-      "date": "2023-01-15",
-      "category": "economy",
-      "truth": "Doble Check documentó declaraciones engañosas sobre la oposición a crear nuevos impuestos, mostrando inconsistencias en las posiciones del gobierno.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2021/12/doblecheck/enganosa-oposicion-a-crear-nuevos-impuestos/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "moderate",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 81,
-      "statement": "El viceministro de Hacienda sugirió poner impuestos al aguinaldo por su cuenta",
-      "statementEN": "The Deputy Finance Minister suggested taxing Christmas bonuses on his own",
-      "context": "Regaño público al viceministro de Hacienda",
-      "date": "2024-12-10",
-      "category": "economy",
-      "truth": "Chaves regañó en vivo al viceministro que 'insinuó' la necesidad de impuestos al aguinaldo, pero verificaciones mostraron que la propuesta no se planteó explícitamente como el presidente caracterizó.",
-      "sources": [
-        {
-          "name": "Observador CR",
-          "url": "https://observador.cr/rodrigo-chaves-regana-en-vivo-a-viceministro-de-hacienda-que-insinuo-necesidad-de-poner-impuestos-al-aguinaldo/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "moderate",
-      "relatedParty": "government"
-    },
-    {
-      "id": 82,
-      "statement": "Las cifras macroeconómicas de mi gobierno son transparentes y precisas",
-      "statementEN": "My government's macroeconomic figures are transparent and accurate",
-      "context": "Defensa de estadísticas económicas presentadas",
-      "date": "2024-01-15",
-      "category": "economy",
-      "truth": "Análisis independientes documentaron 'las engañosas cifras macroeconómicas de Rodrigo Chaves', identificando manipulación sistemática de datos para presentar resultados más favorables.",
-      "sources": [
-        {
-          "name": "El Socialista Centroamericano",
-          "url": "https://www.elsoca.org/index.php/america-central/costa-rica/7087-costa-rica-las-enganosas-cifras-macroeconomicas-de-rodrigo-chaves-i-parte-2",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 83,
-      "statement": "La excusa del hackeo es conveniente para los docentes en protesta",
-      "statementEN": "The hacking excuse is convenient for protesting teachers",
-      "context": "Respuesta a protestas de docentes del MEP",
-      "date": "2024-03-15",
-      "category": "other",
-      "truth": "Análisis de Amelia Rueda documentó que la 'excusa del hackeo' era realmente conveniente para el gobierno, no para los docentes que protestaban por problemas salariales reales.",
-      "sources": [
-        {
-          "name": "Amelia Rueda",
-          "url": "https://ameliarueda.com/nota/excusa-hackeo-conveniente-docentes-protesta-mep-salario-noticias-costa-rica",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "moderate",
-      "relatedParty": "government"
-    },
-    {
-      "id": 84,
-      "statement": "La libertad de expresión no está amenazada en mi gobierno",
-      "statementEN": "Freedom of expression is not threatened under my government",
-      "context": "Defensa ante críticas sobre ataques a la prensa",
-      "date": "2024-05-01",
-      "category": "other",
-      "truth": "El Cuarto Informe sobre el Estado de la Libertad de Expresión en Costa Rica documentó preocupaciones significativas sobre las condiciones para el ejercicio periodístico durante la administración Chaves.",
-      "sources": [
-        {
-          "name": "Promotora del Comercio Exterior",
-          "url": "https://www.promotora.go.cr/web/Assets/pdfs/Cuarto-Informe-Estado-Libertad-Expresion-Costa-Rica.pdf",
-          "type": "official_document",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 85,
-      "statement": "No confronto al árbitro electoral",
-      "statementEN": "I don't confront the electoral arbiter",
-      "context": "Defensa ante acusaciones de ataques al TSE",
-      "date": "2024-10-01",
-      "category": "other",
-      "truth": "Divergentes documentó 'el pulso que Costa Rica no conocía' entre Chaves y el TSE, describiendo una confrontación sin precedentes con el árbitro electoral.",
-      "sources": [
-        {
-          "name": "Divergentes",
-          "url": "https://www.divergentes.com/rodrigo-chaves-contra-el-arbitro-electoral-el-pulso-que-costa-rica-no-conocia/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 86,
-      "statement": "Las 52 falsedades documentadas por La Nación son exageraciones",
-      "statementEN": "The 52 falsehoods documented by La Nación are exaggerations",
-      "context": "Respuesta a investigación periodística",
-      "date": "2024-08-15",
-      "category": "other",
-      "truth": "La Nación documentó rigurosamente 52 falsedades del gobierno con fuentes verificables, documentos oficiales y comparaciones con datos reales. El gobierno no refutó ninguna específicamente.",
-      "sources": [
-        {
-          "name": "La Nación",
-          "url": "https://www.nacion.com/el-pais/politica/52-falsedades-del-gobierno/ORLTEIINURFIDCM34CK4DX3CKI/story/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 87,
-      "statement": "Las mentiras que dije en la cadena nacional fueron sacadas de contexto",
-      "statementEN": "The lies I told in the national broadcast were taken out of context",
-      "context": "Defensa tras cadena nacional cuestionada",
-      "date": "2024-09-30",
-      "category": "other",
-      "truth": "La Teja documentó específicamente 'las mentiras que dijo Rodrigo Chaves en la cadena', verificando declaraciones inexactas con hechos comprobables.",
-      "sources": [
-        {
-          "name": "La Teja",
-          "url": "https://www.lateja.cr/nacional/politica/las-mentiras-que-dijo-rodrigo-chaves-en-la-cadena/EOK5SFK4WNCI5EWIK3OZRLOSWU/story/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 88,
-      "statement": "La violencia del narco no es una amenaza seria para Costa Rica",
-      "statementEN": "Drug trafficking violence is not a serious threat to Costa Rica",
-      "context": "Minimización de la crisis de violencia",
-      "date": "2024-02-01",
-      "category": "statistics",
-      "truth": "El País documentó cómo 'la violencia del narco amenaza a Costa Rica', describiendo una crisis de seguridad sin precedentes con homicidios récord durante la administración Chaves.",
-      "sources": [
-        {
-          "name": "El País",
-          "url": "https://elpais.com/america/2024-02-26/la-violencia-del-narco-amenaza-a-costa-rica.html",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "government"
-    },
-    {
-      "id": 89,
-      "statement": "No existe un mega caso de corrupción en mi gobierno",
-      "statementEN": "There is no mega corruption case in my government",
-      "context": "Defensa ante múltiples investigaciones de corrupción",
-      "date": "2023-02-01",
       "category": "corruption",
-      "truth": "Investigadores documentaron lo que describieron como 'mega caso de corrupción del gobierno populista y autoritario', involucrando financistas, colaboradores de campaña y amigos empresarios.",
-      "sources": [
-        {
-          "name": "Surcos Digital",
-          "url": "https://reinhardt707.wordpress.com/2023/02/03/mega-caso-de-corrupcin-del-gobierno-populista-y-autoritario-de-rodrigo-chaves-de-l-por-y-para-sus-financistas-colaboradores-de-campaa-amigos-empresarios-idelogos-p/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "government"
-    },
-    {
-      "id": 90,
-      "statement": "Las falacias que dicen sobre la CCSS son de mis críticos, no mías",
-      "statementEN": "The fallacies they say about the CCSS are from my critics, not mine",
-      "context": "Defensa ante críticas sobre declaraciones de la Caja",
-      "date": "2024-06-01",
-      "category": "health",
-      "truth": "Surcos Digital documentó específicamente 'las falacias del presidente Chaves sobre la Caja', no de sus críticos.",
-      "sources": [
-        {
-          "name": "Surcos Digital",
-          "url": "https://surcosdigital.com/las-falacias-del-presidente-chaves-sobre-la-caja/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 91,
-      "statement": "La baja en los índices de pobreza se debe exclusivamente a mis políticas",
-      "statementEN": "The drop in poverty rates is exclusively due to my policies",
-      "context": "Atribución de mejoras económicas",
-      "date": "2024-11-05",
-      "category": "statistics",
-      "truth": "La crítica sobre las cifras de pobreza señala que muchos factores externos e inercia de políticas anteriores contribuyeron, y que la metodología de medición genera dudas sobre la magnitud real del cambio.",
+      "truth": "La Nación reveló que Pilar Cisneros tuvo comunicaciones previas con Leonel Baruch antes de que él se convirtiera en objetivo de la campaña de desinformación que ella presuntamente coordinó, sugiriendo una relación que se deterioró y derivó en los ataques documentados.",
       "sources": [
         {
           "name": "La Nación",
-          "url": "https://www.nacion.com/el-pais/critican-a-rodrigo-chaves-por-decir-que-la/VC4JKY3RHFEXHKVVHIH5TILDKA/story/",
+          "url": "https://www.nacion.com/el-pais/politica/leonel-baruch-revela-que-pilar-cisneros-le-pidio/PO3PVLAE3VAWBNPANUWIHZ4GYU/story/",
           "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "moderate",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 92,
-      "statement": "El proyecto de ley de Hacienda sobre aguinaldo no proponía impuestos",
-      "statementEN": "The Treasury bill on Christmas bonus did not propose taxes",
-      "context": "Defensa de proyecto de ley tributario",
-      "date": "2024-12-15",
-      "category": "economy",
-      "truth": "Doble Check verificó que el diputado Ariel Robles atribuyó a Hacienda un 'impuesto al aguinaldo que no se planteó explícitamente', pero la comunicación gubernamental generó confusión deliberada.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2025/12/doblecheck/ariel-robles-atribuye-a-hacienda-impuesto-al-aguinaldo-que-no-se-planteo-explicitamente/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "moderate",
-      "relatedParty": "government"
-    },
-    {
-      "id": 93,
-      "statement": "Mi conversación con Intel confirmó que reconsideren inversiones",
-      "statementEN": "My conversation with Intel confirmed they are reconsidering investments",
-      "context": "Justificación de alarma sobre jornadas 4x3",
-      "date": "2023-11-16",
-      "category": "economy",
-      "truth": "El gobierno admitió que Chaves 'concluyó' de la conversación que Intel podría reconsiderar, sin verificar esta suposición con la empresa antes de anunciarlo públicamente.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2024/02/doblecheck/falsa-alarma-jornadas-4x3/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
+          "accessDate": "2026-01-16"
         }
       ],
       "severity": "major",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 94,
-      "statement": "El aeropuerto de Limón avanzará según lo prometido",
-      "statementEN": "The Limón airport will progress as promised",
-      "context": "Promesas de infraestructura aeroportuaria",
-      "date": "2023-09-15",
-      "category": "promises",
-      "truth": "El ex ministro de transportes prometió documentos técnicos para 2024; su sucesor reconoció que el proyecto espera revisión del ministerio de ambiente. Para 2025, no se ha convocado licitación formal.",
-      "sources": [
-        {
-          "name": "CRHoy",
-          "url": "https://crhoy.com/nacionales/promesas-incumplidas-de-chaves-ni-ciudad-gobierno-ni-la-marina-de-limon-ni-los-aeropuertos-vieron-la-luz/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 95,
-      "statement": "La terminal de carga de Liberia tiene análisis de factibilidad completo",
-      "statementEN": "The Liberia cargo terminal has complete feasibility analysis",
-      "context": "Promoción de proyecto aeroportuario",
-      "date": "2024-02-01",
-      "category": "promises",
-      "truth": "Evaluaciones del Mideplan revisando la implementación del Plan Nacional de Desarrollo documentaron que el proyecto fue anunciado sin análisis de factibilidad de demanda.",
-      "sources": [
-        {
-          "name": "CRHoy",
-          "url": "https://crhoy.com/nacionales/promesas-incumplidas-de-chaves-ni-ciudad-gobierno-ni-la-marina-de-limon-ni-los-aeropuertos-vieron-la-luz/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 96,
-      "statement": "La Ruta San José-San Ramón ha avanzado significativamente bajo mi gobierno",
-      "statementEN": "The San José-San Ramón Route has progressed significantly under my government",
-      "context": "Declaraciones sobre proyectos viales",
-      "date": "2024-09-01",
-      "category": "promises",
-      "truth": "La ruta pasó años sin progreso hasta que el MOPT finalmente adjudicó contratos en 2025 para intercambiadores a desnivel, después de años de inactividad a pesar de que el proyecto fue preparado por la administración anterior.",
-      "sources": [
-        {
-          "name": "CRHoy",
-          "url": "https://crhoy.com/nacionales/promesas-incumplidas-de-chaves-ni-ciudad-gobierno-ni-la-marina-de-limon-ni-los-aeropuertos-vieron-la-luz/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 97,
-      "statement": "La reducción de inflación se debe a mi gestión económica",
-      "statementEN": "The inflation reduction is due to my economic management",
-      "context": "Atribución de logros económicos",
-      "date": "2024-01-20",
-      "category": "economy",
-      "truth": "Según el Informe de Política Monetaria del Banco Central de enero 2024, la causa de la reducción de inflación fueron los precios reducidos de commodities y el endurecimiento de la política monetaria, no la gestión de Chaves.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2023/04/doblecheck/inflacion-2023-rodrigo-chaves/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "moderate",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 98,
-      "statement": "La Contraloría no tiene fundamentos legales para sus objeciones",
-      "statementEN": "The Comptroller has no legal basis for its objections",
-      "context": "Ataques a decisiones de la CGR",
-      "date": "2024-08-01",
-      "category": "corruption",
-      "truth": "La Sala Constitucional sistemáticamente respaldó las posiciones de la CGR, declarando inconstitucionales las propuestas del ejecutivo por violar la Constitución y leyes de contratación pública.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2025/01/doblecheck/desinformaciones-del-gobierno-2024/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 99,
-      "statement": "No uso la desinformación para atacar instituciones",
-      "statementEN": "I don't use disinformation to attack institutions",
-      "context": "Defensa ante acusaciones de estrategia de comunicación",
-      "date": "2024-12-05",
-      "category": "other",
-      "truth": "La investigación académica de la UCR concluyó que las narrativas engañosas atacan específicamente dos estructuras institucionales: la autoridad de supervisión de la CGR y el Poder Judicial independiente.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2025/01/doblecheck/desinformaciones-del-gobierno-2024/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 100,
-      "statement": "La normalización de la desinformación gubernamental no afecta la democracia costarricense",
-      "statementEN": "The normalization of government disinformation does not affect Costa Rican democracy",
-      "context": "Defensa ante críticas sobre impacto institucional",
-      "date": "2025-01-01",
-      "category": "other",
-      "truth": "Analistas políticos documentaron que para la democracia costarricense, históricamente distinguida por su fortaleza institucional, la normalización de la desinformación gubernamental sistemática representa una amenaza institucional significativa.",
-      "sources": [
-        {
-          "name": "Doble Check - UCR",
-          "url": "https://radios.ucr.ac.cr/2025/01/doblecheck/desinformaciones-del-gobierno-2024/",
-          "type": "fact_check",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "government"
-    },
-    {
-      "id": 101,
-      "statement": "Las 47 toneladas de cocaína decomisadas demuestran que no somos un narco-gobierno",
-      "statementEN": "The 47 tons of seized cocaine prove we are not a narco-government",
-      "context": "Declaración pública defendiendo a su gobierno de acusaciones de vínculos con el narcotráfico",
-      "date": "2024-10-15",
-      "category": "drugs",
-      "truth": "El volumen de decomisos no demuestra ausencia de corrupción institucional. Según el OIJ, hasta 500 toneladas de droga pueden entrar anualmente por zonas costeras como Sierpe. Los 81 toneladas decomisadas entre 2022-2024 representan menos del 6% del tráfico estimado. Simultáneamente, el exministro de Seguridad Celso Gamboa fue acusado en EEUU de narcotráfico.",
-      "sources": [
-        {
-          "name": "El País",
-          "url": "https://english.elpais.com/international/2024-10-23/death-threats-and-drug-trafficking-suspicions-political-tension-rises-in-costa-rica.html",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        },
-        {
-          "name": "Tico Times",
-          "url": "https://ticotimes.net/2025/07/12/former-costa-rican-minister-indicted-in-us-on-drug-trafficking-charges",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "government"
-    },
-    {
-      "id": 102,
-      "statement": "Con estos escáneres, Costa Rica ahora tiene escáneres en todos sus puertos",
-      "statementEN": "With these scanners, Costa Rica now has scanners in all its ports",
-      "context": "Inauguración de escáneres de IA en Puerto Caldera y terminal de Moín",
-      "date": "2025-09-25",
-      "category": "drugs",
-      "truth": "La afirmación del Ministro de Seguridad Mario Zamora es falsa. Costa Rica opera numerosos puertos más allá de Caldera y Moín. Además, el país ha luchado durante 15 años para implementar escáneres funcionales - los escáneres chinos donados en 2008 nunca funcionaron y costaron $423,000 en mantenimiento de equipo nunca utilizado.",
-      "sources": [
-        {
-          "name": "Tico Times",
-          "url": "https://ticotimes.net/2025/09/25/costa-rica-deploys-ai-port-scanners-to-fight-drug-trafficking",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        },
-        {
-          "name": "Inspenet",
-          "url": "https://inspenet.com/en/noticias/costa-rica-inaugurated-scanners-in-seaports/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "cabinet"
-    },
-    {
-      "id": 103,
-      "statement": "La estación del Guardacostas en Sixaola servía de poco y se usaba como puesto de castigo",
-      "statementEN": "The Coast Guard station in Sixaola served little purpose and was used as a punishment post",
-      "context": "Justificación del cierre de estaciones del Guardacostas",
-      "date": "2024-08-01",
-      "category": "drugs",
-      "truth": "El cierre de la estación de Sixaola (Caribe) y Bahía Drake (Pacífico sur) ordenado por el Ministro Zamora y Viceministro Jiménez Steller redujo significativamente la capacidad de vigilancia marítima en áreas identificadas como puntos principales de entrada de narcotráfico. Según la candidata Claudia Dobles, estas decisiones 'ralentizaron los tiempos de respuesta a actividades criminales, permitiendo que los narcóticos fluyan más fácilmente'.",
-      "sources": [
-        {
-          "name": "Tico Times",
-          "url": "https://ticotimes.net/2025/12/25/claudia-dobles-pushes-to-reopen-closed-coast-guard-stations-in-costa-rica",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "cabinet"
-    },
-    {
-      "id": 104,
-      "statement": "La mayoría de víctimas de homicidios están conectadas con actividades ilegales, el público enfrenta bajo riesgo",
-      "statementEN": "Most homicide victims are connected to illegal activities, the public faces low risk",
-      "context": "Declaraciones minimizando la crisis de seguridad",
-      "date": "2024-08-21",
-      "category": "drugs",
-      "truth": "Datos del OIJ contradicen esta afirmación. Las muertes de transeúntes inocentes aumentaron de 7 en 2021 a 45 en 2023. En 2025, hubo al menos 28 muertes de transeúntes, incluyendo 8 niños menores de 12 años. Los niños no pueden caracterizarse como participantes en narcotráfico.",
-      "sources": [
-        {
-          "name": "Tico Times",
-          "url": "https://ticotimes.net/2025/12/23/costa-rica-surpasses-3000-homicides-under-president-chaves",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        },
-        {
-          "name": "Tico Times",
-          "url": "https://ticotimes.net/2025/05/04/costa-ricas-rising-violence-challenges-chaves-security-claims",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 105,
-      "statement": "La Operación Soberanía escaneará todos los contenedores en la Terminal de Contenedores de Moín",
-      "statementEN": "Operation Sovereignty will scan all containers at the Moín Container Terminal",
-      "context": "Anuncio de nueva iniciativa de seguridad portuaria",
-      "date": "2023-07-01",
-      "category": "drugs",
-      "truth": "La Operación Soberanía fue anunciada en julio 2023, pero la inauguración real de los escáneres no ocurrió hasta septiembre 2025 - un retraso de más de dos años. Este largo período indica obstáculos técnicos, logísticos o financieros que pueden continuar afectando el rendimiento.",
-      "sources": [
-        {
-          "name": "Inspenet",
-          "url": "https://inspenet.com/en/noticias/costa-rica-inaugurated-scanners-in-seaports/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        },
-        {
-          "name": "Fresh Plaza",
-          "url": "https://www.freshplaza.com/north-america/article/9484577/costa-rican-government-to-install-scanners-at-ports-and-airports-in-2023/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 106,
-      "statement": "La crisis del crimen es culpa del Poder Judicial y la Asamblea Legislativa por no reformar las leyes",
-      "statementEN": "The crime crisis is the fault of the Judiciary and Legislature for failing to reform laws",
-      "context": "Declaraciones públicas sobre la crisis de seguridad",
-      "date": "2024-10-01",
-      "category": "drugs",
-      "truth": "Esta narrativa omite decisiones ejecutivas que empeoraron las condiciones: cierre de estaciones del Guardacostas, reubicación de la Policía de Control de Drogas fuera de puertos y fronteras. La crisis no puede atribuirse a inacción judicial cuando la acción ejecutiva simultáneamente redujo los recursos de vigilancia marítima e interdicción fronteriza.",
-      "sources": [
-        {
-          "name": "El País",
-          "url": "https://english.elpais.com/international/2024-10-23/death-threats-and-drug-trafficking-suspicions-political-tension-rises-in-costa-rica.html",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        },
-        {
-          "name": "Tico Times",
-          "url": "https://ticotimes.net/2025/12/25/claudia-dobles-pushes-to-reopen-closed-coast-guard-stations-in-costa-rica",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 107,
-      "statement": "La Policía de Control de Drogas está desplegada estratégicamente para máxima efectividad",
-      "statementEN": "The Drug Control Police are strategically deployed for maximum effectiveness",
-      "context": "Defensa de políticas de seguridad",
-      "date": "2024-06-01",
-      "category": "drugs",
-      "truth": "Según la candidata Claudia Dobles, la Policía de Control de Drogas fue removida de puertos, fronteras y aeropuertos - exactamente las ubicaciones donde ocurre la mayoría del tráfico. Cuando unidades especializadas diseñadas para interceptar drogas son reubicadas lejos de esas ubicaciones, representa una degradación fundamental de la capacidad de aplicación de la ley.",
-      "sources": [
-        {
-          "name": "Tico Times",
-          "url": "https://ticotimes.net/2025/12/25/claudia-dobles-pushes-to-reopen-closed-coast-guard-stations-in-costa-rica",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "government"
-    },
-    {
-      "id": 108,
-      "statement": "Nunca supe que el exministro Celso Gamboa tenía vínculos con el narcotráfico",
-      "statementEN": "I never knew that former minister Celso Gamboa had links to drug trafficking",
-      "context": "Respuesta a acusaciones sobre Celso Gamboa",
-      "date": "2025-07-15",
-      "category": "drugs",
-      "truth": "Según autoridades estadounidenses, Gamboa presuntamente informó a la administración Chaves en 2023 'que tenía los medios para garantizar la entrada de cocaína al país'. El hecho de que un exministro de seguridad pudiera ofrecer 'garantizar' la entrada de cocaína contradice cualquier afirmación de desconocimiento.",
-      "sources": [
-        {
-          "name": "Tico Times",
-          "url": "https://ticotimes.net/2025/07/12/former-costa-rican-minister-indicted-in-us-on-drug-trafficking-charges",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        },
-        {
-          "name": "Latin News",
-          "url": "https://www.latinnews.com/component/k2/item/106732-costa-rica-former-security-minister-charged-with-drug-offences-in-us.html",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 109,
-      "statement": "Los escáneres instalados son un punto de inflexión en la seguridad portuaria del país",
-      "statementEN": "The installed scanners are a turning point in the country's port security",
-      "context": "Inauguración de escáneres en puertos",
-      "date": "2025-09-25",
-      "category": "drugs",
-      "truth": "Costa Rica ha luchado durante 15 años para implementar escáneres funcionales. Los escáneres chinos de 2008 nunca funcionaron; en 2019 se reveló que eran 'inútiles'. Los escáneres de $8 millones fueron rechazados en 2019. Dado este historial de fracasos, la confianza pública debería basarse en rendimiento demostrado, no en afirmaciones presidenciales.",
-      "sources": [
-        {
-          "name": "Inspenet",
-          "url": "https://inspenet.com/en/noticias/costa-rica-inaugurated-scanners-in-seaports/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 110,
-      "statement": "Nuestra coordinación con la DEA y el FBI demuestra nuestro compromiso contra el narcotráfico",
-      "statementEN": "Our coordination with the DEA and FBI demonstrates our commitment against drug trafficking",
-      "context": "Visita del Secretario de Estado Marco Rubio",
-      "date": "2025-02-01",
-      "category": "drugs",
-      "truth": "A pesar de la cooperación anunciada, la presencia de carteles y el volumen de tráfico han continuado expandiéndose. El caso Gamboa demuestra que incluso funcionarios de alto nivel operaban como facilitadores para traficantes. Un gobierno puede simultáneamente realizar operaciones conjuntas mientras contiene elementos que facilitan el tráfico.",
-      "sources": [
-        {
-          "name": "Embajada EEUU Nicaragua",
-          "url": "https://ni.usembassy.gov/secretary-of-state-marco-rubio-and-costa-rican-president-rodrigo-chaves-robles-at-a-joint-press-availability/",
-          "type": "official_document",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "government"
-    },
-    {
-      "id": 111,
-      "statement": "Los récords de decomisos prueban la efectividad de nuestra política antidrogas",
-      "statementEN": "Record seizures prove the effectiveness of our anti-drug policy",
-      "context": "Declaraciones sobre logros en seguridad",
-      "date": "2024-12-01",
-      "category": "drugs",
-      "truth": "El director del OIJ, Randall Zúñiga, ha declarado que 'en un estado turbulento, el narcotráfico se beneficia'. Los decomisos ocurren después de que las drogas ya entraron al territorio. La medida real de efectividad sería prevenir la entrada inicial. Los homicidios récord durante su mandato sugieren que los carteles no han sido desarticulados.",
-      "sources": [
-        {
-          "name": "El País",
-          "url": "https://english.elpais.com/international/2024-10-23/death-threats-and-drug-trafficking-suspicions-political-tension-rises-in-costa-rica.html",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 112,
-      "statement": "El aumento de homicidios es principalmente relacionado con drogas entre criminales",
-      "statementEN": "The increase in homicides is mainly drug-related among criminals",
-      "context": "Minimizando la crisis de violencia",
-      "date": "2025-08-21",
-      "category": "drugs",
-      "truth": "Costa Rica superó los 3,000 homicidios bajo el gobierno de Chaves. En 2025 hubo al menos 28 muertes de transeúntes inocentes, incluyendo 8 niños menores de 12 años. La violencia ha penetrado poblaciones civiles, haciendo la caracterización de Chaves factualmente falsa y peligrosamente engañosa sobre las condiciones reales de seguridad pública.",
-      "sources": [
-        {
-          "name": "Tico Times",
-          "url": "https://ticotimes.net/2025/12/23/costa-rica-surpasses-3000-homicides-under-president-chaves",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        },
-        {
-          "name": "Tico Times",
-          "url": "https://ticotimes.net/2025/08/21/president-chaves-downplays-costa-ricas-security-crisis-amid-record-homicides",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 113,
-      "statement": "El gobierno anterior es responsable de la situación actual del narcotráfico",
-      "statementEN": "The previous government is responsible for the current drug trafficking situation",
-      "context": "Declaraciones culpando a administraciones anteriores",
-      "date": "2024-05-01",
-      "category": "drugs",
-      "truth": "Aunque administraciones anteriores tuvieron fallas, las decisiones del gobierno Chaves empeoraron activamente la situación: cierre de estaciones del Guardacostas, reubicación de policía antidrogas de puertos/fronteras, y dos años de retraso en implementar escáneres prometidos. Estas son decisiones ejecutivas propias, no heredadas.",
-      "sources": [
-        {
-          "name": "Tico Times",
-          "url": "https://ticotimes.net/2025/12/25/claudia-dobles-pushes-to-reopen-closed-coast-guard-stations-in-costa-rica",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        },
-        {
-          "name": "Control Risks",
-          "url": "https://www.controlrisks.com/our-thinking/insights/costa-ricas-rising-violence-effects-on-business-and-governance",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "major",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 114,
-      "statement": "La situación de seguridad está bajo control y mejorando",
-      "statementEN": "The security situation is under control and improving",
-      "context": "Declaraciones sobre estado de seguridad nacional",
-      "date": "2025-05-04",
-      "category": "drugs",
-      "truth": "Los homicidios alcanzaron niveles históricos récord durante el mandato de Chaves. Costa Rica superó 3,000 homicidios acumulados bajo su gobierno. La tasa de homicidios es la más alta en la historia costarricense. La consolidación territorial de pandillas criminales demuestra que la violencia no ha sido contenida.",
-      "sources": [
-        {
-          "name": "Tico Times",
-          "url": "https://ticotimes.net/2025/05/04/costa-ricas-rising-violence-challenges-chaves-security-claims",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        },
-        {
-          "name": "Global Post",
-          "url": "https://globalpost.com/2025/07/16/climate-of-insecurity-a-rise-in-crime-threatens-costa-rican-stability/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "personal"
-    },
-    {
-      "id": 115,
-      "statement": "No tenemos información de que carteles mexicanos operen en Costa Rica",
-      "statementEN": "We have no information that Mexican cartels operate in Costa Rica",
-      "context": "Respuesta a preguntas sobre presencia de carteles",
-      "date": "2024-03-01",
-      "category": "drugs",
-      "truth": "Múltiples informes de inteligencia y medios documentan la presencia y operaciones de carteles mexicanos en Costa Rica. El caso del exministro Gamboa demostró conexiones directas entre funcionarios del gobierno y organizaciones de tráfico. Los conflictos territoriales violentos entre grupos criminales evidencian la presencia activa de carteles.",
-      "sources": [
-        {
-          "name": "El País",
-          "url": "https://english.elpais.com/international/2024-10-23/death-threats-and-drug-trafficking-suspicions-political-tension-rises-in-costa-rica.html",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        },
-        {
-          "name": "Global Post",
-          "url": "https://globalpost.com/2025/07/16/climate-of-insecurity-a-rise-in-crime-threatens-costa-rican-stability/",
-          "type": "news",
-          "accessDate": "2025-01-15"
-        }
-      ],
-      "severity": "critical",
-      "relatedParty": "personal"
+      "relatedParty": "PPSD"
     }
-  ],
-  "metadata": {
-    "lastUpdated": "2025-01-15",
-    "totalCount": 115,
-    "categories": ["economy", "health", "corruption", "promises", "statistics", "drugs", "other"],
-    "severityLevels": ["minor", "moderate", "major", "critical"],
-    "description": "Base de datos de declaraciones falsas verificadas del presidente Rodrigo Chaves Robles, documentadas por organizaciones de verificación de hechos y medios de comunicación costarricenses.",
-    "sources": [
-      "Doble Check - Universidad de Costa Rica",
-      "La Nación",
-      "CRHoy",
-      "Observador CR",
-      "Interferencia UCR",
-      "La República",
-      "Divergentes",
-      "Cultura CR",
-      "La Teja",
-      "Tico Times",
-      "El País"
-    ]
-  }
+  ]
 }

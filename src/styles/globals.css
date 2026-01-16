@@ -114,7 +114,7 @@
   }
 
   .nav-btn:hover:not(:disabled) {
-    box-shadow: 0 0 20px rgba(220, 38, 38, 0.15);
+    box-shadow: 0 0 20px rgba(245, 158, 11, 0.15);
   }
 
   /* Source link */
@@ -133,7 +133,7 @@
   /* Counter display */
   .counter-display {
     @apply font-mono tabular-nums;
-    text-shadow: 0 0 30px rgba(220, 38, 38, 0.5);
+    text-shadow: 0 0 30px rgba(245, 158, 11, 0.5);
   }
 
   /* Animated underline */
@@ -161,7 +161,7 @@
 
   /* Scan line effect */
   .scan-line {
-    @apply absolute left-0 right-0 h-px bg-gradient-to-r from-transparent via-crimson-500/20 to-transparent;
+    @apply absolute left-0 right-0 h-px bg-gradient-to-r from-transparent via-crimson-400/20 to-transparent;
     animation: scan 8s linear infinite;
   }
 
@@ -192,7 +192,7 @@
 
   /* Gradient text */
   .gradient-text-crimson {
-    @apply bg-gradient-to-r from-crimson-400 via-crimson-500 to-orange-500 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-crimson-300 via-crimson-400 to-amber-400 bg-clip-text text-transparent;
   }
 
   .gradient-text-gold {
@@ -235,10 +235,10 @@
 /* Pulsing glow for important elements */
 @keyframes pulseGlow {
   0%, 100% {
-    box-shadow: 0 0 20px rgba(220, 38, 38, 0.3);
+    box-shadow: 0 0 20px rgba(245, 158, 11, 0.3);
   }
   50% {
-    box-shadow: 0 0 40px rgba(220, 38, 38, 0.5);
+    box-shadow: 0 0 40px rgba(245, 158, 11, 0.5);
   }
 }
 

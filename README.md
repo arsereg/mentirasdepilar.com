@@ -1,10 +1,10 @@
-# Mentiras de Rodrigo Chaves
+# Mentiras de Pilar Cisneros
 
-Registro documentado de declaraciones falsas del presidente Rodrigo Chaves Robles de Costa Rica, con fuentes verificables de medios reconocidos.
+Registro documentado de declaraciones falsas de la diputada Pilar Cisneros de Costa Rica, con fuentes verificables de medios reconocidos.
 
 ## Descripcion
 
-Esta aplicacion web presenta mas de 55 declaraciones falsas documentadas del presidente Rodrigo Chaves, cada una respaldada por al menos dos fuentes independientes de medios costarricenses reconocidos incluyendo:
+Esta aplicacion web presenta mas de 55 declaraciones falsas documentadas de la diputada Pilar Cisneros, cada una respaldada por al menos dos fuentes independientes de medios costarricenses reconocidos incluyendo:
 
 - **Doble Check (UCR)** - Proyecto de verificacion de hechos de la Universidad de Costa Rica
 - **La Nacion** - Periodico nacional
@@ -37,8 +37,8 @@ Las declaraciones estan categorizadas en:
 
 ```bash
 # Clonar repositorio
-git clone https://github.com/tu-usuario/mentirasdechaves.com.git
-cd mentirasdechaves.com
+git clone https://github.com/tu-usuario/mentirasdepilar.com.git
+cd mentirasdepilar.com
 
 # Instalar dependencias
 npm install
@@ -66,7 +66,7 @@ npm run preview
 
 Cada mentira tiene un enlace unico que se puede compartir:
 ```
-https://mentirasdechaves.com/?lie=15
+https://mentirasdepilar.com/?lie=15
 ```
 
 ### Caracteristicas
@@ -80,7 +80,7 @@ https://mentirasdechaves.com/?lie=15
 ## Estructura del Proyecto
 
 ```
-mentiras-chaves/
+mentiras-pilar/
 ├── src/
 │   ├── components/
 │   │   ├── App.jsx           # Componente principal

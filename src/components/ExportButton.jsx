@@ -141,7 +141,7 @@ export function ExportButton({ lie }) {
         <div
           className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-sm pointer-events-none"
           style={{
-            background: 'radial-gradient(circle at center, rgba(220, 38, 38, 0.15) 0%, transparent 70%)',
+            background: 'radial-gradient(circle at center, rgba(245, 158, 11, 0.15) 0%, transparent 70%)',
           }}
         />
       </motion.button>

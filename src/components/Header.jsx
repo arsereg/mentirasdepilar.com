@@ -41,7 +41,7 @@ export function Header({ totalLies, currentIndex }) {
                 className="text-lg sm:text-xl font-bold tracking-tight"
               >
                 <span className="text-paper-100">Mentiras de </span>
-                <span className="gradient-text-crimson">Rodrigo Chaves</span>
+                <span className="gradient-text-crimson">Pilar Cisneros</span>
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0 }}
